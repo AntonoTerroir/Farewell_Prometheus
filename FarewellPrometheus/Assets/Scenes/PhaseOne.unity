@@ -544,9 +544,10 @@ MonoBehaviour:
   dialogueText: {fileID: 2088883311}
   animator: {fileID: 540426660}
   choicenumber: 0
-  choicenumber2: 0
   a: 0
   b: 0
+  c: 0
+  d: 0
 --- !u!4 &291789904
 Transform:
   m_ObjectHideFlags: 0
@@ -1498,6 +1499,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 291789903}
+        m_MethodName: ButtonSpeak
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &813724306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1642,6 +1654,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 901837091}
         m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 291789903}
+        m_MethodName: ButtonGoal
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
