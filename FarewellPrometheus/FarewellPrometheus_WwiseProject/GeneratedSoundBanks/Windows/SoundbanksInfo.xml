@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="814543256" Name="Button_Click" ObjectPath="\Events\Default Work Unit\Computer\Button\Button_Click" DurationType="OneShot" DurationMin="0.480354" DurationMax="0.553000"/>
+				<Event Id="1701177942" Name="Button_Hover" ObjectPath="\Events\Default Work Unit\Computer\Button\Button_Hover" DurationType="OneShot" DurationMin="0.483136" DurationMax="0.549815"/>
+				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="123125051" Language="SFX">
+					<ShortName>Computer_button_click_8kHz_01_SFX.wav</ShortName>
+					<Path>SFX\Computer_button_click_8kHz_01_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="176982689" Language="SFX">
+					<ShortName>Computer_button_click_8kHz_02_SFX.wav</ShortName>
+					<Path>SFX\Computer_button_click_8kHz_02_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="498944890" Language="SFX">
+					<ShortName>Computer_button_hover_8kHz_03_SFX.wav</ShortName>
+					<Path>SFX\Computer_button_hover_8kHz_03_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="718832362" Language="SFX">
+					<ShortName>Computer_button_hover_8kHz_01_SFX.wav</ShortName>
+					<Path>SFX\Computer_button_hover_8kHz_01_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="861117954" Language="SFX">
+					<ShortName>Computer_button_hover_8kHz_02_SFX.wav</ShortName>
+					<Path>SFX\Computer_button_hover_8kHz_02_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="937404006" Language="SFX">
+					<ShortName>Computer_button_click_8kHz_03_SFX.wav</ShortName>
+					<Path>SFX\Computer_button_click_8kHz_03_SFX_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

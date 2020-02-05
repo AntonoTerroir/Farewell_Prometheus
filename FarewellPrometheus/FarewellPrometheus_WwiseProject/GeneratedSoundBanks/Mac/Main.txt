@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	814543256	Button_Click			\Default Work Unit\Computer\Button\Button_Click	
+	1701177942	Button_Hover			\Default Work Unit\Computer\Button\Button_Hover	
+	3157003241	Test			\Default Work Unit\Test	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	347491570	Wwise Sine	Wwise Sine		\Actor-Mixer Hierarchy\Default Work Unit\Test\Wwise Sine	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	123125051	Computer_button_click_8kHz_01_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Computer_button_click_8kHz_01_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Computer\Button\Click\Button_Click\Computer_button_click_8kHz_01_SFX		93904
+	176982689	Computer_button_click_8kHz_02_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Computer_button_click_8kHz_02_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Computer\Button\Click\Button_Click\Computer_button_click_8kHz_02_SFX		104416
+	498944890	Computer_button_hover_8kHz_03_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Computer_button_hover_8kHz_03_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Computer\Button\Hover\Button_Hover\Computer_button_hover_8kHz_03_SFX		100528
+	718832362	Computer_button_hover_8kHz_01_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Computer_button_hover_8kHz_01_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Computer\Button\Hover\Button_Hover\Computer_button_hover_8kHz_01_SFX		93904
+	861117954	Computer_button_hover_8kHz_02_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Computer_button_hover_8kHz_02_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Computer\Button\Hover\Button_Hover\Computer_button_hover_8kHz_02_SFX		104416
+	937404006	Computer_button_click_8kHz_03_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Computer_button_click_8kHz_03_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Computer\Button\Click\Button_Click\Computer_button_click_8kHz_03_SFX		100528
+

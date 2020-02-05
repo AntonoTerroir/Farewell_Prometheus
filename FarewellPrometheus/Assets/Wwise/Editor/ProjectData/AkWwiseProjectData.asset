@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634cc35e64d34fe47bdf42b154ce10b5, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 3f9ff64f9b8d9649a27965a264a6fa9a
+    GuidInternal: 
+    m_lastTime: -8586206924958444362
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 8d5399d732092a44aaa65525c92eaf70
+    GuidInternal: 
+    m_lastTime: -8586206924958494228
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 3d131c57e597ee47b4d167c503625a09
+    GuidInternal: 
+    m_lastTime: -8586206901600421550
+    List:
+    - name: Main
+      guid: b5750d12ebf75c4b8067bf551228f3d7
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f61e957778496c41aa343188a981dcd3
+    GuidInternal: 
+    m_lastTime: -8586206901600391936
+    List:
+    - name: Button_Click
+      guid: c1302bff16a3ec46b131a75ecabbbede
+      id: 814543256
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Computer
+        ObjectType: 4
+      - ElementName: Button
+        ObjectType: 4
+      - ElementName: Button_Click
+        ObjectType: 3
+      Path: Default Work Unit\Computer\Button\Button_Click
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Button_Hover
+      guid: 0c9b65fe7c7daa438f651b98fd1c71c9
+      id: 1701177942
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Computer
+        ObjectType: 4
+      - ElementName: Button
+        ObjectType: 4
+      - ElementName: Button_Hover
+        ObjectType: 3
+      Path: Default Work Unit\Computer\Button\Button_Hover
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Test
+      guid: b0d35a5bcc038846a0b4d424ce22dda9
+      id: 3157003241
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Test
+        ObjectType: 3
+      Path: Default Work Unit\Test
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: a21e106cb4a78a408aefc86116f6aaa2
+    GuidInternal: 
+    m_lastTime: -8586206924958484253
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: efcde604402b9248b1ce603a3a26d722
+    GuidInternal: 
+    m_lastTime: -8586206924958464308
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 31d60fbe569f794192ac7403801023d9
+    GuidInternal: 
+    m_lastTime: -8586206924958544087
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 10d2a4f3eb426b45930e0de48a92af54
+    GuidInternal: 
+    m_lastTime: -8586206924958494228
+    List: []
+  ExpandedItems:
+  - /FarewellPrometheus_WwiseProject
+  - /FarewellPrometheus_WwiseProject/Events
+  - /FarewellPrometheus_WwiseProject/Events/Default Work Unit
+  - /FarewellPrometheus_WwiseProject/Events/Default Work Unit/Computer
+  - /FarewellPrometheus_WwiseProject/Events/Default Work Unit/Computer/Button
+  - /FarewellPrometheus_WwiseProject/SoundBanks
+  - /FarewellPrometheus_WwiseProject/SoundBanks/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
