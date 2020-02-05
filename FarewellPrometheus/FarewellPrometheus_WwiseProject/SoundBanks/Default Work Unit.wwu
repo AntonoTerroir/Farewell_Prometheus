@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{571C133D-97E5-47EE-B4D1-67C503625A09}" SchemaVersion="94">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{571C133D-97E5-47EE-B4D1-67C503625A09}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{571C133D-97E5-47EE-B4D1-67C503625A09}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{120D75B5-F7EB-4B5C-8067-BF551228F3D7}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Button_Hover" ID="{FE659B0C-7D7C-43AA-8F65-1B98FD1C71C9}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Test" ID="{5B5AD3B0-03CC-4688-A0B4-D424CE22DDA9}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Button_Click" ID="{FF2B30C1-A316-46EC-B131-A75ECABBBEDE}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{77951EF6-4978-416C-AA34-3188A981DCD3}" SchemaVersion="94">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{77951EF6-4978-416C-AA34-3188A981DCD3}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{77951EF6-4978-416C-AA34-3188A981DCD3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Computer" ID="{D0D00BD0-0AAB-469C-B786-4389E45981D2}" ShortID="507759077">
+					<ChildrenList>
+						<Folder Name="Button" ID="{C11B386C-F29C-4F16-B030-1B24C4A35E74}" ShortID="1065874534">
+							<ChildrenList>
+								<Event Name="Button_Click" ID="{FF2B30C1-A316-46EC-B131-A75ECABBBEDE}">
+									<ChildrenList>
+										<Action Name="" ID="{8072577C-7052-45A6-9D11-320350F4B861}" ShortID="282619431">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Button_Click" ID="{CB73D4C0-1DE1-478F-BE51-B5ACF0274D03}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Button_Hover" ID="{FE659B0C-7D7C-43AA-8F65-1B98FD1C71C9}">
+									<ChildrenList>
+										<Action Name="" ID="{5563E341-DA6F-4C74-A813-2AAE63C0CA87}" ShortID="29603127">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Button_Hover" ID="{78EB92B5-179B-4BDA-80C3-5670BFC2FEB9}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Test" ID="{5B5AD3B0-03CC-4688-A0B4-D424CE22DDA9}">
+					<ChildrenList>
+						<Action Name="" ID="{40850536-11ED-498C-BDE3-8A63D3C98613}" ShortID="385070429">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Test" ID="{E27779ED-176D-4411-8811-7E937F2B2FDA}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
