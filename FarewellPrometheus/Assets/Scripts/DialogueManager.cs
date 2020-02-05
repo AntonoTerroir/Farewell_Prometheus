@@ -10,6 +10,7 @@ public class DialogueManager : MonoBehaviour
     private Queue<string> sentences; //queue c'est comme list mais ça charge différement, contient les dialogues
     public Animator animator;
     public int choicenumber = 0, a = 0, b = 0, c = 0, d = 0;
+    private GameObject continuebutton,explorebutton;
     
     // Start is called before the first frame update
     void Start()
@@ -32,17 +33,25 @@ public class DialogueManager : MonoBehaviour
             sentences.Enqueue(sentence); //on met les sentences dans la variable locale sentence pour les "precharger"
         }
 
+
         DisplayNextSentence();
 
     }
 
     public void DisplayNextSentence()
     {
-        animator.SetBool("IsOpen", false);
+        animator.SetBool("IsOpen", false);//anim apparition bouton choix dial
         animator.SetBool("IsOpen2", false);
 
         if (sentences.Count == 0)
         {
+            continuebutton = GameObject.Find("ContinueButton");
+            continuebutton.SetActive(false); //faire depop le bouton continue quand y a les options de dial/ il revient via interaction unity
+            explorebutton = GameObject.Find("ExploreButton");
+            if(choicenumber == 6)
+            {
+                explorebutton.SetActive(true);
+            }
             EndDialogue();
             return;
         }
@@ -60,7 +69,7 @@ public class DialogueManager : MonoBehaviour
         foreach (char letter in sentence) //isoler les lettres pour les mettre une a une pour apparaitre petit à petit avec un delai
         {
             dialogueText.text += letter;
-            yield return null;
+            yield return new WaitForSeconds(.02f);
 
         }
     }
@@ -69,7 +78,11 @@ public class DialogueManager : MonoBehaviour
         if (choicenumber <= 3)
         {
             animator.SetBool("IsOpen", true);
-        }else animator.SetBool("IsOpen2", true);
+        }
+        else if (choicenumber >= 4 && choicenumber <= 5)
+        {
+            animator.SetBool("IsOpen2", true);
+        }
         //animator.SetBool("IsOpen", false);
         Debug.Log("End of conv");
         Debug.Log("nombre = " + choicenumber);
@@ -110,6 +123,22 @@ public class DialogueManager : MonoBehaviour
             d = 1;
         }
     }
-    
-      
- }
+    public void ButtonAnalyse()
+    {
+        if (a == 1)
+        {
+            choicenumber += 1;
+            a = 2;
+        }
+    }
+    public void ButtonShip()
+    {
+        if (b == 1)
+        {
+            choicenumber += 1;
+            b = 2;
+        }
+    }
+
+
+}

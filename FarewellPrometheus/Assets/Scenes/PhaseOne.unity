@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -884,7 +885,7 @@ MonoBehaviour:
     name: IA
     sentences:
     - "Oulah, on dirait qu'il y en a un qui se tape un sacr\xE9 trou de m\xE9moire
-      post-hibernation,\r\n\r\nPetit piq\xFBre de rappel peut-\xEAtre ?"
+      post-hibernation,\r\n\r\nPetite piq\xFBre de rappel peut-\xEAtre ?"
 --- !u!1 &434031772
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,6 +1008,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2096520969}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &434031776
 MonoBehaviour:
@@ -1510,6 +1522,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2096520969}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &813724306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1673,6 +1696,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2096520969}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &901837093
 MonoBehaviour:
@@ -1916,7 +1950,8 @@ MonoBehaviour:
   dialogue:
     name: IA
     sentences:
-    - "Tu es \xE0 bord de ta navette, tout juste \xE9cras\xE9e sur la plan\xE8te Jarilo-5. "
+    - "Tu es \xE0 bord de ta navette, tout juste \xE9cras\xE9e sur la plan\xE8te
+      Jarilo-5. "
     - "Nous sommes le 12 mars 2158, il est 10h51 heure locale et la temp\xE9rature
       ext\xE9rieure est de 12\xB0C."
 --- !u!114 &1647561345
@@ -1983,6 +2018,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2096520969}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1647561346
 MonoBehaviour:
@@ -2396,8 +2442,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla
-    Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla '
+  m_Text: 'Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla
+    Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla Blablabla '
 --- !u!222 &2088883312
 CanvasRenderer:
   m_ObjectHideFlags: 0
