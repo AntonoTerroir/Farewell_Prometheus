@@ -9,19 +9,12 @@ public class DialogueManager : MonoBehaviour
     public Text dialogueText;
     private Queue<string> sentences; //queue c'est comme list mais ça charge différement, contient les dialogues
     public Animator animator;
-    public int choicenumber = 0, choicenumber2 = 0, a = 0, b = 0;
-    //public GameObject where, who, goal, speak;
+    public int choicenumber = 0, a = 0, b = 0, c = 0, d = 0;
     
     // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>(); //initialisation de sentences
-        
-        /*where = GameObject.Find("QuestionWhere");
-        who = GameObject.Find("QuestionWho");
-        goal = GameObject.Find("QuestionGoal");
-        speak = GameObject.Find("QuestionSpeak");*/
-
     }
     
     public void StartDialogue(Dialogue dialogue) //lancer dialogue indiqué
@@ -40,8 +33,6 @@ public class DialogueManager : MonoBehaviour
         }
 
         DisplayNextSentence();
-       // CheckChoices();
-       // OnMouseDown();
 
     }
 
@@ -75,13 +66,13 @@ public class DialogueManager : MonoBehaviour
     }
     public void EndDialogue()
     {
-        if (choicenumber <= 4)
+        if (choicenumber <= 3)
         {
             animator.SetBool("IsOpen", true);
         }else animator.SetBool("IsOpen2", true);
         //animator.SetBool("IsOpen", false);
         Debug.Log("End of conv");
-        Debug.Log("nombre = " + choicenumber2);
+        Debug.Log("nombre = " + choicenumber);
 
     }
 
@@ -91,7 +82,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (a == 0)
         {
-            choicenumber2 += 1;
+            choicenumber += 1;
             a = 1;
         }
     }
@@ -99,19 +90,26 @@ public class DialogueManager : MonoBehaviour
     {
         if (b == 0)
         {
-            choicenumber2 += 1;
+            choicenumber += 1;
             b = 1;
         }
     }
-public void CheckChoices()
+    public void ButtonGoal()
     {
-        
-        if (animator.GetBool("IsOpen") == false)
+        if (c == 0)
         {
             choicenumber += 1;
+            c = 1;
         }
-
-       
-       // Debug.Log(choicenumber);
     }
-}
+    public void ButtonSpeak()
+    {
+        if (d == 0)
+        {
+            choicenumber += 1;
+            d = 1;
+        }
+    }
+    
+      
+ }
