@@ -49,6 +49,13 @@
 						<Event Name="Ambiance_Bed" ID="{D567E1FE-6114-4C09-BB24-0055A9247D0B}">
 							<ChildrenList>
 								<Action Name="" ID="{FF8E9995-D983-4E8D-AC1D-97FB33629569}" ShortID="184108715">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Birds" ID="{8556281E-87FA-4B74-A606-9A9F99890237}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
@@ -70,6 +77,13 @@
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{7D35278B-DCCA-4240-991E-27798ADC9706}" ShortID="484649452">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Ship_Wind_AMB_SFX" ID="{9B99FB73-C70A-4C6B-8F66-890A59B3A5A5}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
@@ -90,8 +104,37 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{BBB879EB-AA14-46E8-803F-8AB4A180592C}" ShortID="298268674">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ship_Drone_AMB_03_SFX" ID="{7F95E436-21EA-4C8A-A0BB-63C54020ACB5}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5BE51EDB-452C-447F-9BD5-E81A26D2E0D3}" ShortID="800263071">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ship_Drone_AMB_02_SFX" ID="{6BFAF4A9-738D-46B3-B6FA-1913FB2A2DF9}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5826BBFB-50F3-4E85-9739-B07CDB5C58CC}" ShortID="127583634">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Electric_Zaps" ID="{7D8431C1-9FA5-44B7-9292-4C565EF80168}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FCCCBB1F-3B20-42A8-AB61-20C3169B42AE}" ShortID="630857496">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Metallic_Rakes" ID="{F23091F7-5387-420E-B861-71EBD9125D00}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Post_it_Manip" ID="{5A243A84-0E71-4784-B305-83A0CD98A497}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

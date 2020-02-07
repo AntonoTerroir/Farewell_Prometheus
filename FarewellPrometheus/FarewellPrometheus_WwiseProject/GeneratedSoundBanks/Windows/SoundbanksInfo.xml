@@ -27,73 +27,53 @@
 				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="62054156" Language="SFX">
-					<ShortName>Jungle_Birds_AMB_SFX_13.wav</ShortName>
-					<Path>SFX\Jungle_Birds_AMB_SFX_13_10C4C929.wem</Path>
-				</File>
-				<File Id="78920991" Language="SFX">
-					<ShortName>Jungle_Birds_AMB_SFX_04.wav</ShortName>
-					<Path>SFX\Jungle_Birds_AMB_SFX_04_10C4C929.wem</Path>
+				<File Id="95564716" Language="SFX">
+					<ShortName>Ship_Drone_AMB_03_SFX.wav</ShortName>
+					<Path>SFX\Ship_Drone_AMB_03_SFX_D79FB2B7.wem</Path>
 				</File>
 				<File Id="104157524" Language="SFX">
 					<ShortName>Beep_02_SFX.wav</ShortName>
 					<Path>SFX\Beep_02_SFX_10C4C929.wem</Path>
 				</File>
+				<File Id="105935624" Language="SFX">
+					<ShortName>Ship_Metal_Raking_SFX_01.wav</ShortName>
+					<Path>SFX\Ship_Metal_Raking_SFX_01_10C4C929.wem</Path>
+				</File>
 				<File Id="123125051" Language="SFX">
 					<ShortName>Computer_button_click_8kHz_01_SFX.wav</ShortName>
 					<Path>SFX\Computer_button_click_8kHz_01_SFX_10C4C929.wem</Path>
 				</File>
-				<File Id="125064382" Language="SFX">
-					<ShortName>Jungle_Birds_AMB_SFX_14.wav</ShortName>
-					<Path>SFX\Jungle_Birds_AMB_SFX_14_10C4C929.wem</Path>
-				</File>
-				<File Id="132184454" Language="SFX">
-					<ShortName>Jungle_Birds_AMB_SFX_12.wav</ShortName>
-					<Path>SFX\Jungle_Birds_AMB_SFX_12_10C4C929.wem</Path>
-				</File>
-				<File Id="148088509" Language="SFX">
-					<ShortName>Jungle_Birds_AMB_SFX_05.wav</ShortName>
-					<Path>SFX\Jungle_Birds_AMB_SFX_05_10C4C929.wem</Path>
+				<File Id="176151377" Language="SFX">
+					<ShortName>Ship_Metal_Raking_SFX_03.wav</ShortName>
+					<Path>SFX\Ship_Metal_Raking_SFX_03_10C4C929.wem</Path>
 				</File>
 				<File Id="176982689" Language="SFX">
 					<ShortName>Computer_button_click_8kHz_02_SFX.wav</ShortName>
 					<Path>SFX\Computer_button_click_8kHz_02_SFX_10C4C929.wem</Path>
 				</File>
-				<File Id="302976512" Language="SFX">
-					<ShortName>Jungle_Birds_AMB_SFX_07.wav</ShortName>
-					<Path>SFX\Jungle_Birds_AMB_SFX_07_10C4C929.wem</Path>
+				<File Id="203544195" Language="SFX">
+					<ShortName>Ship_Metal_Raking_SFX_02.wav</ShortName>
+					<Path>SFX\Ship_Metal_Raking_SFX_02_10C4C929.wem</Path>
 				</File>
-				<File Id="311442277" Language="SFX">
-					<ShortName>Jungle_Birds_AMB_SFX_02.wav</ShortName>
-					<Path>SFX\Jungle_Birds_AMB_SFX_02_10C4C929.wem</Path>
+				<File Id="382648824" Language="SFX">
+					<ShortName>Electric_Zap_01_SFX.wav</ShortName>
+					<Path>SFX\Electric_Zap_01_SFX_10C4C929.wem</Path>
 				</File>
-				<File Id="323038935" Language="SFX">
-					<ShortName>Jungle_Birds_AMB_SFX_03.wav</ShortName>
-					<Path>SFX\Jungle_Birds_AMB_SFX_03_10C4C929.wem</Path>
-				</File>
-				<File Id="423986631" Language="SFX">
-					<ShortName>Jungle_Birds_AMB_SFX_11.wav</ShortName>
-					<Path>SFX\Jungle_Birds_AMB_SFX_11_10C4C929.wem</Path>
-				</File>
-				<File Id="427999732" Language="SFX">
-					<ShortName>Jungle_Birds_AMB_SFX_08.wav</ShortName>
-					<Path>SFX\Jungle_Birds_AMB_SFX_08_10C4C929.wem</Path>
-				</File>
-				<File Id="493050855" Language="SFX">
-					<ShortName>Jungle_Birds_AMB_SFX_09.wav</ShortName>
-					<Path>SFX\Jungle_Birds_AMB_SFX_09_10C4C929.wem</Path>
+				<File Id="438410619" Language="SFX">
+					<ShortName>Ship_Metal_Raking_SFX_04.wav</ShortName>
+					<Path>SFX\Ship_Metal_Raking_SFX_04_10C4C929.wem</Path>
 				</File>
 				<File Id="498944890" Language="SFX">
 					<ShortName>Computer_button_hover_8kHz_03_SFX.wav</ShortName>
 					<Path>SFX\Computer_button_hover_8kHz_03_SFX_10C4C929.wem</Path>
 				</File>
+				<File Id="566675852" Language="SFX">
+					<ShortName>Electric_Zap_02_SFX.wav</ShortName>
+					<Path>SFX\Electric_Zap_02_SFX_10C4C929.wem</Path>
+				</File>
 				<File Id="571969060" Language="SFX">
 					<ShortName>Beep_03_SFX.wav</ShortName>
 					<Path>SFX\Beep_03_SFX_10C4C929.wem</Path>
-				</File>
-				<File Id="657688530" Language="SFX">
-					<ShortName>Jungle_Birds_AMB_SFX_01.wav</ShortName>
-					<Path>SFX\Jungle_Birds_AMB_SFX_01_10C4C929.wem</Path>
 				</File>
 				<File Id="694977143" Language="SFX">
 					<ShortName>Ship_Drone_AMB_SFX.wav</ShortName>
@@ -103,17 +83,13 @@
 					<ShortName>Computer_button_hover_8kHz_01_SFX.wav</ShortName>
 					<Path>SFX\Computer_button_hover_8kHz_01_SFX_10C4C929.wem</Path>
 				</File>
-				<File Id="743703861" Language="SFX">
-					<ShortName>Jungle_Birds_AMB_SFX_10.wav</ShortName>
-					<Path>SFX\Jungle_Birds_AMB_SFX_10_10C4C929.wem</Path>
+				<File Id="747958361" Language="SFX">
+					<ShortName>Ship_Drone_AMB_02_SFX.wav</ShortName>
+					<Path>SFX\Ship_Drone_AMB_02_SFX_D79FB2B7.wem</Path>
 				</File>
 				<File Id="861117954" Language="SFX">
 					<ShortName>Computer_button_hover_8kHz_02_SFX.wav</ShortName>
 					<Path>SFX\Computer_button_hover_8kHz_02_SFX_10C4C929.wem</Path>
-				</File>
-				<File Id="937155187" Language="SFX">
-					<ShortName>Ship_Wind_AMB_SFX.wav</ShortName>
-					<Path>SFX\Ship_Wind_AMB_SFX_D79FB2B7.wem</Path>
 				</File>
 				<File Id="937404006" Language="SFX">
 					<ShortName>Computer_button_click_8kHz_03_SFX.wav</ShortName>
@@ -122,10 +98,6 @@
 				<File Id="975210841" Language="SFX">
 					<ShortName>Beep_01_SFX.wav</ShortName>
 					<Path>SFX\Beep_01_SFX_10C4C929.wem</Path>
-				</File>
-				<File Id="1044156567" Language="SFX">
-					<ShortName>Jungle_Birds_AMB_SFX_06.wav</ShortName>
-					<Path>SFX\Jungle_Birds_AMB_SFX_06_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

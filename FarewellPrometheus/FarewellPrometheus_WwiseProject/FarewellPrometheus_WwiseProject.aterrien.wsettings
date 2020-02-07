@@ -4,6 +4,7 @@
 		<UserProjectSettings Name="" ID="{DE7B2512-AB40-4550-A95A-B1E7DEFCA633}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Travail\FP\SFX\Ship\WAV"/>
+				<Property Name="Event Action List\{5A243A84-0E71-4784-B305-83A0CD98A497}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5B5AD3B0-03CC-4688-A0B4-D424CE22DDA9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D567E1FE-6114-4C09-BB24-0055A9247D0B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FE659B0C-7D7C-43AA-8F65-1B98FD1C71C9}\x64_Expand States" Type="string" Value=""/>
@@ -59,8 +60,8 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="dM8CuQ6HrkC6HmetVSmdST+mzu0dZ4NBsdk34dUlG5SQvNHX7IdiRYa5PaCmIC+V1LPtTEtL7Eax1iL30KdMvRBrD9CZ4nhHlBWfu4sGgIAeKFaF+od0S6YGmp+ZiQI3"/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="9h6Vd3hJbEGqNDGIqYHc0w=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="9h6Vd3hJbEGqNDGIqYHc0769kqF3gz9GmWUTVf3GAV4="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="PRMcV+WX7ke00WfFA2JaCQ=="/>
