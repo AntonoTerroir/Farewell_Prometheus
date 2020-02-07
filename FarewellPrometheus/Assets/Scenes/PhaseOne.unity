@@ -3547,7 +3547,7 @@ GameObject:
   - component: {fileID: 2037655660}
   - component: {fileID: 2037655659}
   m_Layer: 0
-  m_Name: Wwise_Test
+  m_Name: Ship_AMB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3589,7 +3589,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 0a66f9b3a47bef749aa38acc6df2648b,
+    WwiseObjectReference: {fileID: 11400000, guid: 38ddd5d21cc07a04da878b1e76189f02,
       type: 2}
   useCallbacks: 0
   Callbacks: []

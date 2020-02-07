@@ -3,36 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{77951EF6-4978-416C-AA34-3188A981DCD3}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Computer" ID="{D0D00BD0-0AAB-469C-B786-4389E45981D2}" ShortID="507759077">
-					<ChildrenList>
-						<Folder Name="Button" ID="{C11B386C-F29C-4F16-B030-1B24C4A35E74}" ShortID="1065874534">
-							<ChildrenList>
-								<Event Name="Button_Click" ID="{FF2B30C1-A316-46EC-B131-A75ECABBBEDE}">
-									<ChildrenList>
-										<Action Name="" ID="{8072577C-7052-45A6-9D11-320350F4B861}" ShortID="282619431">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Button_Click" ID="{CB73D4C0-1DE1-478F-BE51-B5ACF0274D03}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Button_Hover" ID="{FE659B0C-7D7C-43AA-8F65-1B98FD1C71C9}">
-									<ChildrenList>
-										<Action Name="" ID="{5563E341-DA6F-4C74-A813-2AAE63C0CA87}" ShortID="29603127">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Button_Hover" ID="{78EB92B5-179B-4BDA-80C3-5670BFC2FEB9}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-							</ChildrenList>
-						</Folder>
-					</ChildrenList>
-				</Folder>
 				<Event Name="Test" ID="{5B5AD3B0-03CC-4688-A0B4-D424CE22DDA9}">
 					<ChildrenList>
 						<Action Name="" ID="{40850536-11ED-498C-BDE3-8A63D3C98613}" ShortID="385070429">
@@ -44,6 +14,86 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Ship" ID="{A192BDBE-8377-463F-9965-1355FDC6015E}" ShortID="280223260">
+					<ChildrenList>
+						<Folder Name="Computer" ID="{D0D00BD0-0AAB-469C-B786-4389E45981D2}" ShortID="507759077">
+							<ChildrenList>
+								<Folder Name="Button" ID="{C11B386C-F29C-4F16-B030-1B24C4A35E74}" ShortID="1065874534">
+									<ChildrenList>
+										<Event Name="Button_Click" ID="{FF2B30C1-A316-46EC-B131-A75ECABBBEDE}">
+											<ChildrenList>
+												<Action Name="" ID="{8072577C-7052-45A6-9D11-320350F4B861}" ShortID="282619431">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Button_Click" ID="{CB73D4C0-1DE1-478F-BE51-B5ACF0274D03}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Button_Hover" ID="{FE659B0C-7D7C-43AA-8F65-1B98FD1C71C9}">
+											<ChildrenList>
+												<Action Name="" ID="{5563E341-DA6F-4C74-A813-2AAE63C0CA87}" ShortID="29603127">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Button_Hover" ID="{78EB92B5-179B-4BDA-80C3-5670BFC2FEB9}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Ambiance_Bed" ID="{D567E1FE-6114-4C09-BB24-0055A9247D0B}">
+							<ChildrenList>
+								<Action Name="" ID="{FF8E9995-D983-4E8D-AC1D-97FB33629569}" ShortID="184108715">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Birds" ID="{8556281E-87FA-4B74-A606-9A9F99890237}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{16944863-8A93-4A51-A565-C0824C1A53B9}" ShortID="1016068132">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ship_Rain_AMB_SFX" ID="{BC55DB97-6B78-4AC5-9421-A08CB8769243}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7D35278B-DCCA-4240-991E-27798ADC9706}" ShortID="484649452">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ship_Wind_AMB_SFX" ID="{9B99FB73-C70A-4C6B-8F66-890A59B3A5A5}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C136F067-635B-45A3-AA6D-142654F4BC6E}" ShortID="498766703">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ship_Drone_AMB_SFX" ID="{9F6E6F7B-F3AC-425A-B540-0939029706A5}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C08A4582-3FEF-4779-BD10-F60A8F5EDD32}" ShortID="536315969">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Beeps" ID="{022BD303-1D00-44A2-A972-1BEA8592ABAE}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

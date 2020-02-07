@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMBIANCE_BED = 3429733933U;
         static const AkUniqueID BUTTON_CLICK = 814543256U;
         static const AkUniqueID BUTTON_HOVER = 1701177942U;
         static const AkUniqueID TEST = 3157003241U;
