@@ -10,7 +10,8 @@ public class DialogueManager : MonoBehaviour
     private Queue<string> sentences; //queue c'est comme list mais ça charge différement, contient les dialogues
     public Animator animator;
     public int choicenumber = 0, a = 0, b = 0, c = 0, d = 0;
-    private GameObject continuebutton,explorebutton;
+    private GameObject continuebutton;
+    public GameObject explorebutton;
     
     // Start is called before the first frame update
     void Start()
@@ -33,7 +34,12 @@ public class DialogueManager : MonoBehaviour
             sentences.Enqueue(sentence); //on met les sentences dans la variable locale sentence pour les "precharger"
         }
 
-
+        
+       /*f (choicenumber != 6)
+        {
+            explorebutton.SetActive(false);
+        }
+        else explorebutton.SetActive(true);*/
         DisplayNextSentence();
 
     }
@@ -42,16 +48,13 @@ public class DialogueManager : MonoBehaviour
     {
         animator.SetBool("IsOpen", false);//anim apparition bouton choix dial
         animator.SetBool("IsOpen2", false);
-
+        animator.SetBool("IsOpen3", false);
+        animator.SetBool("IsOpen4", false);
         if (sentences.Count == 0)
         {
             continuebutton = GameObject.Find("ContinueButton");
             continuebutton.SetActive(false); //faire depop le bouton continue quand y a les options de dial/ il revient via interaction unity
-            explorebutton = GameObject.Find("ExploreButton");
-            if(choicenumber == 6)
-            {
-                explorebutton.SetActive(true);
-            }
+    
             EndDialogue();
             return;
         }
@@ -82,6 +85,13 @@ public class DialogueManager : MonoBehaviour
         else if (choicenumber >= 4 && choicenumber <= 5)
         {
             animator.SetBool("IsOpen2", true);
+        } else if (choicenumber == 6)
+        {
+            animator.SetBool("IsOpen3", true);
+            choicenumber += 1;
+        }else if (choicenumber == 7)
+        {
+            animator.SetBool("IsOpen4", true);
         }
         //animator.SetBool("IsOpen", false);
         Debug.Log("End of conv");
@@ -90,7 +100,7 @@ public class DialogueManager : MonoBehaviour
     }
 
 
-
+    //Fonctions pour incrémenter et garder en mémoire les choix de dial
     public void ButtonWhere()
     {
         if (a == 0)
