@@ -108,7 +108,7 @@ public class DialogueManager : MonoBehaviour
         dialtrig = GetComponent<DialogueTrigger>();
         if (getpassword == password) //ça ça marche faut trouver comment lancer le startDialogue pour avoir texte du login
         {
-            StartDialogue(Dialogue dialogue)
+            //StartDialogue(Dialogue dialogue)
            // dialtrig.TriggerDialogue();
             Debug.Log("Mot de passe ok");
         }
