@@ -10,8 +10,9 @@ public class DialogueManager : MonoBehaviour
     private Queue<string> sentences; //queue c'est comme list mais ça charge différement, contient les dialogues
     public Animator animator;
     public int choicenumber = 0, a = 0, b = 0, c = 0, d = 0;
-    private GameObject continuebutton;
-    public GameObject explorebutton;
+    private GameObject continuebutton,inputpassword;
+    private DialogueTrigger dialtrig;
+    private string password, getpassword;
     
     // Start is called before the first frame update
     void Start()
@@ -97,6 +98,21 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("End of conv");
         Debug.Log("nombre = " + choicenumber);
 
+    }
+
+    public void CheckPassword()
+    {
+        password = "1209";
+        inputpassword = GameObject.Find("Password");
+        getpassword = inputpassword.GetComponent<Text>().text;
+        dialtrig = GetComponent<DialogueTrigger>();
+        if (getpassword == password) //ça ça marche faut trouver comment lancer le startDialogue pour avoir texte du login
+        {
+            StartDialogue(Dialogue dialogue)
+           // dialtrig.TriggerDialogue();
+            Debug.Log("Mot de passe ok");
+        }
+        else Debug.Log("Mot de passe pas ok");
     }
 
 
