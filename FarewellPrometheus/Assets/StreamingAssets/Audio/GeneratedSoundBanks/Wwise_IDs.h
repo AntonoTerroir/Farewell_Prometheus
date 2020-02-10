@@ -16,8 +16,24 @@ namespace AK
         static const AkUniqueID AMBIANCE_BED = 3429733933U;
         static const AkUniqueID BUTTON_CLICK = 814543256U;
         static const AkUniqueID BUTTON_HOVER = 1701177942U;
+        static const AkUniqueID SHIP_MUSIC = 53190359U;
         static const AkUniqueID TEST = 3157003241U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace STASIS_OR_AWAKE
+        {
+            static const AkUniqueID GROUP = 851633200U;
+
+            namespace STATE
+            {
+                static const AkUniqueID AWAKE = 1151176110U;
+                static const AkUniqueID STASIS = 1274150312U;
+            } // namespace STATE
+        } // namespace STASIS_OR_AWAKE
+
+    } // namespace STATES
 
     namespace BANKS
     {

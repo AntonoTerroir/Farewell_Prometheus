@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 3d131c57e597ee47b4d167c503625a09
     GuidInternal: 
-    m_lastTime: -8586206901600421550
+    m_lastTime: -8586202664912809295
     List:
     - name: Main
       guid: b5750d12ebf75c4b8067bf551228f3d7
@@ -47,21 +47,37 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: f61e957778496c41aa343188a981dcd3
     GuidInternal: 
-    m_lastTime: -8586206901600391936
+    m_lastTime: -8586202665172975723
     List:
+    - name: Ambiance_Bed
+      guid: fee167d51461094cbb240055a9247d0b
+      id: 3429733933
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Ambiance_Bed
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Ambiance_Bed
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Button_Click
       guid: c1302bff16a3ec46b131a75ecabbbede
       id: 814543256
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
       - ElementName: Computer
         ObjectType: 4
       - ElementName: Button
         ObjectType: 4
       - ElementName: Button_Click
         ObjectType: 3
-      Path: Default Work Unit\Computer\Button\Button_Click
+      Path: Default Work Unit\Ship\Computer\Button\Button_Click
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -71,13 +87,43 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
       - ElementName: Computer
         ObjectType: 4
       - ElementName: Button
         ObjectType: 4
       - ElementName: Button_Hover
         ObjectType: 3
-      Path: Default Work Unit\Computer\Button\Button_Hover
+      Path: Default Work Unit\Ship\Computer\Button\Button_Hover
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Post_it_Manip
+      guid: 843a245a710e8447b30583a0cd98a497
+      id: 3872581743
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Post_it_Manip
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Post_it_Manip
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Ship_Music
+      guid: cae74f557cb6e84ebdc3b01c23aa0ca6
+      id: 53190359
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Ship_Music
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Ship_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -105,8 +151,39 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: efcde604402b9248b1ce603a3a26d722
     GuidInternal: 
-    m_lastTime: -8586206924958464308
-    List: []
+    m_lastTime: -8586202715348251768
+    List:
+    - name: Stasis_or_Awake
+      guid: 917451b815b7a94b9d202e7db8611b7f
+      id: 851633200
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stasis_or_Awake
+        ObjectType: 9
+      Path: Default Work Unit\Stasis_or_Awake
+      values:
+      - name: Awake
+        guid: e1083109fd95584fae8bb19afba38d28
+        id: 1151176110
+        PathAndIcons:
+        - ElementName: Awake
+          ObjectType: 8
+      - name: None
+        guid: 42c59c761622594681a0dbb3dae07576
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Stasis
+        guid: 299e6c80f042c5449a3122e662a07694
+        id: 1274150312
+        PathAndIcons:
+        - ElementName: Stasis
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -125,8 +202,7 @@ MonoBehaviour:
   - /FarewellPrometheus_WwiseProject
   - /FarewellPrometheus_WwiseProject/Events
   - /FarewellPrometheus_WwiseProject/Events/Default Work Unit
-  - /FarewellPrometheus_WwiseProject/Events/Default Work Unit/Computer
-  - /FarewellPrometheus_WwiseProject/Events/Default Work Unit/Computer/Button
+  - /FarewellPrometheus_WwiseProject/Events/Default Work Unit/Ship
   - /FarewellPrometheus_WwiseProject/SoundBanks
   - /FarewellPrometheus_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1

@@ -135,6 +135,17 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Post_it_Manip" ID="{5A243A84-0E71-4784-B305-83A0CD98A497}"/>
+						<Event Name="Ship_Music" ID="{554FE7CA-B67C-4EE8-BDC3-B01C23AA0CA6}">
+							<ChildrenList>
+								<Action Name="" ID="{5CA98A05-6FC6-4814-A28E-CC068AB33DCA}" ShortID="358765448">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ship_Music" ID="{07B14880-7DA3-4EB8-B782-616371C6F1C8}" WorkUnitID="{92EF9D4C-2820-4B90-B46D-F68F64F96557}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

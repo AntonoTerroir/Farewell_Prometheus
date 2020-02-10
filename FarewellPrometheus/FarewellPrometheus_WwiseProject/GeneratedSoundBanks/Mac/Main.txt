@@ -1,8 +1,17 @@
 Event	ID	Name			Wwise Object Path	Notes
+	53190359	Ship_Music			\Default Work Unit\Ship\Ship_Music	
 	814543256	Button_Click			\Default Work Unit\Ship\Computer\Button\Button_Click	
 	1701177942	Button_Hover			\Default Work Unit\Ship\Computer\Button\Button_Hover	
 	3157003241	Test			\Default Work Unit\Test	
 	3429733933	Ambiance_Bed			\Default Work Unit\Ship\Ambiance_Bed	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	851633200	Stasis_or_Awake			\Default Work Unit\Stasis_or_Awake	
+
+State	ID	Name	State Group			Notes
+	0	None	Stasis_or_Awake			
+	1151176110	Awake	Stasis_or_Awake			
+	1274150312	Stasis	Stasis_or_Awake			
 
 Effect plug-ins	ID	Name	Type				Notes
 	670061577	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
@@ -24,9 +33,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	498944890	Computer_button_hover_8kHz_03_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Computer_button_hover_8kHz_03_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Computer\Button\Hover\Button_Hover\Computer_button_hover_8kHz_03_SFX		100528
 	566675852	Electric_Zap_02_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Electric_Zap_02_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Ambiance\Beds\Electric_Zaps\Electric_Zap_02_SFX		278592
 	571969060	Beep_03_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Beep_03_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Ambiance\Beds\Beeps\Beep_03_SFX		10560
+	651215527	Stasis	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Stasis_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Ship_Music\Stasis\Stasis		6912064
 	694977143	Ship_Drone_AMB_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Ship_Drone_AMB_SFX_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Ambiance\Beds\Ship_Drone_AMB_SFX		11419712
 	718832362	Computer_button_hover_8kHz_01_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Computer_button_hover_8kHz_01_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Computer\Button\Hover\Button_Hover\Computer_button_hover_8kHz_01_SFX		93904
 	747958361	Ship_Drone_AMB_02_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Ship_Drone_AMB_02_SFX_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Ambiance\Beds\Ship_Drone_AMB_02_SFX		7192640
+	844426173	Awake	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Awake_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Ship_Music\Awake\Awake		9216064
 	861117954	Computer_button_hover_8kHz_02_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Computer_button_hover_8kHz_02_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Computer\Button\Hover\Button_Hover\Computer_button_hover_8kHz_02_SFX		104416
 	937404006	Computer_button_click_8kHz_03_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Computer_button_click_8kHz_03_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Computer\Button\Click\Button_Click\Computer_button_click_8kHz_03_SFX		100528
 	975210841	Beep_01_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Beep_01_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Ambiance\Beds\Beeps\Beep_01_SFX		156224

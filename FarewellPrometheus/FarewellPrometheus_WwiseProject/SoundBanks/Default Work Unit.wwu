@@ -13,6 +13,7 @@
 						<ObjectRef Name="Test" ID="{5B5AD3B0-03CC-4688-A0B4-D424CE22DDA9}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Button_Click" ID="{FF2B30C1-A316-46EC-B131-A75ECABBBEDE}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ambiance_Bed" ID="{D567E1FE-6114-4C09-BB24-0055A9247D0B}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ship_Music" ID="{554FE7CA-B67C-4EE8-BDC3-B01C23AA0CA6}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

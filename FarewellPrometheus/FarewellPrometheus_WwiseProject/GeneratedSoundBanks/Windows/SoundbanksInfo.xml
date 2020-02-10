@@ -24,6 +24,7 @@
 				<Event Id="3429733933" Name="Ambiance_Bed" ObjectPath="\Events\Default Work Unit\Ship\Ambiance_Bed" DurationType="Infinite"/>
 				<Event Id="814543256" Name="Button_Click" ObjectPath="\Events\Default Work Unit\Ship\Computer\Button\Button_Click" DurationType="OneShot" DurationMin="0.480354" DurationMax="0.553000"/>
 				<Event Id="1701177942" Name="Button_Hover" ObjectPath="\Events\Default Work Unit\Ship\Computer\Button\Button_Hover" DurationType="OneShot" DurationMin="0.483136" DurationMax="0.549815"/>
+				<Event Id="53190359" Name="Ship_Music" ObjectPath="\Events\Default Work Unit\Ship\Ship_Music" DurationType="Infinite"/>
 				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -75,6 +76,10 @@
 					<ShortName>Beep_03_SFX.wav</ShortName>
 					<Path>SFX\Beep_03_SFX_10C4C929.wem</Path>
 				</File>
+				<File Id="651215527" Language="SFX">
+					<ShortName>Stasis.wav</ShortName>
+					<Path>SFX\Stasis_D79FB2B7.wem</Path>
+				</File>
 				<File Id="694977143" Language="SFX">
 					<ShortName>Ship_Drone_AMB_SFX.wav</ShortName>
 					<Path>SFX\Ship_Drone_AMB_SFX_D79FB2B7.wem</Path>
@@ -86,6 +91,10 @@
 				<File Id="747958361" Language="SFX">
 					<ShortName>Ship_Drone_AMB_02_SFX.wav</ShortName>
 					<Path>SFX\Ship_Drone_AMB_02_SFX_D79FB2B7.wem</Path>
+				</File>
+				<File Id="844426173" Language="SFX">
+					<ShortName>Awake.wav</ShortName>
+					<Path>SFX\Awake_D79FB2B7.wem</Path>
 				</File>
 				<File Id="861117954" Language="SFX">
 					<ShortName>Computer_button_hover_8kHz_02_SFX.wav</ShortName>
