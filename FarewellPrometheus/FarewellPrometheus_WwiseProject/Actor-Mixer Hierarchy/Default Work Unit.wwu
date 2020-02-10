@@ -27,220 +27,268 @@
 							<ChildrenList>
 								<Folder Name="Button" ID="{63165A48-9788-4617-8F3B-A6DA76AB8D36}" ShortID="932065160">
 									<ChildrenList>
-										<Folder Name="Click" ID="{917650EE-344E-4715-B481-3D3C14CF1A6B}" ShortID="791981665">
+										<RandomSequenceContainer Name="Button_Hover" ID="{78EB92B5-179B-4BDA-80C3-5670BFC2FEB9}" ShortID="869094391">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3439A8E1-F19C-407B-9B91-48E88C190B30}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="20"/>
+																	<Property Name="Min" Type="Real64" Value="-20"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-23</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{4A8CE87B-99F6-4142-96F6-2395F7CE2505}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
 											<ChildrenList>
-												<RandomSequenceContainer Name="Button_Click" ID="{CB73D4C0-1DE1-478F-BE51-B5ACF0274D03}" ShortID="406579528">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{B066185D-A5A0-41CC-872C-35625A2B7F5B}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="30"/>
-																			<Property Name="Min" Type="Real64" Value="-30"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-15</Value>
-															</ValueList>
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{943ED947-19C2-4360-8F15-774533768753}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="3"/>
-																			<Property Name="Min" Type="Real64" Value="-3"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
+												<Sound Name="Computer_button_hover_8kHz_01_SFX" ID="{0DA8E405-424E-4F9B-94DD-4B4BE279C6C7}" ShortID="692230702">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-														</Reference>
-														<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-															<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Computer_button_click_8kHz_01_SFX" ID="{450E1CFF-E7B3-48A0-8842-AF0727DE28DC}" ShortID="236640514">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Computer_button_click_8kHz_01_SFX" ID="{F60B4DFA-CAC9-4B57-B1CE-1C0CCA5391C5}" ShortID="123125051">
-																	<Language>SFX</Language>
-																	<AudioFile>Computer_button_click_8kHz_01_SFX.wav</AudioFile>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Computer_button_click_8kHz_01_SFX" ID="{F60B4DFA-CAC9-4B57-B1CE-1C0CCA5391C5}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Computer_button_click_8kHz_02_SFX" ID="{2293E348-56E4-46F2-881F-018FC1FE2FAE}" ShortID="592020290">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Computer_button_click_8kHz_02_SFX" ID="{0CF0ECA4-2788-40B9-9FC4-7D8379C12432}" ShortID="176982689">
-																	<Language>SFX</Language>
-																	<AudioFile>Computer_button_click_8kHz_02_SFX.wav</AudioFile>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Computer_button_click_8kHz_02_SFX" ID="{0CF0ECA4-2788-40B9-9FC4-7D8379C12432}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Computer_button_click_8kHz_03_SFX" ID="{0532F5E9-0275-4F04-A63C-AAC48C264E13}" ShortID="542643194">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Computer_button_click_8kHz_03_SFX" ID="{9D9E0FCC-792A-4FD0-B4FF-89D7D1B8E50D}" ShortID="937404006">
-																	<Language>SFX</Language>
-																	<AudioFile>Computer_button_click_8kHz_03_SFX.wav</AudioFile>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Computer_button_click_8kHz_03_SFX" ID="{9D9E0FCC-792A-4FD0-B4FF-89D7D1B8E50D}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
+														<AudioFileSource Name="Computer_button_hover_8kHz_01_SFX" ID="{45292224-C598-4F6D-9ED1-7827E382F10F}" ShortID="718832362">
+															<Language>SFX</Language>
+															<AudioFile>Computer_button_hover_8kHz_01_SFX.wav</AudioFile>
+														</AudioFileSource>
 													</ChildrenList>
-												</RandomSequenceContainer>
-											</ChildrenList>
-										</Folder>
-										<Folder Name="Hover" ID="{CA024D91-921E-4E8E-BBB8-AD74A93F0863}" ShortID="408838643">
-											<ChildrenList>
-												<RandomSequenceContainer Name="Button_Hover" ID="{78EB92B5-179B-4BDA-80C3-5670BFC2FEB9}" ShortID="869094391">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{3439A8E1-F19C-407B-9B91-48E88C190B30}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="20"/>
-																			<Property Name="Min" Type="Real64" Value="-20"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-23</Value>
-															</ValueList>
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{4A8CE87B-99F6-4142-96F6-2395F7CE2505}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="3"/>
-																			<Property Name="Min" Type="Real64" Value="-3"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
+													<ActiveSourceList>
+														<ActiveSource Name="Computer_button_hover_8kHz_01_SFX" ID="{45292224-C598-4F6D-9ED1-7827E382F10F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Computer_button_hover_8kHz_02_SFX" ID="{94A69109-4C9A-4555-B50B-14E922DBF7AC}" ShortID="102955708">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-														</Reference>
-														<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-															<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Computer_button_hover_8kHz_01_SFX" ID="{0DA8E405-424E-4F9B-94DD-4B4BE279C6C7}" ShortID="692230702">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Computer_button_hover_8kHz_01_SFX" ID="{45292224-C598-4F6D-9ED1-7827E382F10F}" ShortID="718832362">
-																	<Language>SFX</Language>
-																	<AudioFile>Computer_button_hover_8kHz_01_SFX.wav</AudioFile>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Computer_button_hover_8kHz_01_SFX" ID="{45292224-C598-4F6D-9ED1-7827E382F10F}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Computer_button_hover_8kHz_02_SFX" ID="{94A69109-4C9A-4555-B50B-14E922DBF7AC}" ShortID="102955708">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Computer_button_hover_8kHz_02_SFX" ID="{C327589B-17D2-407E-A8FA-293B1751F568}" ShortID="861117954">
-																	<Language>SFX</Language>
-																	<AudioFile>Computer_button_hover_8kHz_02_SFX.wav</AudioFile>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Computer_button_hover_8kHz_02_SFX" ID="{C327589B-17D2-407E-A8FA-293B1751F568}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Computer_button_hover_8kHz_03_SFX" ID="{7459BB86-7642-4B4D-92AA-44C1FD233A01}" ShortID="555698999">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Computer_button_hover_8kHz_03_SFX" ID="{AEDAF613-BA6E-4A3E-B274-C8153D9F3D63}" ShortID="498944890">
-																	<Language>SFX</Language>
-																	<AudioFile>Computer_button_hover_8kHz_03_SFX.wav</AudioFile>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Computer_button_hover_8kHz_03_SFX" ID="{AEDAF613-BA6E-4A3E-B274-C8153D9F3D63}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
+														<AudioFileSource Name="Computer_button_hover_8kHz_02_SFX" ID="{C327589B-17D2-407E-A8FA-293B1751F568}" ShortID="861117954">
+															<Language>SFX</Language>
+															<AudioFile>Computer_button_hover_8kHz_02_SFX.wav</AudioFile>
+														</AudioFileSource>
 													</ChildrenList>
-												</RandomSequenceContainer>
+													<ActiveSourceList>
+														<ActiveSource Name="Computer_button_hover_8kHz_02_SFX" ID="{C327589B-17D2-407E-A8FA-293B1751F568}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Computer_button_hover_8kHz_03_SFX" ID="{7459BB86-7642-4B4D-92AA-44C1FD233A01}" ShortID="555698999">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Computer_button_hover_8kHz_03_SFX" ID="{AEDAF613-BA6E-4A3E-B274-C8153D9F3D63}" ShortID="498944890">
+															<Language>SFX</Language>
+															<AudioFile>Computer_button_hover_8kHz_03_SFX.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Computer_button_hover_8kHz_03_SFX" ID="{AEDAF613-BA6E-4A3E-B274-C8153D9F3D63}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-										</Folder>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Button_Click" ID="{CB73D4C0-1DE1-478F-BE51-B5ACF0274D03}" ShortID="406579528">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B066185D-A5A0-41CC-872C-35625A2B7F5B}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="30"/>
+																	<Property Name="Min" Type="Real64" Value="-30"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{943ED947-19C2-4360-8F15-774533768753}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Computer_button_click_8kHz_01_SFX" ID="{450E1CFF-E7B3-48A0-8842-AF0727DE28DC}" ShortID="236640514">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Computer_button_click_8kHz_01_SFX" ID="{F60B4DFA-CAC9-4B57-B1CE-1C0CCA5391C5}" ShortID="123125051">
+															<Language>SFX</Language>
+															<AudioFile>Computer_button_click_8kHz_01_SFX.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Computer_button_click_8kHz_01_SFX" ID="{F60B4DFA-CAC9-4B57-B1CE-1C0CCA5391C5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Computer_button_click_8kHz_02_SFX" ID="{2293E348-56E4-46F2-881F-018FC1FE2FAE}" ShortID="592020290">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Computer_button_click_8kHz_02_SFX" ID="{0CF0ECA4-2788-40B9-9FC4-7D8379C12432}" ShortID="176982689">
+															<Language>SFX</Language>
+															<AudioFile>Computer_button_click_8kHz_02_SFX.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Computer_button_click_8kHz_02_SFX" ID="{0CF0ECA4-2788-40B9-9FC4-7D8379C12432}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Computer_button_click_8kHz_03_SFX" ID="{0532F5E9-0275-4F04-A63C-AAC48C264E13}" ShortID="542643194">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Computer_button_click_8kHz_03_SFX" ID="{9D9E0FCC-792A-4FD0-B4FF-89D7D1B8E50D}" ShortID="937404006">
+															<Language>SFX</Language>
+															<AudioFile>Computer_button_click_8kHz_03_SFX.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Computer_button_click_8kHz_03_SFX" ID="{9D9E0FCC-792A-4FD0-B4FF-89D7D1B8E50D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Password" ID="{A033D3BB-2A05-48AE-BDC4-C190D91AF12C}" ShortID="533397668">
+									<ChildrenList>
+										<Sound Name="Computer_Right_Password_SFX" ID="{A04AA4D8-4228-4B5A-A17A-92CCD0EE3905}" ShortID="999974576">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Computer_Good_Password_SFX" ID="{54780B10-C949-4160-AB48-73875E8D7107}" ShortID="633798380">
+													<Language>SFX</Language>
+													<AudioFile>Computer_Good_Password_SFX.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Computer_Good_Password_SFX" ID="{54780B10-C949-4160-AB48-73875E8D7107}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Computer_Wrong_Password_SFX" ID="{8C6484CF-43F4-4261-B93C-4F9315E5E8D6}" ShortID="940084274">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Computer_Wrong_Password_SFX" ID="{9AC581E4-EE0D-4F73-AB41-A31B8AE083A4}" ShortID="168695386">
+													<Language>SFX</Language>
+													<AudioFile>Computer_Wrong_Password_SFX.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Computer_Wrong_Password_SFX" ID="{9AC581E4-EE0D-4F73-AB41-A31B8AE083A4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
@@ -1240,6 +1288,184 @@
 										</Sound>
 									</ChildrenList>
 								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Objects" ID="{A11A8A0D-A286-42CE-8C9F-40CCB34B6ED5}" ShortID="1060564795">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Post-it_Handle" ID="{E33088EF-1289-442B-8618-0114926741CB}" ShortID="532163143">
+									<PropertyList>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Post-it_Take" ID="{086AB28E-9D3B-41B3-BECC-A7D6654957C1}" ShortID="375143400">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0DBAB3FE-BF3C-449F-86AB-30E675A6B242}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Paper_Handle_ 01_SFX" ID="{3FB11E77-6E21-431E-A67F-5B37396AB9F2}" ShortID="193282211">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Paper_Handle_ 01_SFX" ID="{5FF30545-70B8-42C3-AFBF-EB6891E24A3E}" ShortID="713839033">
+															<Language>SFX</Language>
+															<AudioFile>Paper_Handle_ 01_SFX.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Paper_Handle_ 01_SFX" ID="{5FF30545-70B8-42C3-AFBF-EB6891E24A3E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Paper_Handle_02_SFX" ID="{519F4478-6BE9-414B-8ABD-04C2CBDB0D11}" ShortID="561264808">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Paper_Handle_02_SFX" ID="{C3A958DC-4FC9-4768-AA52-086257D953A4}" ShortID="894220143">
+															<Language>SFX</Language>
+															<AudioFile>Paper_Handle_02_SFX.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Paper_Handle_02_SFX" ID="{C3A958DC-4FC9-4768-AA52-086257D953A4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Paper_Handle_03_SFX" ID="{4A331B3C-D069-42CD-BFD7-7C95433343C0}" ShortID="466395027">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Paper_Handle_03_SFX" ID="{A133EC81-CBCF-48BC-8664-A0A9B55672B7}" ShortID="703675330">
+															<Language>SFX</Language>
+															<AudioFile>Paper_Handle_03_SFX.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Paper_Handle_03_SFX" ID="{A133EC81-CBCF-48BC-8664-A0A9B55672B7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Post-It_Put_Back" ID="{0721C333-B878-4B28-8326-8A81EFB769DB}" ShortID="420675961">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A343C326-DCFA-4C35-ABE6-4D0E6E56052F}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-40"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3B2DDB39-FB25-4195-B5B2-F9F3E9AC7807}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-10"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Paper_Put_Back_SFX" ID="{88E6722F-BBAA-4794-BB8C-FDD79EEB3EEC}" ShortID="270124589">
+													<PropertyList>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>25</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Paper_Handle_04_SFX" ID="{390DFC68-42AF-4BA5-BA97-8599500DCFB9}" ShortID="630330714">
+															<Language>SFX</Language>
+															<AudioFile>Paper_Handle_04_SFX.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Paper_Handle_04_SFX" ID="{390DFC68-42AF-4BA5-BA97-8599500DCFB9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Post-it_Take" ID="{086AB28E-9D3B-41B3-BECC-A7D6654957C1}"/>
+										<ItemRef Name="Post-It_Put_Back" ID="{0721C333-B878-4B28-8326-8A81EFB769DB}"/>
+									</Playlist>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

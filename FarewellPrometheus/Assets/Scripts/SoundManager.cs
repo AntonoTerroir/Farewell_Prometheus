@@ -20,4 +20,9 @@ public class SoundManager : MonoBehaviour
     {
         AkSoundEngine.SetState("Stasis_or_Awake", "Awake");
     }
+
+    public void PostitHandle()
+    {
+        AkSoundEngine.PostEvent("Post_it_Handle", gameObject);
+    }
 }

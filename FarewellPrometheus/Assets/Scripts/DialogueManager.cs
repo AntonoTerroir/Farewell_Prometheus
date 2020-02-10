@@ -103,6 +103,7 @@ public class DialogueManager : MonoBehaviour
 
         if (getpassword == password) //si c'est ok on masque le login et le champ de mdp et on affiche le continue puis on lance le dialogue
         {
+            AkSoundEngine.PostEvent("Password_Right", gameObject);
             continuebutton.SetActive(true); 
             login.SetActive(false);
             inputpassword.SetActive(false);
@@ -113,6 +114,7 @@ public class DialogueManager : MonoBehaviour
         else //sinon clear le champ de mdp et indique mauvais mdp
         {
             //inputpassword.GetComponent<Text>().text = " "; 
+            AkSoundEngine.PostEvent("Password_Wrong", gameObject);
             inputfieldpassword.Select();
             inputfieldpassword.text = "";
             if (errorpass >= 0)

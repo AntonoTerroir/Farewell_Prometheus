@@ -16,6 +16,9 @@ namespace AK
         static const AkUniqueID AMBIANCE_BED = 3429733933U;
         static const AkUniqueID BUTTON_CLICK = 814543256U;
         static const AkUniqueID BUTTON_HOVER = 1701177942U;
+        static const AkUniqueID PASSWORD_RIGHT = 2063851173U;
+        static const AkUniqueID PASSWORD_WRONG = 368709004U;
+        static const AkUniqueID POST_IT_HANDLE = 3878117114U;
         static const AkUniqueID SHIP_MUSIC = 53190359U;
         static const AkUniqueID TEST = 3157003241U;
     } // namespace EVENTS
