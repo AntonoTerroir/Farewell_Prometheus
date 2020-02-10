@@ -9,10 +9,11 @@ public class DialogueManager : MonoBehaviour
     public Text dialogueText;
     private Queue<string> sentences; //queue c'est comme list mais ça charge différement, contient les dialogues
     public Animator animator;
-    public int choicenumber = 0, a = 0, b = 0, c = 0, d = 0;
+    public int choicenumber = 0, a = 0, b = 0, c = 0, d = 0, errorpass = 0; // en public pour debug
     public GameObject continuebutton, inputpassword, login;
     public DialogueTrigger dialtrig;
     private string password, getpassword;
+    public InputField inputfieldpassword;
     
     // Start is called before the first frame update
     void Start()
@@ -109,12 +110,23 @@ public class DialogueManager : MonoBehaviour
 
             Debug.Log("Mot de passe ok");
         }
-        else //trouver comment clear le champ input password
+        else //sinon clear le champ de mdp et indique mauvais mdp
         {
-            inputpassword.GetComponent<Text>().text = " "; 
-            dialogueText.text = "Mot de passe non reconnu";
+            //inputpassword.GetComponent<Text>().text = " "; 
+            inputfieldpassword.Select();
+            inputfieldpassword.text = "";
+            if (errorpass >= 0)
+            {
+                dialogueText.text = "Mot de passe non reconnu \n Indice : anniversaire maman";
+            }
+            else
+            {
+                dialogueText.text = "Mot de passe non reconnu";
+                errorpass += 1;
+            }
             Debug.Log("Mot de passe pas ok");
         }
+        
     }
 
 
