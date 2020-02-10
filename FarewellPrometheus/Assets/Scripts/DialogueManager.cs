@@ -10,8 +10,8 @@ public class DialogueManager : MonoBehaviour
     private Queue<string> sentences; //queue c'est comme list mais ça charge différement, contient les dialogues
     public Animator animator;
     public int choicenumber = 0, a = 0, b = 0, c = 0, d = 0;
-    private GameObject continuebutton,inputpassword;
-    private DialogueTrigger dialtrig;
+    public GameObject continuebutton, inputpassword, login;
+    public DialogueTrigger dialtrig;
     private string password, getpassword;
     
     // Start is called before the first frame update
@@ -22,7 +22,7 @@ public class DialogueManager : MonoBehaviour
     
     public void StartDialogue(Dialogue dialogue) //lancer dialogue indiqué
     {
-        // Debug.Log("Starting conv with" + dialogue.name); 
+    
         animator.SetBool("IsOpen", true);
         animator.SetBool("IsOpen2", false);
 
@@ -35,12 +35,6 @@ public class DialogueManager : MonoBehaviour
             sentences.Enqueue(sentence); //on met les sentences dans la variable locale sentence pour les "precharger"
         }
 
-        
-       /*f (choicenumber != 6)
-        {
-            explorebutton.SetActive(false);
-        }
-        else explorebutton.SetActive(true);*/
         DisplayNextSentence();
 
     }
@@ -100,19 +94,27 @@ public class DialogueManager : MonoBehaviour
 
     }
 
-    public void CheckPassword()
+    public void CheckPassword() //verification du mdp au debut
     {
-        password = "1209";
-        inputpassword = GameObject.Find("Password");
-        getpassword = inputpassword.GetComponent<Text>().text;
-        dialtrig = GetComponent<DialogueTrigger>();
-        if (getpassword == password) //ça ça marche faut trouver comment lancer le startDialogue pour avoir texte du login
+        password = "1209"; 
+        getpassword = inputpassword.GetComponent<Text>().text; //recuperer le mdp ecrit pas le joueur
+        dialtrig = login.GetComponent<DialogueTrigger>(); //recuperer le script pour le lancer au moment du clic valide sur login
+
+        if (getpassword == password) //si c'est ok on masque le login et le champ de mdp et on affiche le continue puis on lance le dialogue
         {
-            //StartDialogue(Dialogue dialogue)
-           // dialtrig.TriggerDialogue();
+            continuebutton.SetActive(true); 
+            login.SetActive(false);
+            inputpassword.SetActive(false);
+            StartDialogue(dialtrig.dialogue);
+
             Debug.Log("Mot de passe ok");
         }
-        else Debug.Log("Mot de passe pas ok");
+        else //trouver comment clear le champ input password
+        {
+            inputpassword.GetComponent<Text>().text = " "; 
+            dialogueText.text = "Mot de passe non reconnu";
+            Debug.Log("Mot de passe pas ok");
+        }
     }
 
 
