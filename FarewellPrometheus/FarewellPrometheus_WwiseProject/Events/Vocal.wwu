@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BABC5BE6-49EF-4526-BB5D-ED39CDCD21B0}" SchemaVersion="94" RootDocumentID="{77951EF6-4978-416C-AA34-3188A981DCD3}">
+	<Events>
+		<WorkUnit Name="Vocal" ID="{BABC5BE6-49EF-4526-BB5D-ED39CDCD21B0}" OwnerID="{77951EF6-4978-416C-AA34-3188A981DCD3}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="26"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 3d131c57e597ee47b4d167c503625a09
     GuidInternal: 
-    m_lastTime: -8586202664912809295
+    m_lastTime: -8586202638809816637
     List:
     - name: Main
       guid: b5750d12ebf75c4b8067bf551228f3d7
@@ -47,7 +47,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: f61e957778496c41aa343188a981dcd3
     GuidInternal: 
-    m_lastTime: -8586202665172975723
+    m_lastTime: -8586202641107260601
     List:
     - name: Ambiance_Bed
       guid: fee167d51461094cbb240055a9247d0b
@@ -57,9 +57,11 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Ship
         ObjectType: 4
+      - ElementName: Ambience
+        ObjectType: 4
       - ElementName: Ambiance_Bed
         ObjectType: 3
-      Path: Default Work Unit\Ship\Ambiance_Bed
+      Path: Default Work Unit\Ship\Ambience\Ambiance_Bed
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -99,17 +101,55 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Post_it_Manip
-      guid: 843a245a710e8447b30583a0cd98a497
-      id: 3872581743
+    - name: Password_Right
+      guid: 5ff3d7b4e350194eb803bfcf7e440196
+      id: 2063851173
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: Ship
         ObjectType: 4
-      - ElementName: Post_it_Manip
+      - ElementName: Computer
+        ObjectType: 4
+      - ElementName: Password
+        ObjectType: 4
+      - ElementName: Password_Right
         ObjectType: 3
-      Path: Default Work Unit\Ship\Post_it_Manip
+      Path: Default Work Unit\Ship\Computer\Password\Password_Right
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Password_Wrong
+      guid: e22b06700a420e4a9ab7e45a1f537c7c
+      id: 368709004
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Computer
+        ObjectType: 4
+      - ElementName: Password
+        ObjectType: 4
+      - ElementName: Password_Wrong
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Computer\Password\Password_Wrong
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Post_it_Handle
+      guid: 843a245a710e8447b30583a0cd98a497
+      id: 3878117114
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Objects
+        ObjectType: 4
+      - ElementName: Post_it_Handle
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Objects\Post_it_Handle
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -121,9 +161,11 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Ship
         ObjectType: 4
+      - ElementName: Music
+        ObjectType: 4
       - ElementName: Ship_Music
         ObjectType: 3
-      Path: Default Work Unit\Ship\Ship_Music
+      Path: Default Work Unit\Ship\Music\Ship_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -151,7 +193,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: efcde604402b9248b1ce603a3a26d722
     GuidInternal: 
-    m_lastTime: -8586202715348251768
+    m_lastTime: -8586202651487308908
     List:
     - name: Stasis_or_Awake
       guid: 917451b815b7a94b9d202e7db8611b7f
@@ -200,10 +242,5 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /FarewellPrometheus_WwiseProject
-  - /FarewellPrometheus_WwiseProject/Events
-  - /FarewellPrometheus_WwiseProject/Events/Default Work Unit
-  - /FarewellPrometheus_WwiseProject/Events/Default Work Unit/Ship
-  - /FarewellPrometheus_WwiseProject/SoundBanks
-  - /FarewellPrometheus_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

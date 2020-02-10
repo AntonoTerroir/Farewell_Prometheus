@@ -44,7 +44,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-23</Value>
+														<Value>-14</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -147,7 +147,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-15</Value>
+														<Value>-9</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -1470,6 +1470,11 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<WorkUnit Name="Element" ID="{A8E75F14-F187-4E76-95DF-06D886D3E997}" PersistMode="Reference"/>
+				<WorkUnit Name="Environment" ID="{0976A159-B45B-49AD-A20F-D8E27B741149}" PersistMode="Reference"/>
+				<WorkUnit Name="Footstep" ID="{6FEC9868-6516-4444-A807-140D579353A9}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{346BCEE0-9C31-414D-86A7-25C7C0D5F9BB}" PersistMode="Reference"/>
+				<WorkUnit Name="Vocal" ID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

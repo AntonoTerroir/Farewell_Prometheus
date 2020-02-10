@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{BE0FD631-9F56-4179-92AC-7403801023D9}" SchemaVersion="94">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{BE0FD631-9F56-4179-92AC-7403801023D9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{BE0FD631-9F56-4179-92AC-7403801023D9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Volga_Dial_P1" ID="{E76720BC-2D72-4483-8A0F-D8CF417D5090}">
+					<ChildrenList>
+						<Switch Name="P1_01" ID="{5D483F60-E4A5-47E6-854A-93F795A64A77}"/>
+						<Switch Name="P1_02" ID="{FCA1AFA0-0728-417B-AC3C-B4BF43B025B1}"/>
+						<Switch Name="P1_03" ID="{F0FDCC91-A24B-468C-A18A-46BD6E43E2EC}"/>
+						<Switch Name="P1_04" ID="{D70479E3-BE10-4AFC-B6E3-253AB494C86B}"/>
+						<Switch Name="P1_05" ID="{D9D9F1E9-0413-4F89-8CF4-4306C826AF29}"/>
+						<Switch Name="P1_06" ID="{5CCB0781-3FD0-42A1-A7BD-1EE6C6B2CA64}"/>
+						<Switch Name="P1_07" ID="{F317FEB5-A003-4909-8FF2-0F3FE0D8DE8D}"/>
+						<Switch Name="P1_08" ID="{ECF4149C-20D2-4C45-A7C4-CEA3E75FA328}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

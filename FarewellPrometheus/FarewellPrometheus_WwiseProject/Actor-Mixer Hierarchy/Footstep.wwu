@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6FEC9868-6516-4444-A807-140D579353A9}" SchemaVersion="94" RootDocumentID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}">
+	<AudioObjects>
+		<WorkUnit Name="Footstep" ID="{6FEC9868-6516-4444-A807-140D579353A9}" OwnerID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

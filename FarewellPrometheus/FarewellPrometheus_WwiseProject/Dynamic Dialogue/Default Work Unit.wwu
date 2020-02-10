@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3F194D8C-AC69-4473-9E6D-38C3F93CE5D5}" SchemaVersion="94">
 	<DynamicDialogue>
-		<WorkUnit Name="Default Work Unit" ID="{3F194D8C-AC69-4473-9E6D-38C3F93CE5D5}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3F194D8C-AC69-4473-9E6D-38C3F93CE5D5}" PersistMode="Standalone">
+			<ChildrenList>
+				<DialogueEvent Name="Volga_P1" ID="{08DC7D36-1804-4A4B-A2F4-3BFBA5B02888}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</DynamicDialogue>
 </WwiseDocument>

@@ -9,6 +9,64 @@
 							<ObjectRef Name="System" ID="{40F5BD73-80E3-4527-B6B0-27D4A5545B85}" WorkUnitID="{D5EC5A76-1630-44A8-8F52-8B1D1D73B558}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="18"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="Music" ID="{9C76647C-EE1C-4DEC-AFF7-64AE2884B0DB}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="24"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="SFX" ID="{B20AF2EF-378A-40E1-8AC6-322560ED0A7C}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="22"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Element" ID="{E1C8BAC8-F4C7-4A0A-B7F7-82473EEAB7BD}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="15"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Environment" ID="{F9C9CDEA-956D-4E38-A77D-961AD240A9EE}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Footstep" ID="{8D194871-0248-4167-BAAB-B558263D68D4}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="19"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="UI" ID="{A58939A0-2D21-49E4-AF52-D3C9CBB51783}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="23"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Vocal" ID="{D9789270-C3F9-4BFD-B4FF-D32F2AA9EDAB}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="26"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="VO" ID="{B8FFDED3-383C-4FB1-8E4D-D12F42D3FD4F}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

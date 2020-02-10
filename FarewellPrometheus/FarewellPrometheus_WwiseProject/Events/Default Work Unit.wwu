@@ -194,8 +194,28 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Dialog" ID="{7201484C-B740-4F91-B4FE-B072F4AB8A58}" ShortID="826488558">
+							<ChildrenList>
+								<Event Name="Volga_Dial_P1" ID="{89C3A378-2E1F-4762-B310-3470C29B0B29}">
+									<ChildrenList>
+										<Action Name="" ID="{5FE892EB-DAAA-415D-81B5-31F512FBF073}" ShortID="1020063934">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_Dial_P1" ID="{5D33C1ED-63DB-49BE-B540-F91077ED69D9}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
+				<WorkUnit Name="Element" ID="{1DEF96DB-F126-4FBE-952F-7DE39489AD6E}" PersistMode="Reference"/>
+				<WorkUnit Name="Environment" ID="{715DFDB0-4E78-47C3-BD3C-FBFE54BDC937}" PersistMode="Reference"/>
+				<WorkUnit Name="Footstep" ID="{43A24C5B-F0F8-4488-9677-F6568898C8B5}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{D8F3CB73-123A-4CCC-899C-0E4C0F14C176}" PersistMode="Reference"/>
+				<WorkUnit Name="Vocal" ID="{BABC5BE6-49EF-4526-BB5D-ED39CDCD21B0}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
