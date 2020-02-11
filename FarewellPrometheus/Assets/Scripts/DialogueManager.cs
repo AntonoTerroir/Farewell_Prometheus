@@ -48,12 +48,16 @@ public class DialogueManager : MonoBehaviour
         animator.SetBool("IsOpen4", false);
         if (sentences.Count == 0)
         {
+            
             continuebutton = GameObject.Find("ContinueButton");
             continuebutton.SetActive(false); //faire depop le bouton continue quand y a les options de dial/ il revient via interaction unity
     
             EndDialogue();
             return;
         }
+        
+       
+             
         string sentence = sentences.Dequeue(); // on "decharge" la phrase suivante dans sentence pour l'afficher
 
         
@@ -72,6 +76,21 @@ public class DialogueManager : MonoBehaviour
 
         }
     }
+
+    public void StartVoice()
+    {
+        if (sentences.Count != 0)
+        {
+            AkSoundEngine.PostEvent("Volga_Dial_P1", gameObject); //lance le son de dialogue suivant
+        } else AkSoundEngine.PostEvent("Volga_Dial_Stop_All", gameObject);
+
+        /*if (sentences.Count == 0)
+        {
+            AkSoundEngine.PostEvent("Volga_Dial_Stop_All", gameObject);  //arrête le son du dialogue en cours
+        }*/
+        
+    }
+
     public void EndDialogue()
     {
         if (choicenumber <= 3)

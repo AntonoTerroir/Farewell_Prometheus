@@ -107,6 +107,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Calendar_Handle" ID="{46DC1F05-2B20-4681-973A-E3D27230AAA8}">
+									<ChildrenList>
+										<Action Name="" ID="{9A090F6D-F419-4403-A12C-1C5E4D23E359}" ShortID="266852576">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Calendar_Handle" ID="{133AD5BF-D225-462E-AFE0-141A2E61FDC7}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Ambience" ID="{12BB601B-55B0-45F1-A721-28A48A6B893C}" ShortID="293723572">
@@ -218,9 +229,181 @@
 						</Folder>
 						<Folder Name="Dialog" ID="{7201484C-B740-4F91-B4FE-B072F4AB8A58}" ShortID="826488558">
 							<ChildrenList>
-								<Event Name="Volga_Dial_P1" ID="{89C3A378-2E1F-4762-B310-3470C29B0B29}">
+								<Event Name="Volga_Dial_P1_01" ID="{21ABEE69-0F60-4D08-9E59-A072D133DBAA}">
 									<ChildrenList>
-										<Action Name="" ID="{5FE892EB-DAAA-415D-81B5-31F512FBF073}" ShortID="1020063934">
+										<Action Name="" ID="{F600F4AA-F1C1-4F18-889E-E349BFA93415}" ShortID="388922109">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_01" ID="{DA2B3B45-C63E-4E3A-BF0D-A89F20CF1D8A}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Volga_Dial_P1_02" ID="{49135DB4-045F-4C30-916D-EA0A50A28356}">
+									<ChildrenList>
+										<Action Name="" ID="{14F1F4C2-BC5D-47F1-854C-90507C7FF9EF}" ShortID="843308934">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_02" ID="{91958735-B1F5-4242-8D2A-5010FEE87EF2}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Volga_Dial_P1_03" ID="{26E92C66-5255-4EAA-801E-19A5FAACEF12}">
+									<ChildrenList>
+										<Action Name="" ID="{F9A1BC99-FFC5-42F7-91B3-5AEE1A96FF19}" ShortID="1002173391">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_03" ID="{C0FE5B25-324C-44E5-A8EB-E6A51AE54455}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Volga_Dial_P1_04" ID="{59D25A12-EED9-498B-AE2D-AFE4358AC6EC}">
+									<ChildrenList>
+										<Action Name="" ID="{26AD75CE-519D-42F8-A93F-6ED175906B8A}" ShortID="72608271">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_04" ID="{A3655C60-AA56-40E4-86AC-51425824087B}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Volga_Dial_P1_05" ID="{9310EF71-C95B-4A28-ABC7-EF00ADFA8B8A}">
+									<ChildrenList>
+										<Action Name="" ID="{482FCF2B-D976-46FD-A274-FAA0E272FEC3}" ShortID="556533535">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_05" ID="{8F99E6A8-0DE3-44D4-953B-E74D04648034}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Volga_Dial_P1_06" ID="{8733A73F-5171-4EB1-915B-423B85377FA2}">
+									<ChildrenList>
+										<Action Name="" ID="{2BF184F5-0CB2-4EE4-906E-0EC65DE87021}" ShortID="921448602">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_06" ID="{A704D2B5-3A27-4DCB-9AC8-000C0D34C002}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Volga_Dial_P1_07" ID="{44503BAF-E349-403A-8A99-D4DC936EDD84}">
+									<ChildrenList>
+										<Action Name="" ID="{65344A4A-CF72-4CC5-858B-05E4A351DEC3}" ShortID="95918539">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_07" ID="{056A0F27-1324-4AB3-806A-D0B71A084A23}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Volga_Dial_P1_08" ID="{3DD2BB22-393E-4E04-9E0A-FDB4DF1B417E}">
+									<ChildrenList>
+										<Action Name="" ID="{B2EE5A83-E4DC-49B8-A90A-758152E54CE1}" ShortID="326539915">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_08" ID="{64E63AC8-EC12-493D-BA0C-0E3C0CC2B63F}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Volga_Dial_Stop_All" ID="{505AA7E7-1115-4814-A218-A6769614BDE7}">
+									<ChildrenList>
+										<Action Name="" ID="{E4904F8D-97C8-4BB3-8191-7B3252B8DBEE}" ShortID="359758280">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_04" ID="{A3655C60-AA56-40E4-86AC-51425824087B}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{7B98C562-5DEE-41B0-9B55-F5646DB4DA5D}" ShortID="564380047">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_02" ID="{91958735-B1F5-4242-8D2A-5010FEE87EF2}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{1935ED35-C5C4-4E89-9E62-8ACA34539C22}" ShortID="871785716">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_03" ID="{C0FE5B25-324C-44E5-A8EB-E6A51AE54455}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{47640631-8F85-4F97-B75D-51A9FD2A125D}" ShortID="460912856">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_05" ID="{8F99E6A8-0DE3-44D4-953B-E74D04648034}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{06D65CC7-985B-4B97-B2E3-AE1C81169894}" ShortID="918637515">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_06" ID="{A704D2B5-3A27-4DCB-9AC8-000C0D34C002}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{0B295014-A88D-4EE4-AD7A-0D3F3BB3850D}" ShortID="1066858447">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_07" ID="{056A0F27-1324-4AB3-806A-D0B71A084A23}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{61BB6F9C-0B40-4F52-95BC-65A39E0135F6}" ShortID="966355045">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_08" ID="{64E63AC8-EC12-493D-BA0C-0E3C0CC2B63F}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{BF40A818-D56E-4800-9571-BF5D724A9CF0}" ShortID="674239148">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_01" ID="{DA2B3B45-C63E-4E3A-BF0D-A89F20CF1D8A}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Volga_Dial_P1" ID="{F245C172-AF85-49B2-A86B-F6716AA22253}">
+									<ChildrenList>
+										<Action Name="" ID="{E086D989-8EB1-4806-A5C6-732ADE6FFF65}" ShortID="404938107">
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Volga_Dial_P1" ID="{5D33C1ED-63DB-49BE-B540-F91077ED69D9}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using AK.Wwise;
 
 public class UI_Button_Sound : MonoBehaviour
 {
@@ -17,4 +18,15 @@ public class UI_Button_Sound : MonoBehaviour
     {
         hoverEvent.Post(gameObject);
     }
+
+    //public AK.Wwise.Switch dialogueSwitch;
+    public string SwitchGroup = "Volga_Dial_P1";
+    public string Switch;
+    /*public void DialogueTriggerSwitch()
+    {
+        Debug.Log(Switch + "switch set");
+        AkSoundEngine.SetSwitch(SwitchGroup, Switch, gameObject);
+        AkSoundEngine.PostEvent("Volga_Dial_P1", gameObject);
+    }*/
+   
 }

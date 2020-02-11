@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b4610522bdbd94488adc5fef88fd0e, type: 3}
+  m_Name: E76720BC-2D72-4483-8A0F-D8CF417D5090
+  m_EditorClassIdentifier: 
+  objectName: Volga_Dial_P1
+  id: 1059721737
+  guid: E76720BC-2D72-4483-8A0F-D8CF417D5090

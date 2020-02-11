@@ -198,6 +198,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2822204}
   m_CullTransparentMesh: 0
+--- !u!1 &34629133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 34629135}
+  - component: {fileID: 34629134}
+  m_Layer: 0
+  m_Name: SoundDialogueButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &34629134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34629133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa1c079095df64c4083d5bd236794c0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &34629135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34629133}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4897.1636, y: -2778.4253, z: -22144}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &54200962
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,6 +854,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
+  SwitchGroup: Volga_Dial_P1
+  Switch: 
 --- !u!1 &248719980
 GameObject:
   m_ObjectHideFlags: 0
@@ -1437,6 +1482,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
+  SwitchGroup: Volga_Dial_P1
+  Switch: 
 --- !u!1 &429454769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1661,6 +1708,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 434031779}
+        m_MethodName: DialogueTriggerSwitch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &434031776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1747,6 +1805,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
+  SwitchGroup: Volga_Dial_P1
+  Switch: P1_03
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2159,6 +2219,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
+  SwitchGroup: Volga_Dial_P1
+  Switch: 
 --- !u!114 &614146105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2506,6 +2568,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 813724309}
+        m_MethodName: DialogueTriggerSwitch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &813724306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2592,6 +2665,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
+  SwitchGroup: Volga_Dial_P1
+  Switch: P1_05
 --- !u!1 &821419549
 GameObject:
   m_ObjectHideFlags: 0
@@ -2913,6 +2988,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 901837096}
+        m_MethodName: DialogueTriggerSwitch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &901837093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2999,6 +3085,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
+  SwitchGroup: Volga_Dial_P1
+  Switch: P1_04
 --- !u!1 &1016219290
 GameObject:
   m_ObjectHideFlags: 0
@@ -3091,6 +3179,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
+  SwitchGroup: Volga_Dial_P1
+  Switch: 
 --- !u!114 &1016219294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3871,6 +3961,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
+  SwitchGroup: Volga_Dial_P1
+  Switch: 
 --- !u!1001 &1482727559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4309,6 +4401,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1647561349}
+        m_MethodName: DialogueTriggerSwitch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1647561346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4395,6 +4498,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
+  SwitchGroup: Volga_Dial_P1
+  Switch: P1_02
 --- !u!1 &1660454912
 GameObject:
   m_ObjectHideFlags: 0
@@ -4932,6 +5037,7 @@ GameObject:
   - component: {fileID: 2037655660}
   - component: {fileID: 2037655663}
   - component: {fileID: 2037655659}
+  - component: {fileID: 2037655664}
   m_Layer: 0
   m_Name: SoundManager
   m_TagString: Untagged
@@ -5055,6 +5161,28 @@ MonoBehaviour:
   multiPositionTypeLabel: 0
   LargeModePositions: []
   multiPositionArray: []
+--- !u!114 &2037655664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037655658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b26096c615269641b5ad8ad82fc251c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  hoverEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  SwitchGroup: Volga_Dial_P1
+  Switch: 
 --- !u!1 &2047852626
 GameObject:
   m_ObjectHideFlags: 0
@@ -5073,7 +5201,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2047852627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5317,6 +5445,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 291789903}
         m_MethodName: DisplayNextSentence
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 291789903}
+        m_MethodName: StartVoice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

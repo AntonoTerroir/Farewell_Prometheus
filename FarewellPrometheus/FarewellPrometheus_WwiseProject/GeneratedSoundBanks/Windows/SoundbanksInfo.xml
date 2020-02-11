@@ -24,6 +24,7 @@
 				<Event Id="3429733933" Name="Ambiance_Bed" ObjectPath="\Events\Default Work Unit\Ship\Ambience\Ambiance_Bed" DurationType="Infinite"/>
 				<Event Id="814543256" Name="Button_Click" ObjectPath="\Events\Default Work Unit\Ship\Computer\Button\Button_Click" DurationType="OneShot" DurationMin="0.480354" DurationMax="0.553000"/>
 				<Event Id="1701177942" Name="Button_Hover" ObjectPath="\Events\Default Work Unit\Ship\Computer\Button\Button_Hover" DurationType="OneShot" DurationMin="0.483136" DurationMax="0.549815"/>
+				<Event Id="2242625264" Name="Calendar_Handle" ObjectPath="\Events\Default Work Unit\Ship\Objects\Calendar_Handle" DurationType="OneShot" DurationMin="1.500000" DurationMax="2.500000"/>
 				<Event Id="1307820710" Name="Computer_Scan" ObjectPath="\Events\Default Work Unit\Ship\Computer\Computer_Scan" DurationType="OneShot" DurationMin="17.408001" DurationMax="17.408001"/>
 				<Event Id="2806985083" Name="Computer_Start" ObjectPath="\Events\Default Work Unit\Ship\Computer\Computer_Start" DurationType="OneShot" DurationMin="13.870334" DurationMax="13.870334"/>
 				<Event Id="2063851173" Name="Password_Right" ObjectPath="\Events\Default Work Unit\Ship\Computer\Password\Password_Right" DurationType="OneShot" DurationMin="3.029375" DurationMax="3.029375"/>
@@ -32,6 +33,7 @@
 				<Event Id="53190359" Name="Ship_Music" ObjectPath="\Events\Default Work Unit\Ship\Music\Ship_Music" DurationType="Infinite"/>
 				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
 				<Event Id="1059721737" Name="Volga_Dial_P1" ObjectPath="\Events\Default Work Unit\Ship\Dialog\Volga_Dial_P1" DurationType="OneShot" DurationMin="0.716000" DurationMax="11.066667"/>
+				<Event Id="110909812" Name="Volga_Dial_Stop_All" ObjectPath="\Events\Default Work Unit\Ship\Dialog\Volga_Dial_Stop_All" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="95564716" Language="SFX">
@@ -74,6 +76,14 @@
 					<ShortName>Volga_P1_Dial_05-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_05-01_10C4C929.wem</Path>
 				</File>
+				<File Id="367872868" Language="SFX">
+					<ShortName>Calendar_Handle_02_SFX.wav</ShortName>
+					<Path>SFX\Calendar_Handle_02_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="373283471" Language="SFX">
+					<ShortName>Calendar_Handle_04_SFX.wav</ShortName>
+					<Path>SFX\Calendar_Handle_04_SFX_10C4C929.wem</Path>
+				</File>
 				<File Id="382648824" Language="SFX">
 					<ShortName>Electric_Zap_01_SFX.wav</ShortName>
 					<Path>SFX\Electric_Zap_01_SFX_10C4C929.wem</Path>
@@ -81,6 +91,10 @@
 				<File Id="438410619" Language="SFX">
 					<ShortName>Ship_Metal_Raking_SFX_04.wav</ShortName>
 					<Path>SFX\Ship_Metal_Raking_SFX_04_10C4C929.wem</Path>
+				</File>
+				<File Id="453477331" Language="SFX">
+					<ShortName>Calendar_Handle_03_SFX.wav</ShortName>
+					<Path>SFX\Calendar_Handle_03_SFX_10C4C929.wem</Path>
 				</File>
 				<File Id="498944890" Language="SFX">
 					<ShortName>Computer_button_hover_8kHz_03_SFX.wav</ShortName>
@@ -217,6 +231,10 @@
 				<File Id="937404006" Language="SFX">
 					<ShortName>Computer_button_click_8kHz_03_SFX.wav</ShortName>
 					<Path>SFX\Computer_button_click_8kHz_03_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="967619636" Language="SFX">
+					<ShortName>Calendar_Handle_01_SFX.wav</ShortName>
+					<Path>SFX\Calendar_Handle_01_SFX_10C4C929.wem</Path>
 				</File>
 				<File Id="975210841" Language="SFX">
 					<ShortName>Beep_01_SFX.wav</ShortName>

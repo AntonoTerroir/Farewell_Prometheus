@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID AMBIANCE_BED = 3429733933U;
         static const AkUniqueID BUTTON_CLICK = 814543256U;
         static const AkUniqueID BUTTON_HOVER = 1701177942U;
+        static const AkUniqueID CALENDAR_HANDLE = 2242625264U;
         static const AkUniqueID COMPUTER_SCAN = 1307820710U;
         static const AkUniqueID COMPUTER_START = 2806985083U;
         static const AkUniqueID PASSWORD_RIGHT = 2063851173U;
@@ -24,6 +25,7 @@ namespace AK
         static const AkUniqueID SHIP_MUSIC = 53190359U;
         static const AkUniqueID TEST = 3157003241U;
         static const AkUniqueID VOLGA_DIAL_P1 = 1059721737U;
+        static const AkUniqueID VOLGA_DIAL_STOP_ALL = 110909812U;
     } // namespace EVENTS
 
     namespace STATES
