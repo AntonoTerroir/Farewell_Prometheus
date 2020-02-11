@@ -3466,6 +3466,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2037655659}
+        m_MethodName: StartButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1251526321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3731,7 +3742,7 @@ MonoBehaviour:
   clickEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 6c32c1b9ab9b54941b93f3b3cec9a4bd,
+    WwiseObjectReference: {fileID: 11400000, guid: c31a4b294d8437345ab636d2802d40b7,
       type: 2}
   hoverEvent:
     idInternal: 0
@@ -5027,7 +5038,6 @@ GameObject:
   - component: {fileID: 2096520973}
   - component: {fileID: 2096520972}
   - component: {fileID: 2096520971}
-  - component: {fileID: 2096520975}
   - component: {fileID: 2096520974}
   m_Layer: 5
   m_Name: ContinueButton
@@ -5110,17 +5120,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2096520975}
-        m_MethodName: OnClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &2096520972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5174,7 +5173,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2096520975}
+        - m_Target: {fileID: 0}
           m_MethodName: OnHover
           m_Mode: 1
           m_Arguments:
@@ -5185,25 +5184,3 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &2096520975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2096520969}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b26096c615269641b5ad8ad82fc251c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 6c32c1b9ab9b54941b93f3b3cec9a4bd,
-      type: 2}
-  hoverEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
-      type: 2}

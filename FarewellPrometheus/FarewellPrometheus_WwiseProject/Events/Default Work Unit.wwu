@@ -70,6 +70,28 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Event Name="Computer_Start" ID="{2CB3D1F0-8644-406F-80F0-B66CB5883201}">
+									<ChildrenList>
+										<Action Name="" ID="{62270735-72F0-47EE-B0FF-89A833BC03A0}" ShortID="687523565">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Computer_On_SFX" ID="{7BAAC27E-FC24-4D37-AAE4-F284B96ECCA6}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Computer_Scan" ID="{2AD47356-3189-4EBA-9D05-6E32A370D785}">
+									<ChildrenList>
+										<Action Name="" ID="{41A906B4-7FA8-4DF6-A8A9-32A0F9C72125}" ShortID="931248248">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Computer_processing_SFX" ID="{3B2ED0C9-8816-4C52-8B26-2057D3C0199B}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Objects" ID="{32AC24BE-79FC-4E9B-AB94-65A8E59CBD48}" ShortID="480323805">

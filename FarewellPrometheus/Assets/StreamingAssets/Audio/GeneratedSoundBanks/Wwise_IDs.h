@@ -16,6 +16,8 @@ namespace AK
         static const AkUniqueID AMBIANCE_BED = 3429733933U;
         static const AkUniqueID BUTTON_CLICK = 814543256U;
         static const AkUniqueID BUTTON_HOVER = 1701177942U;
+        static const AkUniqueID COMPUTER_SCAN = 1307820710U;
+        static const AkUniqueID COMPUTER_START = 2806985083U;
         static const AkUniqueID PASSWORD_RIGHT = 2063851173U;
         static const AkUniqueID PASSWORD_WRONG = 368709004U;
         static const AkUniqueID POST_IT_HANDLE = 3878117114U;

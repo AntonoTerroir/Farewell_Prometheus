@@ -24,6 +24,8 @@
 				<Event Id="3429733933" Name="Ambiance_Bed" ObjectPath="\Events\Default Work Unit\Ship\Ambience\Ambiance_Bed" DurationType="Infinite"/>
 				<Event Id="814543256" Name="Button_Click" ObjectPath="\Events\Default Work Unit\Ship\Computer\Button\Button_Click" DurationType="OneShot" DurationMin="0.480354" DurationMax="0.553000"/>
 				<Event Id="1701177942" Name="Button_Hover" ObjectPath="\Events\Default Work Unit\Ship\Computer\Button\Button_Hover" DurationType="OneShot" DurationMin="0.483136" DurationMax="0.549815"/>
+				<Event Id="1307820710" Name="Computer_Scan" ObjectPath="\Events\Default Work Unit\Ship\Computer\Computer_Scan" DurationType="OneShot" DurationMin="17.408001" DurationMax="17.408001"/>
+				<Event Id="2806985083" Name="Computer_Start" ObjectPath="\Events\Default Work Unit\Ship\Computer\Computer_Start" DurationType="OneShot" DurationMin="13.870334" DurationMax="13.870334"/>
 				<Event Id="2063851173" Name="Password_Right" ObjectPath="\Events\Default Work Unit\Ship\Computer\Password\Password_Right" DurationType="OneShot" DurationMin="3.029375" DurationMax="3.029375"/>
 				<Event Id="368709004" Name="Password_Wrong" ObjectPath="\Events\Default Work Unit\Ship\Computer\Password\Password_Wrong" DurationType="OneShot" DurationMin="0.598750" DurationMax="0.598750"/>
 				<Event Id="3878117114" Name="Post_it_Handle" ObjectPath="\Events\Default Work Unit\Ship\Objects\Post_it_Handle" DurationType="OneShot" DurationMin="0.445509" DurationMax="0.698667"/>
@@ -91,6 +93,10 @@
 				<File Id="509023897" Language="English(US)">
 					<ShortName>Volga_P1_Dial_05-03.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_05-03_10C4C929.wem</Path>
+				</File>
+				<File Id="515493871" Language="SFX">
+					<ShortName>Computer_processing_SFX.wav</ShortName>
+					<Path>SFX\Computer_processing_SFX_10C4C929.wem</Path>
 				</File>
 				<File Id="522560959" Language="English(US)">
 					<ShortName>Volga_P1_Dial_08-03.wav</ShortName>
@@ -179,6 +185,10 @@
 				<File Id="796825715" Language="English(US)">
 					<ShortName>Volga_P1_Dial_01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_01_10C4C929.wem</Path>
+				</File>
+				<File Id="825089419" Language="SFX">
+					<ShortName>Computer_On_SFX.wav</ShortName>
+					<Path>SFX\Computer_On_SFX_10C4C929.wem</Path>
 				</File>
 				<File Id="827925329" Language="English(US)">
 					<ShortName>Volga_P1_Dial_04-04.wav</ShortName>

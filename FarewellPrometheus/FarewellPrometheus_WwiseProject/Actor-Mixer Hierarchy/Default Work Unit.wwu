@@ -291,6 +291,77 @@
 										</Sound>
 									</ChildrenList>
 								</Folder>
+								<Sound Name="Computer_fan_SFX" ID="{EA1E7257-3B41-4A12-B8FC-CF66BE72BF53}" ShortID="327431962">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Computer_fan_SFX" ID="{A0700BE2-7574-4E8C-8ED2-5BD1195667F5}" ShortID="96064261">
+											<Language>SFX</Language>
+											<AudioFile>Computer_fan_SFX.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Computer_fan_SFX" ID="{A0700BE2-7574-4E8C-8ED2-5BD1195667F5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Computer_On_SFX" ID="{7BAAC27E-FC24-4D37-AAE4-F284B96ECCA6}" ShortID="604264071">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Computer_On_SFX" ID="{D59DD620-D1F4-4E5F-A9EA-0187013E83E9}" ShortID="825089419">
+											<Language>SFX</Language>
+											<AudioFile>Computer_On_SFX.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Computer_On_SFX" ID="{D59DD620-D1F4-4E5F-A9EA-0187013E83E9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Computer_processing_SFX" ID="{3B2ED0C9-8816-4C52-8B26-2057D3C0199B}" ShortID="640369598">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Computer_processing_SFX" ID="{1EF1E1F3-363B-4EDA-B752-18305503D6EE}" ShortID="515493871">
+											<Language>SFX</Language>
+											<AudioFile>Computer_processing_SFX.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Computer_processing_SFX" ID="{1EF1E1F3-363B-4EDA-B752-18305503D6EE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Ambiance" ID="{EDCEA63F-671D-4183-B1D9-37E1D5251B94}" ShortID="604217238">

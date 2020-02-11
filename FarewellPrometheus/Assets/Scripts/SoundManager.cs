@@ -19,6 +19,7 @@ public class SoundManager : MonoBehaviour
     public void StartButtonSound()
     {
         AkSoundEngine.SetState("Stasis_or_Awake", "Awake");
+        AkSoundEngine.PostEvent("Computer_Start", gameObject);
     }
 
     public void PostitHandle()
