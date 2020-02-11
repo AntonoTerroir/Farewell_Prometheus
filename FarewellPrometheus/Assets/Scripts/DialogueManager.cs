@@ -56,7 +56,7 @@ public class DialogueManager : MonoBehaviour
         }
         string sentence = sentences.Dequeue(); // on "decharge" la phrase suivante dans sentence pour l'afficher
 
-        //dialogueText.text = sentence;
+        
         
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
