@@ -3,8 +3,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	368709004	Password_Wrong			\Default Work Unit\Ship\Computer\Password\Password_Wrong	
 	814543256	Button_Click			\Default Work Unit\Ship\Computer\Button\Button_Click	
 	1059721737	Volga_Dial_P1			\Default Work Unit\Ship\Dialog\Volga_Dial_P1	
+	1307820710	Computer_Scan			\Default Work Unit\Ship\Computer\Computer_Scan	
 	1701177942	Button_Hover			\Default Work Unit\Ship\Computer\Button\Button_Hover	
 	2063851173	Password_Right			\Default Work Unit\Ship\Computer\Password\Password_Right	
+	2806985083	Computer_Start			\Default Work Unit\Ship\Computer\Computer_Start	
 	3157003241	Test			\Default Work Unit\Test	
 	3429733933	Ambiance_Bed			\Default Work Unit\Ship\Ambience\Ambiance_Bed	
 	3878117114	Post_it_Handle			\Default Work Unit\Ship\Objects\Post_it_Handle	
@@ -53,6 +55,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	498944890	Computer_button_hover_8kHz_03_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\SFX\Computer_button_hover_8kHz_03_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Computer\Button\Button_Hover\Computer_button_hover_8kHz_03_SFX		100528
 	499212742	Volga_P1_Dial_08-01	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\Voices\English(US)\Volga_P1_Dial_08-01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_1\Volga\Volga_Dial_P1\Volga_P1_Dial_08\Volga_P1_Dial_08-01		228416
 	509023897	Volga_P1_Dial_05-03	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\Voices\English(US)\Volga_P1_Dial_05-03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_1\Volga\Volga_Dial_P1\Volga_P1_Dial_05\Volga_P1_Dial_05-03		660928
+	515493871	Computer_processing_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\SFX\Computer_processing_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Computer\Computer_processing_SFX		3342400
 	522560959	Volga_P1_Dial_08-03	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\Voices\English(US)\Volga_P1_Dial_08-03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_1\Volga\Volga_Dial_P1\Volga_P1_Dial_08\Volga_P1_Dial_08-03		638016
 	566675852	Electric_Zap_02_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\SFX\Electric_Zap_02_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Ambiance\Beds\Electric_Zaps\Electric_Zap_02_SFX		278592
 	571969060	Beep_03_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\SFX\Beep_03_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Ambiance\Beds\Beeps\Beep_03_SFX		10560
@@ -75,6 +78,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	759164687	Volga_P1_Dial_02-02	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\Voices\English(US)\Volga_P1_Dial_02-02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_1\Volga\Volga_Dial_P1\Volga_P1_Dial_02\Volga_P1_Dial_02-02		594752
 	776657558	Volga_P1_Dial_06-02	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\Voices\English(US)\Volga_P1_Dial_06-02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_1\Volga\Volga_Dial_P1\Volga_P1_Dial_06\Volga_P1_Dial_06-02		401920
 	796825715	Volga_P1_Dial_01	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\Voices\English(US)\Volga_P1_Dial_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_1\Volga\Volga_Dial_P1\Volga_P1_Dial_01		520256
+	825089419	Computer_On_SFX	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\SFX\Computer_On_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Computer\Computer_On_SFX		2663168
 	827925329	Volga_P1_Dial_04-04	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\Voices\English(US)\Volga_P1_Dial_04-04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_1\Volga\Volga_Dial_P1\Volga_P1_Dial_04\Volga_P1_Dial_04-04		68800
 	844426173	Awake	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\SFX\Awake_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Ship_Music\Awake\Awake		9216064
 	844903138	Volga_P1_Dial_04-02	D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\Voices\English(US)\Volga_P1_Dial_04-02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_1\Volga\Volga_Dial_P1\Volga_P1_Dial_04\Volga_P1_Dial_04-02		877440
