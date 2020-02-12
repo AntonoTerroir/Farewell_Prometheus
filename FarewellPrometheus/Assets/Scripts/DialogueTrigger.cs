@@ -10,5 +10,9 @@ public class DialogueTrigger : MonoBehaviour
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue); 
     }
+    public void TriggerText() //trouver le dialmanager et lancer une fonction dessus pour afficher le dialogue
+    {
+        FindObjectOfType<Textmanager>().StartText(dialogue);
+    }
 
 }

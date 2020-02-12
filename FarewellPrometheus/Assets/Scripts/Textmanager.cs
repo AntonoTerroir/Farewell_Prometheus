@@ -8,6 +8,7 @@ public class Textmanager : MonoBehaviour
     public Text textBox;
     public InputField userText;
     private string userDirection;
+    private DialogueTrigger textTrigger;
     private Queue<string> sentences;
 
 
@@ -37,9 +38,28 @@ public class Textmanager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();
+
+        StopAllCoroutines();
+        StartCoroutine(TypeSentence(sentence));
+    }
+
+    IEnumerator TypeSentence(string sentence)
+    {
+        textBox.text = " ";
+
+        foreach (char letter in sentence) //isoler les lettres pour les mettre une a une pour apparaitre petit à petit avec un delai
+        {
+            textBox.text += letter;
+            yield return new WaitForSeconds(.02f);
+
+        }
+    }
+
+    public void CheckOrder()
+    {
+        textTrigger = GetComponent<DialogueTrigger>();
     }
 
 
-    
-    
+
 }

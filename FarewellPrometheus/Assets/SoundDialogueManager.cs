@@ -8,7 +8,7 @@ public class SoundDialogueManager : MonoBehaviour
     public void DialogueTriggerSwitch()
     {
         Debug.Log(Switch + "switch set");
-        AkSoundEngine.SetSwitch(, Switch, gameObject);
+        //AkSoundEngine.SetSwitch(, Switch, gameObject);
         AkSoundEngine.PostEvent("Volga_Dial_P1", gameObject);
     }
 }
