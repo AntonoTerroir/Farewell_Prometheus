@@ -39,7 +39,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<RandomSequenceContainer Name="Volga_P1_Dial_08" ID="{64E63AC8-EC12-493D-BA0C-0E3C0CC2B63F}" ShortID="576536574">
+										<RandomSequenceContainer Name="Volga_P1_Dial_03" ID="{A668A6D3-7541-4BB6-8924-CBD4759725B7}" ShortID="701016265">
 											<PropertyList>
 												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 											</PropertyList>
@@ -52,7 +52,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Volga_P1_Dial_08-01" ID="{90CB7B95-2C46-4AAF-A81F-64D602E55D8F}" ShortID="200672158">
+												<Sound Name="Volga_P1_Dial_03-01" ID="{038D47A9-2B60-4331-B8EB-CDE88919DABF}" ShortID="820569670">
 													<PropertyList>
 														<Property Name="IsVoice" Type="bool" Value="True"/>
 													</PropertyList>
@@ -65,165 +65,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_08-01" ID="{15A368D0-0E2A-48F8-ABC6-57988ADC027A}" ShortID="499212742">
-															<Language>English(US)</Language>
-															<AudioFile>Volga_P1_Dial_08-01.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_08-01" ID="{15A368D0-0E2A-48F8-ABC6-57988ADC027A}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Volga_P1_Dial_08-02" ID="{537771C6-38D1-4CE4-93D1-AC16F3CECFCE}" ShortID="607881959">
-													<PropertyList>
-														<Property Name="IsVoice" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_08-02" ID="{6BA1B502-3AF6-45E9-A570-4B0038740D3A}" ShortID="572746147">
-															<Language>English(US)</Language>
-															<AudioFile>Volga_P1_Dial_08-02.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_08-02" ID="{6BA1B502-3AF6-45E9-A570-4B0038740D3A}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Volga_P1_Dial_08-03" ID="{E0522EEB-A73E-4747-8B6F-B3515B597356}" ShortID="627441278">
-													<PropertyList>
-														<Property Name="IsVoice" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_08-03" ID="{518D3EEB-A503-44BA-BCFF-B27794F95A2A}" ShortID="522560959">
-															<Language>English(US)</Language>
-															<AudioFile>Volga_P1_Dial_08-03.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_08-03" ID="{518D3EEB-A503-44BA-BCFF-B27794F95A2A}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-											<Playlist>
-												<ItemRef Name="Volga_P1_Dial_08-01" ID="{90CB7B95-2C46-4AAF-A81F-64D602E55D8F}"/>
-												<ItemRef Name="Volga_P1_Dial_08-02" ID="{537771C6-38D1-4CE4-93D1-AC16F3CECFCE}"/>
-												<ItemRef Name="Volga_P1_Dial_08-03" ID="{E0522EEB-A73E-4747-8B6F-B3515B597356}"/>
-											</Playlist>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Volga_P1_Dial_02" ID="{91958735-B1F5-4242-8D2A-5010FEE87EF2}" ShortID="181408860">
-											<PropertyList>
-												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="Volga_P1_Dial_02-01" ID="{F01028F1-6415-43FA-83F4-FB46A7257616}" ShortID="848559101">
-													<PropertyList>
-														<Property Name="IsVoice" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_02-01" ID="{AD77423A-E731-49C7-B8E3-00270688B6E9}" ShortID="607439749">
-															<Language>English(US)</Language>
-															<AudioFile>Volga_P1_Dial_02-01.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_02-01" ID="{AD77423A-E731-49C7-B8E3-00270688B6E9}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Volga_P1_Dial_02-02" ID="{F9417055-05E4-48DB-9BD0-83AAA960C1AD}" ShortID="240614982">
-													<PropertyList>
-														<Property Name="IsVoice" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_02-02" ID="{A4F83EE9-82DC-4A1A-BA35-AB6D243515C5}" ShortID="759164687">
-															<Language>English(US)</Language>
-															<AudioFile>Volga_P1_Dial_02-02.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_02-02" ID="{A4F83EE9-82DC-4A1A-BA35-AB6D243515C5}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-											<Playlist>
-												<ItemRef Name="Volga_P1_Dial_02-01" ID="{F01028F1-6415-43FA-83F4-FB46A7257616}"/>
-												<ItemRef Name="Volga_P1_Dial_02-02" ID="{F9417055-05E4-48DB-9BD0-83AAA960C1AD}"/>
-											</Playlist>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Volga_P1_Dial_03" ID="{C0FE5B25-324C-44E5-A8EB-E6A51AE54455}" ShortID="981835272">
-											<PropertyList>
-												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="Volga_P1_Dial_03-01" ID="{59008947-9267-4F4F-BB35-C0DAE63C44A5}" ShortID="443146349">
-													<PropertyList>
-														<Property Name="IsVoice" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_03-01" ID="{F0728351-E640-484E-A0EA-1BD4B2A88406}" ShortID="579876913">
+														<AudioFileSource Name="Volga_P1_Dial_03-01" ID="{883E9BEC-4776-4A9A-A7D0-C43B72C15D0D}" ShortID="389301237">
 															<Language>English(US)</Language>
 															<AudioFile>Volga_P1_Dial_03-01.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="579876913"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_03-01" ID="{F0728351-E640-484E-A0EA-1BD4B2A88406}" Platform="Linked"/>
+														<ActiveSource Name="Volga_P1_Dial_03-01" ID="{883E9BEC-4776-4A9A-A7D0-C43B72C15D0D}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Volga_P1_Dial_03-02" ID="{5A1FB177-B494-4CED-9F83-EDACFB584A96}" ShortID="480034049">
+												<Sound Name="Volga_P1_Dial_03-02" ID="{7693EE98-CFA9-4322-AA41-58332B73BFBA}" ShortID="631849274">
 													<PropertyList>
 														<Property Name="IsVoice" Type="bool" Value="True"/>
 													</PropertyList>
@@ -236,22 +90,25 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_03-02" ID="{A8F5A7D6-2F0F-4FC0-8D57-FB18B93F0EDF}" ShortID="714374822">
+														<AudioFileSource Name="Volga_P1_Dial_03-02" ID="{7478F7C4-FF9B-418C-8BBE-820638A33463}" ShortID="408711495">
 															<Language>English(US)</Language>
 															<AudioFile>Volga_P1_Dial_03-02.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="714374822"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_03-02" ID="{A8F5A7D6-2F0F-4FC0-8D57-FB18B93F0EDF}" Platform="Linked"/>
+														<ActiveSource Name="Volga_P1_Dial_03-02" ID="{7478F7C4-FF9B-418C-8BBE-820638A33463}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<Playlist>
-												<ItemRef Name="Volga_P1_Dial_03-01" ID="{59008947-9267-4F4F-BB35-C0DAE63C44A5}"/>
-												<ItemRef Name="Volga_P1_Dial_03-02" ID="{5A1FB177-B494-4CED-9F83-EDACFB584A96}"/>
+												<ItemRef Name="Volga_P1_Dial_03-01" ID="{038D47A9-2B60-4331-B8EB-CDE88919DABF}"/>
+												<ItemRef Name="Volga_P1_Dial_03-02" ID="{7693EE98-CFA9-4322-AA41-58332B73BFBA}"/>
 											</Playlist>
 										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Volga_P1_Dial_04" ID="{A3655C60-AA56-40E4-86AC-51425824087B}" ShortID="79528150">
+										<RandomSequenceContainer Name="Volga_P1_Dial_04" ID="{72B23696-7E31-44FA-8433-4EBB6445D38D}" ShortID="435754465">
 											<PropertyList>
 												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 											</PropertyList>
@@ -264,7 +121,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Volga_P1_Dial_04-01" ID="{564F7E5D-BD94-4A3F-A75A-83A8888D15DE}" ShortID="263309123">
+												<Sound Name="Volga_P1_Dial_04-01" ID="{A80A1C2C-2672-4F01-8DE7-B3E2B3C3F8DC}" ShortID="744794598">
 													<PropertyList>
 														<Property Name="IsVoice" Type="bool" Value="True"/>
 													</PropertyList>
@@ -277,16 +134,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_04-01" ID="{79C6E96D-E15F-49C6-AF6B-19EE6634D159}" ShortID="729253935">
+														<AudioFileSource Name="Volga_P1_Dial_04-01" ID="{CE8A9969-C523-42CF-AC2A-800E3FB2CFA2}" ShortID="378332939">
 															<Language>English(US)</Language>
 															<AudioFile>Volga_P1_Dial_04-01.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="729253935"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_04-01" ID="{79C6E96D-E15F-49C6-AF6B-19EE6634D159}" Platform="Linked"/>
+														<ActiveSource Name="Volga_P1_Dial_04-01" ID="{CE8A9969-C523-42CF-AC2A-800E3FB2CFA2}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Volga_P1_Dial_04-02" ID="{4F71575F-662B-49E9-9F17-B3698608677E}" ShortID="830087529">
+												<Sound Name="Volga_P1_Dial_04-02" ID="{440F1569-B6D9-4B7D-BEEB-E3F0E00A7999}" ShortID="740557563">
 													<PropertyList>
 														<Property Name="IsVoice" Type="bool" Value="True"/>
 													</PropertyList>
@@ -299,16 +159,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_04-02" ID="{F75F566C-C9A3-4B36-B8C0-2698A24439FF}" ShortID="844903138">
+														<AudioFileSource Name="Volga_P1_Dial_04-02" ID="{4FFC4E59-C0FE-4F02-8FE3-D6C2C279852D}" ShortID="510440609">
 															<Language>English(US)</Language>
 															<AudioFile>Volga_P1_Dial_04-02.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="844903138"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_04-02" ID="{F75F566C-C9A3-4B36-B8C0-2698A24439FF}" Platform="Linked"/>
+														<ActiveSource Name="Volga_P1_Dial_04-02" ID="{4FFC4E59-C0FE-4F02-8FE3-D6C2C279852D}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Volga_P1_Dial_04-03" ID="{028E02A0-BC50-442B-8C3B-B3AAF0A6BAEC}" ShortID="642993269">
+												<Sound Name="Volga_P1_Dial_04-03" ID="{B348D3B7-E6A9-4AFE-92AE-677A71ABE136}" ShortID="573922150">
 													<PropertyList>
 														<Property Name="IsVoice" Type="bool" Value="True"/>
 													</PropertyList>
@@ -321,16 +184,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_04-03" ID="{094984BA-9252-444C-8ED8-BB00F229F0C5}" ShortID="912199970">
+														<AudioFileSource Name="Volga_P1_Dial_04-03" ID="{2CFB1FED-BFFE-47E3-9124-A1FA8A4CC1CA}" ShortID="473727636">
 															<Language>English(US)</Language>
 															<AudioFile>Volga_P1_Dial_04-03.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="912199970"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_04-03" ID="{094984BA-9252-444C-8ED8-BB00F229F0C5}" Platform="Linked"/>
+														<ActiveSource Name="Volga_P1_Dial_04-03" ID="{2CFB1FED-BFFE-47E3-9124-A1FA8A4CC1CA}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Volga_P1_Dial_04-04" ID="{52343AB0-3280-4C84-9B4C-4E48721CCC6F}" ShortID="31890467">
+												<Sound Name="Volga_P1_Dial_04-04" ID="{5EEF9D75-1DA9-45CE-AE10-8D31EAF5322D}" ShortID="188906034">
 													<PropertyList>
 														<Property Name="IsVoice" Type="bool" Value="True"/>
 													</PropertyList>
@@ -343,24 +209,27 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_04-04" ID="{7FA0F695-B057-4CCB-939E-E91547939F2E}" ShortID="827925329">
+														<AudioFileSource Name="Volga_P1_Dial_04-04" ID="{86BE0F2A-0606-41E4-86C2-955B29E42E94}" ShortID="865215549">
 															<Language>English(US)</Language>
 															<AudioFile>Volga_P1_Dial_04-04.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="827925329"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_04-04" ID="{7FA0F695-B057-4CCB-939E-E91547939F2E}" Platform="Linked"/>
+														<ActiveSource Name="Volga_P1_Dial_04-04" ID="{86BE0F2A-0606-41E4-86C2-955B29E42E94}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<Playlist>
-												<ItemRef Name="Volga_P1_Dial_04-01" ID="{564F7E5D-BD94-4A3F-A75A-83A8888D15DE}"/>
-												<ItemRef Name="Volga_P1_Dial_04-02" ID="{4F71575F-662B-49E9-9F17-B3698608677E}"/>
-												<ItemRef Name="Volga_P1_Dial_04-03" ID="{028E02A0-BC50-442B-8C3B-B3AAF0A6BAEC}"/>
-												<ItemRef Name="Volga_P1_Dial_04-04" ID="{52343AB0-3280-4C84-9B4C-4E48721CCC6F}"/>
+												<ItemRef Name="Volga_P1_Dial_04-01" ID="{A80A1C2C-2672-4F01-8DE7-B3E2B3C3F8DC}"/>
+												<ItemRef Name="Volga_P1_Dial_04-02" ID="{440F1569-B6D9-4B7D-BEEB-E3F0E00A7999}"/>
+												<ItemRef Name="Volga_P1_Dial_04-03" ID="{B348D3B7-E6A9-4AFE-92AE-677A71ABE136}"/>
+												<ItemRef Name="Volga_P1_Dial_04-04" ID="{5EEF9D75-1DA9-45CE-AE10-8D31EAF5322D}"/>
 											</Playlist>
 										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Volga_P1_Dial_05" ID="{8F99E6A8-0DE3-44D4-953B-E74D04648034}" ShortID="743071137">
+										<RandomSequenceContainer Name="Volga_P1_Dial_02" ID="{72C92993-7DBB-4FA1-82E2-36C516F8A345}" ShortID="817913714">
 											<PropertyList>
 												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 											</PropertyList>
@@ -373,7 +242,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Volga_P1_Dial_05-01" ID="{D40ECF45-A9DD-4F56-84E4-395A5C5FD3FE}" ShortID="936230228">
+												<Sound Name="Volga_P1_Dial_02-01" ID="{C576D72E-FC48-4AA9-85BB-7A13188044FC}" ShortID="21994208">
 													<PropertyList>
 														<Property Name="IsVoice" Type="bool" Value="True"/>
 													</PropertyList>
@@ -386,16 +255,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_05-01" ID="{D42840B8-135D-4520-B83E-E8551095F283}" ShortID="243976750">
+														<AudioFileSource Name="Volga_P1_Dial_02-01" ID="{0B2CE330-25E3-48F2-855A-C66511EBE0D6}" ShortID="427337508">
 															<Language>English(US)</Language>
-															<AudioFile>Volga_P1_Dial_05-01.wav</AudioFile>
+															<AudioFile>Volga_P1_Dial_02-01.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="607439749"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_05-01" ID="{D42840B8-135D-4520-B83E-E8551095F283}" Platform="Linked"/>
+														<ActiveSource Name="Volga_P1_Dial_02-01" ID="{0B2CE330-25E3-48F2-855A-C66511EBE0D6}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Volga_P1_Dial_05-02" ID="{04F1DF0C-F779-490E-B3A3-E9BBB2E2382A}" ShortID="700196736">
+												<Sound Name="Volga_P1_Dial_02-02" ID="{828A8884-9797-4F17-A2A5-CC625141D78F}" ShortID="636111920">
 													<PropertyList>
 														<Property Name="IsVoice" Type="bool" Value="True"/>
 													</PropertyList>
@@ -408,45 +280,25 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_05-02" ID="{CC4692CA-52C2-481D-9475-2B5749AF3E25}" ShortID="576359891">
+														<AudioFileSource Name="Volga_P1_Dial_02-02" ID="{5554CFB8-C7F4-4E35-B17D-5476609AC576}" ShortID="434253536">
 															<Language>English(US)</Language>
-															<AudioFile>Volga_P1_Dial_05-02.wav</AudioFile>
+															<AudioFile>Volga_P1_Dial_02-02.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="759164687"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_05-02" ID="{CC4692CA-52C2-481D-9475-2B5749AF3E25}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Volga_P1_Dial_05-03" ID="{EC80C2BE-ABD1-403A-B19E-2B67041C1420}" ShortID="959124216">
-													<PropertyList>
-														<Property Name="IsVoice" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_05-03" ID="{9FD3D560-E630-4932-84FC-CDFCA3972098}" ShortID="509023897">
-															<Language>English(US)</Language>
-															<AudioFile>Volga_P1_Dial_05-03.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_05-03" ID="{9FD3D560-E630-4932-84FC-CDFCA3972098}" Platform="Linked"/>
+														<ActiveSource Name="Volga_P1_Dial_02-02" ID="{5554CFB8-C7F4-4E35-B17D-5476609AC576}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<Playlist>
-												<ItemRef Name="Volga_P1_Dial_05-01" ID="{D40ECF45-A9DD-4F56-84E4-395A5C5FD3FE}"/>
-												<ItemRef Name="Volga_P1_Dial_05-02" ID="{04F1DF0C-F779-490E-B3A3-E9BBB2E2382A}"/>
-												<ItemRef Name="Volga_P1_Dial_05-03" ID="{EC80C2BE-ABD1-403A-B19E-2B67041C1420}"/>
+												<ItemRef Name="Volga_P1_Dial_02-01" ID="{C576D72E-FC48-4AA9-85BB-7A13188044FC}"/>
+												<ItemRef Name="Volga_P1_Dial_02-02" ID="{828A8884-9797-4F17-A2A5-CC625141D78F}"/>
 											</Playlist>
 										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Volga_P1_Dial_06" ID="{A704D2B5-3A27-4DCB-9AC8-000C0D34C002}" ShortID="754658518">
+										<RandomSequenceContainer Name="Volga_P1_Dial_08" ID="{E0CC4C44-2AB4-49F3-B02D-CFA29C1CAB7E}" ShortID="314675011">
 											<PropertyList>
 												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 											</PropertyList>
@@ -459,7 +311,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Volga_P1_Dial_06-01" ID="{536152E7-5DC9-4C98-9778-3D949C28A29A}" ShortID="21169297">
+												<Sound Name="Volga_P1_Dial_08-01" ID="{4245BD73-A572-4DC9-9927-5CF94DABAD45}" ShortID="296999662">
 													<PropertyList>
 														<Property Name="IsVoice" Type="bool" Value="True"/>
 													</PropertyList>
@@ -472,16 +324,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_06-01" ID="{7E1F449A-CEC4-466A-B936-7C64ED00A970}" ShortID="1032451729">
+														<AudioFileSource Name="Volga_P1_Dial_08-01" ID="{6B473BD4-4D3F-41CD-B773-23E715E2EC18}" ShortID="935768412">
 															<Language>English(US)</Language>
-															<AudioFile>Volga_P1_Dial_06-01.wav</AudioFile>
+															<AudioFile>Volga_P1_Dial_08-01.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="499212742"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_06-01" ID="{7E1F449A-CEC4-466A-B936-7C64ED00A970}" Platform="Linked"/>
+														<ActiveSource Name="Volga_P1_Dial_08-01" ID="{6B473BD4-4D3F-41CD-B773-23E715E2EC18}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Volga_P1_Dial_06-02" ID="{D061D8FE-2575-4EDA-8CF2-DCE5C135CFBE}" ShortID="889799665">
+												<Sound Name="Volga_P1_Dial_08-02" ID="{1A3FACBE-30BD-41C1-9950-720C91F00471}" ShortID="897780161">
 													<PropertyList>
 														<Property Name="IsVoice" Type="bool" Value="True"/>
 													</PropertyList>
@@ -494,16 +349,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_06-02" ID="{3FAEDCF4-8E51-4964-8DF4-216E6C3E0740}" ShortID="776657558">
+														<AudioFileSource Name="Volga_P1_Dial_08-02" ID="{52FFC1F4-DA4B-4F83-B068-1FCE2DB5055E}" ShortID="734068573">
 															<Language>English(US)</Language>
-															<AudioFile>Volga_P1_Dial_06-02.wav</AudioFile>
+															<AudioFile>Volga_P1_Dial_08-02.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="572746147"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_06-02" ID="{3FAEDCF4-8E51-4964-8DF4-216E6C3E0740}" Platform="Linked"/>
+														<ActiveSource Name="Volga_P1_Dial_08-02" ID="{52FFC1F4-DA4B-4F83-B068-1FCE2DB5055E}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Volga_P1_Dial_06-03" ID="{CC276AE2-E68E-4B44-A59D-628D0E101616}" ShortID="877625879">
+												<Sound Name="Volga_P1_Dial_08-03" ID="{6B82EFFC-1301-465D-9610-E64770E627ED}" ShortID="177442151">
 													<PropertyList>
 														<Property Name="IsVoice" Type="bool" Value="True"/>
 													</PropertyList>
@@ -516,23 +374,26 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_06-03" ID="{DFF8FFE3-7198-422F-A2A7-CF33D5185D88}" ShortID="140245505">
+														<AudioFileSource Name="Volga_P1_Dial_08-03" ID="{B43B78F9-BA7C-4B2A-AEFA-26C3DA7E09C7}" ShortID="1011205234">
 															<Language>English(US)</Language>
-															<AudioFile>Volga_P1_Dial_06-03.wav</AudioFile>
+															<AudioFile>Volga_P1_Dial_08-03.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="522560959"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_06-03" ID="{DFF8FFE3-7198-422F-A2A7-CF33D5185D88}" Platform="Linked"/>
+														<ActiveSource Name="Volga_P1_Dial_08-03" ID="{B43B78F9-BA7C-4B2A-AEFA-26C3DA7E09C7}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<Playlist>
-												<ItemRef Name="Volga_P1_Dial_06-01" ID="{536152E7-5DC9-4C98-9778-3D949C28A29A}"/>
-												<ItemRef Name="Volga_P1_Dial_06-02" ID="{D061D8FE-2575-4EDA-8CF2-DCE5C135CFBE}"/>
-												<ItemRef Name="Volga_P1_Dial_06-03" ID="{CC276AE2-E68E-4B44-A59D-628D0E101616}"/>
+												<ItemRef Name="Volga_P1_Dial_08-01" ID="{4245BD73-A572-4DC9-9927-5CF94DABAD45}"/>
+												<ItemRef Name="Volga_P1_Dial_08-02" ID="{1A3FACBE-30BD-41C1-9950-720C91F00471}"/>
+												<ItemRef Name="Volga_P1_Dial_08-03" ID="{6B82EFFC-1301-465D-9610-E64770E627ED}"/>
 											</Playlist>
 										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Volga_P1_Dial_07" ID="{056A0F27-1324-4AB3-806A-D0B71A084A23}" ShortID="512367887">
+										<RandomSequenceContainer Name="Volga_P1_Dial_07" ID="{0B658871-8230-442E-8926-937D84429BFA}" ShortID="690225888">
 											<PropertyList>
 												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 											</PropertyList>
@@ -545,7 +406,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Volga_P1_Dial_07-01" ID="{AA7BEA47-53EC-4156-BF29-F4E49AEEE2A9}" ShortID="982118179">
+												<Sound Name="Volga_P1_Dial_07-01" ID="{07823ACB-5C0A-4A75-9FD4-9872B4F6DFB8}" ShortID="87177583">
 													<PropertyList>
 														<Property Name="IsVoice" Type="bool" Value="True"/>
 													</PropertyList>
@@ -558,16 +419,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_07-01" ID="{B357BCDF-7B4D-4D70-A0B8-F0ACF9A48DFD}" ShortID="676221751">
+														<AudioFileSource Name="Volga_P1_Dial_07-01" ID="{94E5C462-7621-4081-A352-B0EB9B4CDC49}" ShortID="806181665">
 															<Language>English(US)</Language>
 															<AudioFile>Volga_P1_Dial_07-01.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="676221751"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_07-01" ID="{B357BCDF-7B4D-4D70-A0B8-F0ACF9A48DFD}" Platform="Linked"/>
+														<ActiveSource Name="Volga_P1_Dial_07-01" ID="{94E5C462-7621-4081-A352-B0EB9B4CDC49}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Volga_P1_Dial_07-02" ID="{F96C467D-7F06-467E-967C-9C8A6AA86DF6}" ShortID="783396121">
+												<Sound Name="Volga_P1_Dial_07-02" ID="{FE1D43E8-2114-43C2-95E7-652D1BF45CC4}" ShortID="1041749301">
 													<PropertyList>
 														<Property Name="IsVoice" Type="bool" Value="True"/>
 													</PropertyList>
@@ -580,22 +444,215 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Volga_P1_Dial_07-02" ID="{E93F67D8-CA49-4962-A4F3-F82F9A5F8BA9}" ShortID="630372981">
+														<AudioFileSource Name="Volga_P1_Dial_07-02" ID="{9205FBB7-9ED9-4920-B6AD-56AF873D1AE3}" ShortID="655351532">
 															<Language>English(US)</Language>
 															<AudioFile>Volga_P1_Dial_07-02.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="630372981"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Volga_P1_Dial_07-02" ID="{E93F67D8-CA49-4962-A4F3-F82F9A5F8BA9}" Platform="Linked"/>
+														<ActiveSource Name="Volga_P1_Dial_07-02" ID="{9205FBB7-9ED9-4920-B6AD-56AF873D1AE3}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<Playlist>
-												<ItemRef Name="Volga_P1_Dial_07-01" ID="{AA7BEA47-53EC-4156-BF29-F4E49AEEE2A9}"/>
-												<ItemRef Name="Volga_P1_Dial_07-02" ID="{F96C467D-7F06-467E-967C-9C8A6AA86DF6}"/>
+												<ItemRef Name="Volga_P1_Dial_07-01" ID="{07823ACB-5C0A-4A75-9FD4-9872B4F6DFB8}"/>
+												<ItemRef Name="Volga_P1_Dial_07-02" ID="{FE1D43E8-2114-43C2-95E7-652D1BF45CC4}"/>
 											</Playlist>
 										</RandomSequenceContainer>
-										<Sound Name="Volga_P1_Dial_01" ID="{DA2B3B45-C63E-4E3A-BF0D-A89F20CF1D8A}" ShortID="837919309">
+										<RandomSequenceContainer Name="Volga_P1_Dial_05" ID="{D727F0BE-338E-4687-BD32-085FA176B4EC}" ShortID="1003802930">
+											<PropertyList>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Volga_P1_Dial_05-01" ID="{FCA4C1F1-63FD-479B-9882-2EE53AC00026}" ShortID="331152037">
+													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Volga_P1_Dial_05-01" ID="{C53C52D6-5A2E-4E21-AE46-2C527481A7AB}" ShortID="587816373">
+															<Language>English(US)</Language>
+															<AudioFile>Volga_P1_Dial_05-01.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="243976750"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Volga_P1_Dial_05-01" ID="{C53C52D6-5A2E-4E21-AE46-2C527481A7AB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Volga_P1_Dial_05-02" ID="{9EAF78CE-13E1-463D-8C2F-129AFD03EEA3}" ShortID="134701283">
+													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Volga_P1_Dial_05-02" ID="{7C29EFF3-BE0C-4714-80C4-0C2D5B47D760}" ShortID="462233085">
+															<Language>English(US)</Language>
+															<AudioFile>Volga_P1_Dial_05-02.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="576359891"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Volga_P1_Dial_05-02" ID="{7C29EFF3-BE0C-4714-80C4-0C2D5B47D760}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Volga_P1_Dial_05-03" ID="{4EB8DE86-9549-4B5A-A2A9-1200A9C5CE67}" ShortID="535780563">
+													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Volga_P1_Dial_05-03" ID="{00F89CB9-7C33-46F3-B638-9970A001DB53}" ShortID="331123746">
+															<Language>English(US)</Language>
+															<AudioFile>Volga_P1_Dial_05-03.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="509023897"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Volga_P1_Dial_05-03" ID="{00F89CB9-7C33-46F3-B638-9970A001DB53}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<Playlist>
+												<ItemRef Name="Volga_P1_Dial_05-01" ID="{FCA4C1F1-63FD-479B-9882-2EE53AC00026}"/>
+												<ItemRef Name="Volga_P1_Dial_05-02" ID="{9EAF78CE-13E1-463D-8C2F-129AFD03EEA3}"/>
+												<ItemRef Name="Volga_P1_Dial_05-03" ID="{4EB8DE86-9549-4B5A-A2A9-1200A9C5CE67}"/>
+											</Playlist>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Volga_P1_Dial_06" ID="{515C205A-0FA9-42E8-BB88-6CC42AE05B07}" ShortID="926026787">
+											<PropertyList>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Volga_P1_Dial_06-01" ID="{2390994F-2ABD-4717-B93D-5F028C912C56}" ShortID="954740345">
+													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Volga_P1_Dial_06-01" ID="{495142FC-5E8C-4A81-9CD2-19C231B0CA7B}" ShortID="541977727">
+															<Language>English(US)</Language>
+															<AudioFile>Volga_P1_Dial_06-01.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="1032451729"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Volga_P1_Dial_06-01" ID="{495142FC-5E8C-4A81-9CD2-19C231B0CA7B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Volga_P1_Dial_06-02" ID="{6593CAA7-D8B0-415B-8ABF-2EE8CEB37FC0}" ShortID="549347794">
+													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Volga_P1_Dial_06-02" ID="{90ECE1D7-8AC0-46E1-B0E7-114D1873EE2A}" ShortID="577213862">
+															<Language>English(US)</Language>
+															<AudioFile>Volga_P1_Dial_06-02.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="776657558"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Volga_P1_Dial_06-02" ID="{90ECE1D7-8AC0-46E1-B0E7-114D1873EE2A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Volga_P1_Dial_06-03" ID="{D63CB0B3-3CBC-48A4-A70C-BF1114FD2E8F}" ShortID="361548299">
+													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Volga_P1_Dial_06-03" ID="{2E76C726-BF5F-47C9-AA9F-FA7725B4B8C4}" ShortID="302724709">
+															<Language>English(US)</Language>
+															<AudioFile>Volga_P1_Dial_06-03.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="140245505"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Volga_P1_Dial_06-03" ID="{2E76C726-BF5F-47C9-AA9F-FA7725B4B8C4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<Playlist>
+												<ItemRef Name="Volga_P1_Dial_06-01" ID="{2390994F-2ABD-4717-B93D-5F028C912C56}"/>
+												<ItemRef Name="Volga_P1_Dial_06-02" ID="{6593CAA7-D8B0-415B-8ABF-2EE8CEB37FC0}"/>
+												<ItemRef Name="Volga_P1_Dial_06-03" ID="{D63CB0B3-3CBC-48A4-A70C-BF1114FD2E8F}"/>
+											</Playlist>
+										</RandomSequenceContainer>
+										<Sound Name="Volga_P1_Dial_01" ID="{6B405B22-D4DB-4279-9CEC-44EE5FE33C17}" ShortID="789441100">
 											<PropertyList>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
 											</PropertyList>
@@ -608,95 +665,676 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Volga_P1_Dial_01" ID="{49EBA04A-C5E0-418A-BFA0-78CAC5FCF60E}" ShortID="796825715">
+												<AudioFileSource Name="Volga_P1_Dial_01" ID="{FEE2935C-3947-4008-9031-0B30BCCB3ABF}" ShortID="661428253">
 													<Language>English(US)</Language>
 													<AudioFile>Volga_P1_Dial_01.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="796825715"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Volga_P1_Dial_01" ID="{49EBA04A-C5E0-418A-BFA0-78CAC5FCF60E}" Platform="Linked"/>
+												<ActiveSource Name="Volga_P1_Dial_01" ID="{FEE2935C-3947-4008-9031-0B30BCCB3ABF}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
-												<ItemRef Name="Volga_P1_Dial_03" ID="{C0FE5B25-324C-44E5-A8EB-E6A51AE54455}"/>
+												<ItemRef Name="Volga_P1_Dial_01" ID="{6B405B22-D4DB-4279-9CEC-44EE5FE33C17}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="Volga_P1_Dial_07" ID="{056A0F27-1324-4AB3-806A-D0B71A084A23}"/>
+												<ItemRef Name="Volga_P1_Dial_08" ID="{E0CC4C44-2AB4-49F3-B02D-CFA29C1CAB7E}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="Volga_P1_Dial_02" ID="{91958735-B1F5-4242-8D2A-5010FEE87EF2}"/>
+												<ItemRef Name="Volga_P1_Dial_06" ID="{515C205A-0FA9-42E8-BB88-6CC42AE05B07}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="Volga_P1_Dial_01" ID="{DA2B3B45-C63E-4E3A-BF0D-A89F20CF1D8A}"/>
+												<ItemRef Name="Volga_P1_Dial_07" ID="{0B658871-8230-442E-8926-937D84429BFA}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="Volga_P1_Dial_04" ID="{A3655C60-AA56-40E4-86AC-51425824087B}"/>
+												<ItemRef Name="Volga_P1_Dial_02" ID="{72C92993-7DBB-4FA1-82E2-36C516F8A345}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="Volga_P1_Dial_05" ID="{8F99E6A8-0DE3-44D4-953B-E74D04648034}"/>
+												<ItemRef Name="Volga_P1_Dial_04" ID="{72B23696-7E31-44FA-8433-4EBB6445D38D}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="Volga_P1_Dial_06" ID="{A704D2B5-3A27-4DCB-9AC8-000C0D34C002}"/>
+												<ItemRef Name="Volga_P1_Dial_05" ID="{D727F0BE-338E-4687-BD32-085FA176B4EC}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="Volga_P1_Dial_08" ID="{64E63AC8-EC12-493D-BA0C-0E3C0CC2B63F}"/>
+												<ItemRef Name="Volga_P1_Dial_03" ID="{A668A6D3-7541-4BB6-8924-CBD4759725B7}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
 											<Grouping>
 												<SwitchRef Name="P1_01" ID="{5D483F60-E4A5-47E6-854A-93F795A64A77}"/>
 												<ItemList>
-													<ItemRef Name="Volga_P1_Dial_01" ID="{DA2B3B45-C63E-4E3A-BF0D-A89F20CF1D8A}"/>
+													<ItemRef Name="Volga_P1_Dial_01" ID="{6B405B22-D4DB-4279-9CEC-44EE5FE33C17}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
 												<SwitchRef Name="P1_06" ID="{5CCB0781-3FD0-42A1-A7BD-1EE6C6B2CA64}"/>
 												<ItemList>
-													<ItemRef Name="Volga_P1_Dial_06" ID="{A704D2B5-3A27-4DCB-9AC8-000C0D34C002}"/>
+													<ItemRef Name="Volga_P1_Dial_06" ID="{515C205A-0FA9-42E8-BB88-6CC42AE05B07}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
 												<SwitchRef Name="P1_03" ID="{F0FDCC91-A24B-468C-A18A-46BD6E43E2EC}"/>
 												<ItemList>
-													<ItemRef Name="Volga_P1_Dial_03" ID="{C0FE5B25-324C-44E5-A8EB-E6A51AE54455}"/>
+													<ItemRef Name="Volga_P1_Dial_03" ID="{A668A6D3-7541-4BB6-8924-CBD4759725B7}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
 												<SwitchRef Name="P1_08" ID="{ECF4149C-20D2-4C45-A7C4-CEA3E75FA328}"/>
 												<ItemList>
-													<ItemRef Name="Volga_P1_Dial_08" ID="{64E63AC8-EC12-493D-BA0C-0E3C0CC2B63F}"/>
+													<ItemRef Name="Volga_P1_Dial_08" ID="{E0CC4C44-2AB4-49F3-B02D-CFA29C1CAB7E}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
 												<SwitchRef Name="P1_02" ID="{FCA1AFA0-0728-417B-AC3C-B4BF43B025B1}"/>
 												<ItemList>
-													<ItemRef Name="Volga_P1_Dial_02" ID="{91958735-B1F5-4242-8D2A-5010FEE87EF2}"/>
+													<ItemRef Name="Volga_P1_Dial_02" ID="{72C92993-7DBB-4FA1-82E2-36C516F8A345}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
 												<SwitchRef Name="P1_07" ID="{F317FEB5-A003-4909-8FF2-0F3FE0D8DE8D}"/>
 												<ItemList>
-													<ItemRef Name="Volga_P1_Dial_07" ID="{056A0F27-1324-4AB3-806A-D0B71A084A23}"/>
+													<ItemRef Name="Volga_P1_Dial_07" ID="{0B658871-8230-442E-8926-937D84429BFA}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
 												<SwitchRef Name="P1_04" ID="{D70479E3-BE10-4AFC-B6E3-253AB494C86B}"/>
 												<ItemList>
-													<ItemRef Name="Volga_P1_Dial_04" ID="{A3655C60-AA56-40E4-86AC-51425824087B}"/>
+													<ItemRef Name="Volga_P1_Dial_04" ID="{72B23696-7E31-44FA-8433-4EBB6445D38D}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
 												<SwitchRef Name="P1_05" ID="{D9D9F1E9-0413-4F89-8CF4-4306C826AF29}"/>
 												<ItemList>
-													<ItemRef Name="Volga_P1_Dial_05" ID="{8F99E6A8-0DE3-44D4-953B-E74D04648034}"/>
+													<ItemRef Name="Volga_P1_Dial_05" ID="{D727F0BE-338E-4687-BD32-085FA176B4EC}"/>
 												</ItemList>
 											</Grouping>
 										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
+								<RandomSequenceContainer Name="Volga_P1_Dial_03" ID="{C0FE5B25-324C-44E5-A8EB-E6A51AE54455}" ShortID="981835272">
+									<PropertyList>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Volga_P1_Dial_03-01" ID="{59008947-9267-4F4F-BB35-C0DAE63C44A5}" ShortID="443146349">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_03-01" ID="{F0728351-E640-484E-A0EA-1BD4B2A88406}" ShortID="579876913">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_03-01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_03-01" ID="{F0728351-E640-484E-A0EA-1BD4B2A88406}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Volga_P1_Dial_03-02" ID="{5A1FB177-B494-4CED-9F83-EDACFB584A96}" ShortID="480034049">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_03-02" ID="{A8F5A7D6-2F0F-4FC0-8D57-FB18B93F0EDF}" ShortID="714374822">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_03-02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_03-02" ID="{A8F5A7D6-2F0F-4FC0-8D57-FB18B93F0EDF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Volga_P1_Dial_03-01" ID="{59008947-9267-4F4F-BB35-C0DAE63C44A5}"/>
+										<ItemRef Name="Volga_P1_Dial_03-02" ID="{5A1FB177-B494-4CED-9F83-EDACFB584A96}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Volga_P1_Dial_04" ID="{A3655C60-AA56-40E4-86AC-51425824087B}" ShortID="79528150">
+									<PropertyList>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Volga_P1_Dial_04-01" ID="{564F7E5D-BD94-4A3F-A75A-83A8888D15DE}" ShortID="263309123">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_04-01" ID="{79C6E96D-E15F-49C6-AF6B-19EE6634D159}" ShortID="729253935">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_04-01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_04-01" ID="{79C6E96D-E15F-49C6-AF6B-19EE6634D159}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Volga_P1_Dial_04-02" ID="{4F71575F-662B-49E9-9F17-B3698608677E}" ShortID="830087529">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_04-02" ID="{F75F566C-C9A3-4B36-B8C0-2698A24439FF}" ShortID="844903138">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_04-02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_04-02" ID="{F75F566C-C9A3-4B36-B8C0-2698A24439FF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Volga_P1_Dial_04-03" ID="{028E02A0-BC50-442B-8C3B-B3AAF0A6BAEC}" ShortID="642993269">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_04-03" ID="{094984BA-9252-444C-8ED8-BB00F229F0C5}" ShortID="912199970">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_04-03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_04-03" ID="{094984BA-9252-444C-8ED8-BB00F229F0C5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Volga_P1_Dial_04-04" ID="{52343AB0-3280-4C84-9B4C-4E48721CCC6F}" ShortID="31890467">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_04-04" ID="{7FA0F695-B057-4CCB-939E-E91547939F2E}" ShortID="827925329">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_04-04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_04-04" ID="{7FA0F695-B057-4CCB-939E-E91547939F2E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Volga_P1_Dial_04-01" ID="{564F7E5D-BD94-4A3F-A75A-83A8888D15DE}"/>
+										<ItemRef Name="Volga_P1_Dial_04-02" ID="{4F71575F-662B-49E9-9F17-B3698608677E}"/>
+										<ItemRef Name="Volga_P1_Dial_04-03" ID="{028E02A0-BC50-442B-8C3B-B3AAF0A6BAEC}"/>
+										<ItemRef Name="Volga_P1_Dial_04-04" ID="{52343AB0-3280-4C84-9B4C-4E48721CCC6F}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Volga_P1_Dial_02" ID="{91958735-B1F5-4242-8D2A-5010FEE87EF2}" ShortID="181408860">
+									<PropertyList>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Volga_P1_Dial_02-01" ID="{F01028F1-6415-43FA-83F4-FB46A7257616}" ShortID="848559101">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_02-01" ID="{AD77423A-E731-49C7-B8E3-00270688B6E9}" ShortID="607439749">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_02-01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_02-01" ID="{AD77423A-E731-49C7-B8E3-00270688B6E9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Volga_P1_Dial_02-02" ID="{F9417055-05E4-48DB-9BD0-83AAA960C1AD}" ShortID="240614982">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_02-02" ID="{A4F83EE9-82DC-4A1A-BA35-AB6D243515C5}" ShortID="759164687">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_02-02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_02-02" ID="{A4F83EE9-82DC-4A1A-BA35-AB6D243515C5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Volga_P1_Dial_02-01" ID="{F01028F1-6415-43FA-83F4-FB46A7257616}"/>
+										<ItemRef Name="Volga_P1_Dial_02-02" ID="{F9417055-05E4-48DB-9BD0-83AAA960C1AD}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Volga_P1_Dial_08" ID="{64E63AC8-EC12-493D-BA0C-0E3C0CC2B63F}" ShortID="576536574">
+									<PropertyList>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Volga_P1_Dial_08-01" ID="{90CB7B95-2C46-4AAF-A81F-64D602E55D8F}" ShortID="200672158">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_08-01" ID="{15A368D0-0E2A-48F8-ABC6-57988ADC027A}" ShortID="499212742">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_08-01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_08-01" ID="{15A368D0-0E2A-48F8-ABC6-57988ADC027A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Volga_P1_Dial_08-02" ID="{537771C6-38D1-4CE4-93D1-AC16F3CECFCE}" ShortID="607881959">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_08-02" ID="{6BA1B502-3AF6-45E9-A570-4B0038740D3A}" ShortID="572746147">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_08-02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_08-02" ID="{6BA1B502-3AF6-45E9-A570-4B0038740D3A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Volga_P1_Dial_08-03" ID="{E0522EEB-A73E-4747-8B6F-B3515B597356}" ShortID="627441278">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_08-03" ID="{518D3EEB-A503-44BA-BCFF-B27794F95A2A}" ShortID="522560959">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_08-03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_08-03" ID="{518D3EEB-A503-44BA-BCFF-B27794F95A2A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Volga_P1_Dial_08-01" ID="{90CB7B95-2C46-4AAF-A81F-64D602E55D8F}"/>
+										<ItemRef Name="Volga_P1_Dial_08-02" ID="{537771C6-38D1-4CE4-93D1-AC16F3CECFCE}"/>
+										<ItemRef Name="Volga_P1_Dial_08-03" ID="{E0522EEB-A73E-4747-8B6F-B3515B597356}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Volga_P1_Dial_07" ID="{056A0F27-1324-4AB3-806A-D0B71A084A23}" ShortID="512367887">
+									<PropertyList>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Volga_P1_Dial_07-01" ID="{AA7BEA47-53EC-4156-BF29-F4E49AEEE2A9}" ShortID="982118179">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_07-01" ID="{B357BCDF-7B4D-4D70-A0B8-F0ACF9A48DFD}" ShortID="676221751">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_07-01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_07-01" ID="{B357BCDF-7B4D-4D70-A0B8-F0ACF9A48DFD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Volga_P1_Dial_07-02" ID="{F96C467D-7F06-467E-967C-9C8A6AA86DF6}" ShortID="783396121">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_07-02" ID="{E93F67D8-CA49-4962-A4F3-F82F9A5F8BA9}" ShortID="630372981">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_07-02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_07-02" ID="{E93F67D8-CA49-4962-A4F3-F82F9A5F8BA9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Volga_P1_Dial_07-01" ID="{AA7BEA47-53EC-4156-BF29-F4E49AEEE2A9}"/>
+										<ItemRef Name="Volga_P1_Dial_07-02" ID="{F96C467D-7F06-467E-967C-9C8A6AA86DF6}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<Sound Name="Volga_P1_Dial_01" ID="{DA2B3B45-C63E-4E3A-BF0D-A89F20CF1D8A}" ShortID="837919309">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Volga_P1_Dial_01" ID="{49EBA04A-C5E0-418A-BFA0-78CAC5FCF60E}" ShortID="796825715">
+											<Language>English(US)</Language>
+											<AudioFile>Volga_P1_Dial_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Volga_P1_Dial_01" ID="{49EBA04A-C5E0-418A-BFA0-78CAC5FCF60E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Volga_P1_Dial_05" ID="{8F99E6A8-0DE3-44D4-953B-E74D04648034}" ShortID="743071137">
+									<PropertyList>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Volga_P1_Dial_05-01" ID="{D40ECF45-A9DD-4F56-84E4-395A5C5FD3FE}" ShortID="936230228">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_05-01" ID="{D42840B8-135D-4520-B83E-E8551095F283}" ShortID="243976750">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_05-01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_05-01" ID="{D42840B8-135D-4520-B83E-E8551095F283}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Volga_P1_Dial_05-02" ID="{04F1DF0C-F779-490E-B3A3-E9BBB2E2382A}" ShortID="700196736">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_05-02" ID="{CC4692CA-52C2-481D-9475-2B5749AF3E25}" ShortID="576359891">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_05-02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_05-02" ID="{CC4692CA-52C2-481D-9475-2B5749AF3E25}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Volga_P1_Dial_05-03" ID="{EC80C2BE-ABD1-403A-B19E-2B67041C1420}" ShortID="959124216">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_05-03" ID="{9FD3D560-E630-4932-84FC-CDFCA3972098}" ShortID="509023897">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_05-03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_05-03" ID="{9FD3D560-E630-4932-84FC-CDFCA3972098}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Volga_P1_Dial_05-01" ID="{D40ECF45-A9DD-4F56-84E4-395A5C5FD3FE}"/>
+										<ItemRef Name="Volga_P1_Dial_05-02" ID="{04F1DF0C-F779-490E-B3A3-E9BBB2E2382A}"/>
+										<ItemRef Name="Volga_P1_Dial_05-03" ID="{EC80C2BE-ABD1-403A-B19E-2B67041C1420}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Volga_P1_Dial_06" ID="{A704D2B5-3A27-4DCB-9AC8-000C0D34C002}" ShortID="754658518">
+									<PropertyList>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Volga_P1_Dial_06-01" ID="{536152E7-5DC9-4C98-9778-3D949C28A29A}" ShortID="21169297">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_06-01" ID="{7E1F449A-CEC4-466A-B936-7C64ED00A970}" ShortID="1032451729">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_06-01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_06-01" ID="{7E1F449A-CEC4-466A-B936-7C64ED00A970}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Volga_P1_Dial_06-02" ID="{D061D8FE-2575-4EDA-8CF2-DCE5C135CFBE}" ShortID="889799665">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_06-02" ID="{3FAEDCF4-8E51-4964-8DF4-216E6C3E0740}" ShortID="776657558">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_06-02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_06-02" ID="{3FAEDCF4-8E51-4964-8DF4-216E6C3E0740}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Volga_P1_Dial_06-03" ID="{CC276AE2-E68E-4B44-A59D-628D0E101616}" ShortID="877625879">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Volga_P1_Dial_06-03" ID="{DFF8FFE3-7198-422F-A2A7-CF33D5185D88}" ShortID="140245505">
+													<Language>English(US)</Language>
+													<AudioFile>Volga_P1_Dial_06-03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Volga_P1_Dial_06-03" ID="{DFF8FFE3-7198-422F-A2A7-CF33D5185D88}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Volga_P1_Dial_06-01" ID="{536152E7-5DC9-4C98-9778-3D949C28A29A}"/>
+										<ItemRef Name="Volga_P1_Dial_06-02" ID="{D061D8FE-2575-4EDA-8CF2-DCE5C135CFBE}"/>
+										<ItemRef Name="Volga_P1_Dial_06-03" ID="{CC276AE2-E68E-4B44-A59D-628D0E101616}"/>
+									</Playlist>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

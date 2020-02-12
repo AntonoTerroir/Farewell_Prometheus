@@ -20,13 +20,21 @@ public class UI_Button_Sound : MonoBehaviour
     }
 
     //public AK.Wwise.Switch dialogueSwitch;
-    public string SwitchGroup = "Volga_Dial_P1";
+    /*public string SwitchGroup = "Volga_Dial_P1";
     public string Switch;
-    /*public void DialogueTriggerSwitch()
+    public void DialogueTriggerSwitch()
     {
         Debug.Log(Switch + "switch set");
         AkSoundEngine.SetSwitch(SwitchGroup, Switch, gameObject);
         AkSoundEngine.PostEvent("Volga_Dial_P1", gameObject);
     }*/
-   
+
+    public string StateGroup = "Volga_Dial_P1";
+    public string State;
+    public void DialogueTriggerSwitch()
+    {
+        Debug.Log(State + "state set");
+        AkSoundEngine.SetState(StateGroup, State);
+        AkSoundEngine.PostEvent("Volga_Dial_P1", gameObject);
+    }
 }

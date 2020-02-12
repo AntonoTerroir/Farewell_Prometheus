@@ -55,6 +55,10 @@ public class DialogueManager : MonoBehaviour
             EndDialogue();
             return;
         }
+        else
+        {
+            GameObject.Find("SoundDialogueButton").GetComponent<SoundDialogueManager>().DialogueContinue();
+        }
         
        
              
@@ -79,14 +83,18 @@ public class DialogueManager : MonoBehaviour
 
     public void StartVoice()
     {
-        if (sentences.Count != 0)
+        /*if (sentences.Count != 0)
         {
-            AkSoundEngine.PostEvent("Volga_Dial_P1", gameObject); //lance le son de dialogue suivant
-        } else AkSoundEngine.PostEvent("Volga_Dial_Stop_All", gameObject);
+            GameObject.Find("SoundDialogueButton").GetComponent<SoundDialogueManager>().DialogueContinue();
+        }
+        /*else
+        {
+            AkSoundEngine.PostEvent("Volga_Dial_Stop_All", gameObject);
+        }*/
 
         /*if (sentences.Count == 0)
         {
-            AkSoundEngine.PostEvent("Volga_Dial_Stop_All", gameObject);  //arrête le son du dialogue en cours
+            GameObject.Find("SoundDialogueButton").GetComponent<SoundDialogueManager>().DialogueStop();
         }*/
         
     }
