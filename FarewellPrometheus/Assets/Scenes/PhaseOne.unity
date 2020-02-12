@@ -768,6 +768,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 34629134}
+        m_MethodName: DialogueTriggerSwitch07
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &223317851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -854,8 +865,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
-  SwitchGroup: Volga_Dial_P1
-  Switch: 
+  StateGroup: Volga_Dial_P1
+  State: 
 --- !u!1 &248719980
 GameObject:
   m_ObjectHideFlags: 0
@@ -1482,8 +1493,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
-  SwitchGroup: Volga_Dial_P1
-  Switch: 
+  StateGroup: Volga_Dial_P1
+  State: 
 --- !u!1 &429454769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1708,8 +1719,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 434031779}
-        m_MethodName: DialogueTriggerSwitch
+      - m_Target: {fileID: 34629134}
+        m_MethodName: DialogueTriggerSwitch03
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1805,8 +1816,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
-  SwitchGroup: Volga_Dial_P1
-  Switch: P1_03
+  StateGroup: Volga_Dial_P1
+  State: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2219,8 +2230,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
-  SwitchGroup: Volga_Dial_P1
-  Switch: 
+  StateGroup: Volga_Dial_P1
+  State: 
 --- !u!114 &614146105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2568,8 +2579,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 813724309}
-        m_MethodName: DialogueTriggerSwitch
+      - m_Target: {fileID: 34629134}
+        m_MethodName: DialogueTriggerSwitch05
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2665,8 +2676,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
-  SwitchGroup: Volga_Dial_P1
-  Switch: P1_05
+  StateGroup: Volga_Dial_P1
+  State: 
 --- !u!1 &821419549
 GameObject:
   m_ObjectHideFlags: 0
@@ -2988,8 +2999,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 901837096}
-        m_MethodName: DialogueTriggerSwitch
+      - m_Target: {fileID: 34629134}
+        m_MethodName: DialogueTriggerSwitch04
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3085,8 +3096,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
-  SwitchGroup: Volga_Dial_P1
-  Switch: P1_04
+  StateGroup: Volga_Dial_P1
+  State: 
 --- !u!1 &1016219290
 GameObject:
   m_ObjectHideFlags: 0
@@ -3179,8 +3190,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
-  SwitchGroup: Volga_Dial_P1
-  Switch: 
+  StateGroup: Volga_Dial_P1
+  State: 
 --- !u!114 &1016219294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3268,6 +3279,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1016219293}
         m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 34629134}
+        m_MethodName: DialogueTriggerSwitch08
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3875,6 +3897,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 34629134}
+        m_MethodName: DialogueTriggerSwitch06
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1400646413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3961,8 +3994,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
-  SwitchGroup: Volga_Dial_P1
-  Switch: 
+  StateGroup: Volga_Dial_P1
+  State: 
 --- !u!1001 &1482727559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4025,6 +4058,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3241940753573500553, guid: 9f85684687862ba42905de9a2f12d688,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 9f85684687862ba42905de9a2f12d688,
         type: 3}
       propertyPath: m_Name
@@ -4036,6 +4074,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6783443254162861967, guid: 9f85684687862ba42905de9a2f12d688,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965687262789279542, guid: 9f85684687862ba42905de9a2f12d688,
         type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -4401,8 +4444,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1647561349}
-        m_MethodName: DialogueTriggerSwitch
+      - m_Target: {fileID: 34629134}
+        m_MethodName: DialogueTriggerSwitch02
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4498,8 +4541,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
-  SwitchGroup: Volga_Dial_P1
-  Switch: P1_02
+  StateGroup: Volga_Dial_P1
+  State: P1_02
 --- !u!1 &1660454912
 GameObject:
   m_ObjectHideFlags: 0
@@ -5181,8 +5224,8 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  SwitchGroup: Volga_Dial_P1
-  Switch: 
+  StateGroup: Volga_Dial_P1
+  State: 
 --- !u!1 &2047852626
 GameObject:
   m_ObjectHideFlags: 0

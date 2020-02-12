@@ -403,7 +403,7 @@
 								</Event>
 								<Event Name="Volga_Dial_P1" ID="{F245C172-AF85-49B2-A86B-F6716AA22253}">
 									<ChildrenList>
-										<Action Name="" ID="{E086D989-8EB1-4806-A5C6-732ADE6FFF65}" ShortID="404938107">
+										<Action Name="" ID="{519990F7-AA1E-439A-B415-922326342E38}" ShortID="263120566">
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Volga_Dial_P1" ID="{5D33C1ED-63DB-49BE-B540-F91077ED69D9}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
