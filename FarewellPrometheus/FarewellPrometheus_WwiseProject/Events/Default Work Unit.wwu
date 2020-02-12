@@ -412,6 +412,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="DIAL_Switch_Volga" ID="{832A6055-7629-4EDB-9718-CDE419E7C3FF}">
+									<ChildrenList>
+										<Action Name="" ID="{E37A14E0-14CD-4D4F-8872-752D1A00A240}" ShortID="859924914">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIAL_Switch_Volga" ID="{93972DE6-7822-4F43-A5D0-B6C72DD1EFBB}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

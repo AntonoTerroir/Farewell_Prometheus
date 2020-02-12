@@ -15,6 +15,41 @@
 						<Switch Name="P1_08" ID="{ECF4149C-20D2-4C45-A7C4-CEA3E75FA328}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="DIAL_Switch_Volga" ID="{83900F8E-4C6F-4E63-AF41-6CA95BB69990}">
+					<ChildrenList>
+						<Switch Name="a" ID="{40BB839E-FE77-45C3-BBDD-322B46BDF8B3}"/>
+						<Switch Name="an" ID="{80CFB8B4-6441-4A4E-A211-C191564FF2C1}"/>
+						<Switch Name="e_g" ID="{FB0CDEC1-1AE9-473C-86FF-210D5B723D6A}"/>
+						<Switch Name="e_a" ID="{96A9BFA1-3477-4666-AB24-F6FC26869544}"/>
+						<Switch Name="e" ID="{CC3B2F68-3AA6-4442-B57E-1CB9043FC7A9}"/>
+						<Switch Name="u" ID="{90500E79-E4B4-4F0D-AE47-EE8B9B38468D}"/>
+						<Switch Name="i" ID="{B7CF1CE2-F010-4B93-AF2E-30DF5402C20F}"/>
+						<Switch Name="o" ID="{08E145DB-BE82-44CD-9CD7-D1C138F262FC}"/>
+						<Switch Name="ou" ID="{F52EEC4B-1B9E-4A13-8C00-3D71C45215A6}"/>
+						<Switch Name="on" ID="{A197F2AE-83CC-40BB-A5D7-DE8BD982ADB7}"/>
+						<Switch Name="in" ID="{C0D45DDA-63C7-4EFB-919B-6AA7394B3AB9}"/>
+						<Switch Name="oi" ID="{59DC2A92-957A-4018-A527-CF54EB6C4357}"/>
+						<Switch Name="ill" ID="{0BB88859-7FF7-4F44-B995-3A01CE5DC0F4}"/>
+						<Switch Name="oin" ID="{80B797C0-1FBB-42B9-AF32-9EEEEDE8E7E4}"/>
+						<Switch Name="p" ID="{7714603C-2264-4F21-B7DB-6E3DDADF301C}"/>
+						<Switch Name="b" ID="{D51856F8-FF58-44FE-BFEE-EBBB30029C6B}"/>
+						<Switch Name="m" ID="{38A687AF-CE12-4454-87ED-64D543904F0F}"/>
+						<Switch Name="n" ID="{87D2A3CC-9B18-453F-A0F2-E7CBD3A36CE4}"/>
+						<Switch Name="gn" ID="{49C771F5-76A2-4CCD-93BA-67E22A73E24C}"/>
+						<Switch Name="t" ID="{F5C97544-584E-447E-B587-F2595E0E19FA}"/>
+						<Switch Name="d" ID="{0BB48286-F9CA-4667-AB44-51FFD61E6F0E}"/>
+						<Switch Name="l" ID="{A8F66635-3D92-4D90-A6DF-52EAB7E15532}"/>
+						<Switch Name="r" ID="{43E4CD3B-C3F3-45C1-B1DA-0770E2657863}"/>
+						<Switch Name="f" ID="{E0820F38-0155-4ADC-8130-39525CA6C19A}"/>
+						<Switch Name="s" ID="{79EA501B-8B1F-4DCB-84DD-5C0C05CE13BD}"/>
+						<Switch Name="k" ID="{70F72B43-305E-47D7-8260-941E7998C1C9}"/>
+						<Switch Name="j" ID="{80DB7B31-8144-4832-81B1-3CBC3364F4B2}"/>
+						<Switch Name="g" ID="{A239EC78-DFE0-41A8-8686-DC8FC870A98D}"/>
+						<Switch Name="v" ID="{7E7AB516-FFF1-471A-B28E-8D2E412C0CFA}"/>
+						<Switch Name="ch" ID="{A6634566-E6FD-463F-A79C-2BDFDE7B3798}"/>
+						<Switch Name="z" ID="{AC40BCE5-F9FE-4A8A-BD55-B17E8587F5EE}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
