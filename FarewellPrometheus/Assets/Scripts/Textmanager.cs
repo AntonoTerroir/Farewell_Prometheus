@@ -5,10 +5,11 @@ using UnityEngine.UI;
 
 public class Textmanager : MonoBehaviour
 {
+    public GameObject getdirection;
     public Text textBox;
     public InputField userText;
-    private string userDirection;
-    private DialogueTrigger textTrigger;
+    private string userDirection, go;
+    public DialogueTrigger textTrigger;
     private Queue<string> sentences;
 
 
@@ -58,6 +59,14 @@ public class Textmanager : MonoBehaviour
     public void CheckOrder()
     {
         textTrigger = GetComponent<DialogueTrigger>();
+        go = "go";
+        userDirection = getdirection.GetComponent<Text>().text;
+
+        if (go == userDirection)
+        {
+            StartText(textTrigger.dialogue);
+        }
+
     }
 
 
