@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{92EF9D4C-2820-4B90-B46D-F68F64F96557}" SchemaVersion="94">
 	<InteractiveMusic>
 		<WorkUnit Name="Music" ID="{92EF9D4C-2820-4B90-B46D-F68F64F96557}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="25"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<MusicSwitchContainer Name="Ship_Music" ID="{07B14880-7DA3-4EB8-B782-616371C6F1C8}" ShortID="187671124">
 					<ReferenceList>
@@ -9,7 +13,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+							<ObjectRef Name="Music" ID="{9C76647C-EE1C-4DEC-AFF7-64AE2884B0DB}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

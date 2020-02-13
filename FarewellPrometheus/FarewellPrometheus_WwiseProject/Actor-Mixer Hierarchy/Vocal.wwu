@@ -32,7 +32,7 @@
 											<ObjectRef Name="P1_01" ID="{5D483F60-E4A5-47E6-854A-93F795A64A77}" WorkUnitID="{BE0FD631-9F56-4179-92AC-7403801023D9}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+											<ObjectRef Name="Vocal" ID="{D9789270-C3F9-4BFD-B4FF-D32F2AA9EDAB}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
 										</Reference>
 										<Reference Name="SwitchGroupOrStateGroup">
 											<ObjectRef Name="Volga_Dial_P1" ID="{E76720BC-2D72-4483-8A0F-D8CF417D5090}" WorkUnitID="{BE0FD631-9F56-4179-92AC-7403801023D9}"/>

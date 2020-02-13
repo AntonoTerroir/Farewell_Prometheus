@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{092BDA81-CD9C-4F92-88D5-EA4E72185B56}" SchemaVersion="94">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{092BDA81-CD9C-4F92-88D5-EA4E72185B56}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{092BDA81-CD9C-4F92-88D5-EA4E72185B56}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Master" ID="{803265E0-BE30-4233-8963-488E441F29D0}">
+					<ObjectList>
+						<ObjectRef Name="VO" ID="{B8FFDED3-383C-4FB1-8E4D-D12F42D3FD4F}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+						<ObjectRef Name="Vocal" ID="{D9789270-C3F9-4BFD-B4FF-D32F2AA9EDAB}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+						<ObjectRef Name="UI" ID="{A58939A0-2D21-49E4-AF52-D3C9CBB51783}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+						<ObjectRef Name="Element" ID="{E1C8BAC8-F4C7-4A0A-B7F7-82473EEAB7BD}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+						<ObjectRef Name="Footstep" ID="{8D194871-0248-4167-BAAB-B558263D68D4}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+						<ObjectRef Name="Environment" ID="{F9C9CDEA-956D-4E38-A77D-961AD240A9EE}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+						<ObjectRef Name="SFX" ID="{B20AF2EF-378A-40E1-8AC6-322560ED0A7C}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+						<ObjectRef Name="Music" ID="{9C76647C-EE1C-4DEC-AFF7-64AE2884B0DB}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+						<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>

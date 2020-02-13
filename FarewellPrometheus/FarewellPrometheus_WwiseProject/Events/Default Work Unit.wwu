@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{77951EF6-4978-416C-AA34-3188A981DCD3}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Test" ID="{5B5AD3B0-03CC-4688-A0B4-D424CE22DDA9}">
-					<ChildrenList>
-						<Action Name="" ID="{40850536-11ED-498C-BDE3-8A63D3C98613}" ShortID="385070429">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Test" ID="{E27779ED-176D-4411-8811-7E937F2B2FDA}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Ship" ID="{A192BDBE-8377-463F-9965-1355FDC6015E}" ShortID="280223260">
 					<ChildrenList>
 						<Folder Name="Computer" ID="{D0D00BD0-0AAB-469C-B786-4389E45981D2}" ShortID="507759077">
@@ -25,7 +14,7 @@
 												<Action Name="" ID="{8072577C-7052-45A6-9D11-320350F4B861}" ShortID="282619431">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Button_Click" ID="{CB73D4C0-1DE1-478F-BE51-B5ACF0274D03}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+															<ObjectRef Name="Button_Click" ID="{CB73D4C0-1DE1-478F-BE51-B5ACF0274D03}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -36,7 +25,7 @@
 												<Action Name="" ID="{5563E341-DA6F-4C74-A813-2AAE63C0CA87}" ShortID="29603127">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Button_Hover" ID="{78EB92B5-179B-4BDA-80C3-5670BFC2FEB9}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+															<ObjectRef Name="Button_Hover" ID="{78EB92B5-179B-4BDA-80C3-5670BFC2FEB9}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -51,7 +40,7 @@
 												<Action Name="" ID="{E96685EF-EFB6-41B0-822C-02C9DE0B04F9}" ShortID="504207819">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Computer_Right_Password_SFX" ID="{A04AA4D8-4228-4B5A-A17A-92CCD0EE3905}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+															<ObjectRef Name="Computer_Right_Password_SFX" ID="{A04AA4D8-4228-4B5A-A17A-92CCD0EE3905}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -62,7 +51,7 @@
 												<Action Name="" ID="{3113A97A-213B-4A51-AF2A-379CBD60E949}" ShortID="89712127">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Computer_Wrong_Password_SFX" ID="{8C6484CF-43F4-4261-B93C-4F9315E5E8D6}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+															<ObjectRef Name="Computer_Wrong_Password_SFX" ID="{8C6484CF-43F4-4261-B93C-4F9315E5E8D6}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -75,7 +64,7 @@
 										<Action Name="" ID="{62270735-72F0-47EE-B0FF-89A833BC03A0}" ShortID="687523565">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Computer_On_SFX" ID="{7BAAC27E-FC24-4D37-AAE4-F284B96ECCA6}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+													<ObjectRef Name="Computer_On_SFX" ID="{7BAAC27E-FC24-4D37-AAE4-F284B96ECCA6}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -86,7 +75,7 @@
 										<Action Name="" ID="{41A906B4-7FA8-4DF6-A8A9-32A0F9C72125}" ShortID="931248248">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Computer_processing_SFX" ID="{3B2ED0C9-8816-4C52-8B26-2057D3C0199B}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+													<ObjectRef Name="Computer_processing_SFX" ID="{3B2ED0C9-8816-4C52-8B26-2057D3C0199B}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -101,7 +90,7 @@
 										<Action Name="" ID="{EC7F0525-629C-4503-9C11-786BBF46F4ED}" ShortID="455903868">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Post-it_Handle" ID="{E33088EF-1289-442B-8618-0114926741CB}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+													<ObjectRef Name="Post-it_Handle" ID="{E33088EF-1289-442B-8618-0114926741CB}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -112,7 +101,7 @@
 										<Action Name="" ID="{9A090F6D-F419-4403-A12C-1C5E4D23E359}" ShortID="266852576">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Calendar_Handle" ID="{133AD5BF-D225-462E-AFE0-141A2E61FDC7}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+													<ObjectRef Name="Calendar_Handle" ID="{133AD5BF-D225-462E-AFE0-141A2E61FDC7}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -134,7 +123,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Birds" ID="{8556281E-87FA-4B74-A606-9A9F99890237}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+													<ObjectRef Name="Birds" ID="{8556281E-87FA-4B74-A606-9A9F99890237}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -148,7 +137,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Ship_Rain_AMB_SFX" ID="{BC55DB97-6B78-4AC5-9421-A08CB8769243}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+													<ObjectRef Name="Ship_Rain_AMB_SFX" ID="{BC55DB97-6B78-4AC5-9421-A08CB8769243}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -162,49 +151,49 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Ship_Wind_AMB_SFX" ID="{9B99FB73-C70A-4C6B-8F66-890A59B3A5A5}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+													<ObjectRef Name="Ship_Wind_AMB_SFX" ID="{9B99FB73-C70A-4C6B-8F66-890A59B3A5A5}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 										<Action Name="" ID="{C136F067-635B-45A3-AA6D-142654F4BC6E}" ShortID="498766703">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Ship_Drone_AMB_SFX" ID="{9F6E6F7B-F3AC-425A-B540-0939029706A5}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+													<ObjectRef Name="Ship_Drone_AMB_SFX" ID="{9F6E6F7B-F3AC-425A-B540-0939029706A5}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 										<Action Name="" ID="{C08A4582-3FEF-4779-BD10-F60A8F5EDD32}" ShortID="536315969">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Beeps" ID="{022BD303-1D00-44A2-A972-1BEA8592ABAE}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+													<ObjectRef Name="Beeps" ID="{022BD303-1D00-44A2-A972-1BEA8592ABAE}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 										<Action Name="" ID="{BBB879EB-AA14-46E8-803F-8AB4A180592C}" ShortID="298268674">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Ship_Drone_AMB_03_SFX" ID="{7F95E436-21EA-4C8A-A0BB-63C54020ACB5}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+													<ObjectRef Name="Ship_Drone_AMB_03_SFX" ID="{7F95E436-21EA-4C8A-A0BB-63C54020ACB5}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 										<Action Name="" ID="{5BE51EDB-452C-447F-9BD5-E81A26D2E0D3}" ShortID="800263071">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Ship_Drone_AMB_02_SFX" ID="{6BFAF4A9-738D-46B3-B6FA-1913FB2A2DF9}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+													<ObjectRef Name="Ship_Drone_AMB_02_SFX" ID="{6BFAF4A9-738D-46B3-B6FA-1913FB2A2DF9}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 										<Action Name="" ID="{5826BBFB-50F3-4E85-9739-B07CDB5C58CC}" ShortID="127583634">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Electric_Zaps" ID="{7D8431C1-9FA5-44B7-9292-4C565EF80168}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+													<ObjectRef Name="Electric_Zaps" ID="{7D8431C1-9FA5-44B7-9292-4C565EF80168}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 										<Action Name="" ID="{FCCCBB1F-3B20-42A8-AB61-20C3169B42AE}" ShortID="630857496">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Metallic_Rakes" ID="{F23091F7-5387-420E-B861-71EBD9125D00}" WorkUnitID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}"/>
+													<ObjectRef Name="Metallic_Rakes" ID="{F23091F7-5387-420E-B861-71EBD9125D00}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -418,6 +407,76 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="DIAL_Switch_Volga" ID="{93972DE6-7822-4F43-A5D0-B6C72DD1EFBB}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Robot" ID="{9492DBA1-5E1B-4EE9-A3CA-3209833B3EC8}" ShortID="267008457">
+							<ChildrenList>
+								<Event Name="Robot_Operational" ID="{0EC2F8E1-F9FE-41E6-9299-1B971607BDFF}">
+									<ChildrenList>
+										<Action Name="" ID="{40EE3EE8-64D5-4A60-87BA-2F5EAAAB111A}" ShortID="367169952">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Operational_SFX" ID="{25DA1398-04EB-4388-942B-7A787071BD9D}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Robot_Moving" ID="{57F9D0EA-3DCD-448D-809A-470E0796F684}">
+									<ChildrenList>
+										<Action Name="" ID="{13CBC522-5009-4DE8-B1F0-1084A674A9EB}" ShortID="557226027">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Moving_SFX" ID="{2EDF669D-F869-4C62-A305-C7CDE83DD9F9}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Robot_Invalid_Command" ID="{34D61002-18C4-49BB-B6B5-856B4762A972}">
+									<ChildrenList>
+										<Action Name="" ID="{DB99CCE3-B0EA-4A93-9839-18CFDEC1D462}" ShortID="613944077">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Command_Not_Valid_SFX" ID="{025E53D2-5843-46E8-8B83-F0FF7DB43172}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Robot_Valid_Command" ID="{05C990DC-B436-4F08-9419-0AD7A1F613EF}">
+									<ChildrenList>
+										<Action Name="" ID="{83BD25F5-B31B-406E-BC23-05809FAC7537}" ShortID="727779492">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Command_Received_SFX" ID="{19185EB8-5DFD-47F0-B5D0-8FA7BFB10A22}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Robot_Scanning" ID="{B17E508C-B070-4F7C-821A-5446D5C9814F}">
+									<ChildrenList>
+										<Action Name="" ID="{5A1F6704-D938-4E91-B140-0120E85E29B0}" ShortID="573758860">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Scan_SFX" ID="{B50649F5-9A0D-43E3-B82E-1F649D7A9F4B}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Robot_Shutdown" ID="{0E44F1E8-8633-4765-8C4A-6FB8C80659FD}">
+									<ChildrenList>
+										<Action Name="" ID="{81EF2A79-F7F2-4B23-B4CA-404A31417754}" ShortID="1042096538">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Shutdown_SFX" ID="{197B56C3-D021-4439-89E8-2F9E0082CB69}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

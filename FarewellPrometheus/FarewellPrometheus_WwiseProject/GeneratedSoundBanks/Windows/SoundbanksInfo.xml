@@ -30,8 +30,13 @@
 				<Event Id="2063851173" Name="Password_Right" ObjectPath="\Events\Default Work Unit\Ship\Computer\Password\Password_Right" DurationType="OneShot" DurationMin="3.029375" DurationMax="3.029375"/>
 				<Event Id="368709004" Name="Password_Wrong" ObjectPath="\Events\Default Work Unit\Ship\Computer\Password\Password_Wrong" DurationType="OneShot" DurationMin="0.598750" DurationMax="0.598750"/>
 				<Event Id="3878117114" Name="Post_it_Handle" ObjectPath="\Events\Default Work Unit\Ship\Objects\Post_it_Handle" DurationType="OneShot" DurationMin="0.445509" DurationMax="0.698667"/>
+				<Event Id="2487570637" Name="Robot_Invalid_Command" ObjectPath="\Events\Default Work Unit\Ship\Robot\Robot_Invalid_Command" DurationType="OneShot" DurationMin="1.187535" DurationMax="1.272768"/>
+				<Event Id="1281846564" Name="Robot_Moving" ObjectPath="\Events\Default Work Unit\Ship\Robot\Robot_Moving" DurationType="OneShot" DurationMin="3.344000" DurationMax="3.344000"/>
+				<Event Id="2118619802" Name="Robot_Operational" ObjectPath="\Events\Default Work Unit\Ship\Robot\Robot_Operational" DurationType="OneShot" DurationMin="1.370667" DurationMax="1.370667"/>
+				<Event Id="1184261795" Name="Robot_Scanning" ObjectPath="\Events\Default Work Unit\Ship\Robot\Robot_Scanning" DurationType="OneShot" DurationMin="4.448000" DurationMax="4.448000"/>
+				<Event Id="926426176" Name="Robot_Shutdown" ObjectPath="\Events\Default Work Unit\Ship\Robot\Robot_Shutdown" DurationType="OneShot" DurationMin="4.304750" DurationMax="4.304750"/>
+				<Event Id="3910889982" Name="Robot_Valid_Command" ObjectPath="\Events\Default Work Unit\Ship\Robot\Robot_Valid_Command" DurationType="OneShot" DurationMin="1.192000" DurationMax="1.192000"/>
 				<Event Id="53190359" Name="Ship_Music" ObjectPath="\Events\Default Work Unit\Ship\Music\Ship_Music" DurationType="Infinite"/>
-				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
 				<Event Id="1059721737" Name="Volga_Dial_P1" ObjectPath="\Events\Default Work Unit\Ship\Dialog\Volga_Dial_P1" DurationType="OneShot" DurationMin="0.716000" DurationMax="11.066667"/>
 				<Event Id="110909812" Name="Volga_Dial_Stop_All" ObjectPath="\Events\Default Work Unit\Ship\Dialog\Volga_Dial_Stop_All" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
@@ -76,6 +81,10 @@
 					<ShortName>Volga_P1_Dial_05-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_05-01_10C4C929.wem</Path>
 				</File>
+				<File Id="322691907" Language="SFX">
+					<ShortName>Robot_Command_Received_SFX.wav</ShortName>
+					<Path>SFX\Robot_Command_Received_SFX_10C4C929.wem</Path>
+				</File>
 				<File Id="367872868" Language="SFX">
 					<ShortName>Calendar_Handle_02_SFX.wav</ShortName>
 					<Path>SFX\Calendar_Handle_02_SFX_10C4C929.wem</Path>
@@ -115,6 +124,10 @@
 				<File Id="522560959" Language="English(US)">
 					<ShortName>Volga_P1_Dial_08-03.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_08-03_10C4C929.wem</Path>
+				</File>
+				<File Id="551593222" Language="SFX">
+					<ShortName>Robot_Scan_SFX.wav</ShortName>
+					<Path>SFX\Robot_Scan_SFX_10C4C929.wem</Path>
 				</File>
 				<File Id="566675852" Language="SFX">
 					<ShortName>Electric_Zap_02_SFX.wav</ShortName>
@@ -156,6 +169,14 @@
 					<ShortName>Stasis.wav</ShortName>
 					<Path>SFX\Stasis_D79FB2B7.wem</Path>
 				</File>
+				<File Id="671115657" Language="SFX">
+					<ShortName>Robot_Operational_SFX.wav</ShortName>
+					<Path>SFX\Robot_Operational_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="672258755" Language="SFX">
+					<ShortName>Robot_Moving_SFX.wav</ShortName>
+					<Path>SFX\Robot_Moving_SFX_10C4C929.wem</Path>
+				</File>
 				<File Id="676221751" Language="English(US)">
 					<ShortName>Volga_P1_Dial_07-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_07-01_10C4C929.wem</Path>
@@ -192,6 +213,10 @@
 					<ShortName>Volga_P1_Dial_02-02.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_02-02_10C4C929.wem</Path>
 				</File>
+				<File Id="762012689" Language="SFX">
+					<ShortName>Robot_Command_Not_Valid_SFX.wav</ShortName>
+					<Path>SFX\Robot_Command_Not_Valid_SFX_10C4C929.wem</Path>
+				</File>
 				<File Id="776657558" Language="English(US)">
 					<ShortName>Volga_P1_Dial_06-02.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_06-02_10C4C929.wem</Path>
@@ -219,6 +244,10 @@
 				<File Id="861117954" Language="SFX">
 					<ShortName>Computer_button_hover_8kHz_02_SFX.wav</ShortName>
 					<Path>SFX\Computer_button_hover_8kHz_02_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="877932791" Language="SFX">
+					<ShortName>Robot_Shutdown_SFX.wav</ShortName>
+					<Path>SFX\Robot_Shutdown_SFX_10C4C929.wem</Path>
 				</File>
 				<File Id="894220143" Language="SFX">
 					<ShortName>Paper_Handle_02_SFX.wav</ShortName>

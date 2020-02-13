@@ -22,8 +22,13 @@ namespace AK
         static const AkUniqueID PASSWORD_RIGHT = 2063851173U;
         static const AkUniqueID PASSWORD_WRONG = 368709004U;
         static const AkUniqueID POST_IT_HANDLE = 3878117114U;
+        static const AkUniqueID ROBOT_INVALID_COMMAND = 2487570637U;
+        static const AkUniqueID ROBOT_MOVING = 1281846564U;
+        static const AkUniqueID ROBOT_OPERATIONAL = 2118619802U;
+        static const AkUniqueID ROBOT_SCANNING = 1184261795U;
+        static const AkUniqueID ROBOT_SHUTDOWN = 926426176U;
+        static const AkUniqueID ROBOT_VALID_COMMAND = 3910889982U;
         static const AkUniqueID SHIP_MUSIC = 53190359U;
-        static const AkUniqueID TEST = 3157003241U;
         static const AkUniqueID VOLGA_DIAL_P1 = 1059721737U;
         static const AkUniqueID VOLGA_DIAL_STOP_ALL = 110909812U;
     } // namespace EVENTS
@@ -45,6 +50,46 @@ namespace AK
 
     namespace SWITCHES
     {
+        namespace DIAL_SWITCH_VOLGA
+        {
+            static const AkUniqueID GROUP = 1685611120U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID A = 84696446U;
+                static const AkUniqueID AN = 1886858548U;
+                static const AkUniqueID B = 84696445U;
+                static const AkUniqueID CH = 1853303388U;
+                static const AkUniqueID D = 84696443U;
+                static const AkUniqueID E = 84696442U;
+                static const AkUniqueID E_A = 278062306U;
+                static const AkUniqueID E_G = 278062308U;
+                static const AkUniqueID F = 84696441U;
+                static const AkUniqueID G = 84696440U;
+                static const AkUniqueID GN = 1786192774U;
+                static const AkUniqueID I = 84696438U;
+                static const AkUniqueID ILL = 562590086U;
+                static const AkUniqueID IN = 1752637612U;
+                static const AkUniqueID J = 84696437U;
+                static const AkUniqueID K = 84696436U;
+                static const AkUniqueID L = 84696435U;
+                static const AkUniqueID M = 84696434U;
+                static const AkUniqueID N = 84696433U;
+                static const AkUniqueID O = 84696432U;
+                static const AkUniqueID OI = 1651971897U;
+                static const AkUniqueID OIN = 981044949U;
+                static const AkUniqueID ON = 1651971902U;
+                static const AkUniqueID OU = 1651971877U;
+                static const AkUniqueID P = 84696431U;
+                static const AkUniqueID R = 84696429U;
+                static const AkUniqueID S = 84696428U;
+                static const AkUniqueID T = 84696427U;
+                static const AkUniqueID U = 84696426U;
+                static const AkUniqueID V = 84696425U;
+                static const AkUniqueID Z = 84696421U;
+            } // namespace SWITCH
+        } // namespace DIAL_SWITCH_VOLGA
+
         namespace VOLGA_DIAL_P1
         {
             static const AkUniqueID GROUP = 1059721737U;
