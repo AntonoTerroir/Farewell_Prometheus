@@ -7,7 +7,7 @@ public class PhaseTwoController : MonoBehaviour
 {
     public Text displayText;
     public InputAction[] inputActions;
-    public GameObject image;
+   // public GameObject image;
     public int roomNumber = 0;
 
     [HideInInspector] public RoomNavigation roomNavigation;

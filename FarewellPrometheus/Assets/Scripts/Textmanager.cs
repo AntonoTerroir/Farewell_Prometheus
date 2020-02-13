@@ -12,10 +12,12 @@ public class Textmanager : MonoBehaviour
     public DialogueTrigger textTrigger;
     private Queue<string> sentences;
 
+    public RoomNavigation roomNavigation;
 
     // Start is called before the first frame update
     void Start()
     {
+        roomNavigation = GetComponent<RoomNavigation>();
         sentences = new Queue<string>();
     }
 

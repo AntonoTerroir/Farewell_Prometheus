@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 556f8511495bcd0479d34c40aa58cdb7, type: 3}
-  m_Name: Starting_Room
+  m_Name: Clairiere
   m_EditorClassIdentifier: 
-  description: "        |\r\n       / \\\r\n      / _ \\\r\n     |.o '.|\r\n    
-    |'._.'|\r\n     |     |\r\n   ,'|  |  |`.\r\n  /  |  |  |  \\\r\n  |,-'--|--'-.|\nProbl\xE8me
-    rencontr\xE9 lors de l'atterrissage.\nVaisseau endommag\xE9."
   roomName: clairiere
+  description: "C'est une clairiere, ton vaisseau est \xE9cras\xE9."
   exits:
-  - keyString: scan
-    exitDescription: "Scan de la navette recommand\xE9."
-    valueRoom: {fileID: 11400000, guid: 4b1298f65a289c146b70b3103a0667c0, type: 2}
+  - keyString: nord
+    exitDescription: Tu vois un chemin au nord vers la jungle.
+    valueRoom: {fileID: 11400000, guid: 5b45ea0f9068b1e48a7d801b43e1b968, type: 2}
   image: {fileID: 0}

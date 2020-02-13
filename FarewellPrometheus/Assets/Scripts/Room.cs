@@ -5,9 +5,11 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "TextAdventure/Room")]
 public class Room : ScriptableObject
 {
+    
+    public string roomName;
     [TextArea]
     public string description;
-    public string roomName;
+    
     public Exit[] exits;
-    public GameObject image;
+    public Sprite image;
 }

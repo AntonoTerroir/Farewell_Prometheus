@@ -10,12 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 556f8511495bcd0479d34c40aa58cdb7, type: 3}
-  m_Name: RepairRoom
+  m_Name: Jungle
   m_EditorClassIdentifier: 
-  description: "R\xE9paration r\xE9ussie..\nScanner environnemental op\xE9rationnel..\n"
-  roomName: repairroom
+  roomName: jungle
+  description: C'est la jungle.
   exits:
-  - keyString: scan
-    exitDescription: "Scan recommand\xE9.."
+  - keyString: sud
+    exitDescription: Un chemin au sud vers la clairiere.
+    valueRoom: {fileID: 11400000, guid: b72adee92e5f4844aa7e2eb41f2924b9, type: 2}
+  - keyString: nord
+    exitDescription: Un chemin au nord vers la riviere
     valueRoom: {fileID: 0}
   image: {fileID: 0}
