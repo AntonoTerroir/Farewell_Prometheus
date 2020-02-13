@@ -5,14 +5,12 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour
 {
     public Dialogue dialogue;
+   
 
     public void TriggerDialogue() //trouver le dialmanager et lancer une fonction dessus pour afficher le dialogue
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue); 
     }
-    public void TriggerText() //trouver le dialmanager et lancer une fonction dessus pour afficher le dialogue
-    {
-        FindObjectOfType<Textmanager>().StartText(dialogue);
-    }
+   
 
 }
