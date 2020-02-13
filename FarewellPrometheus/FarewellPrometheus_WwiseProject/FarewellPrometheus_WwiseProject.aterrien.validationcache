@@ -6,7 +6,7 @@
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Actor-Mixer Hierarchy\Environment.wwu" DateLow="1581349946" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Actor-Mixer Hierarchy\Footstep.wwu" DateLow="1581349946" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Actor-Mixer Hierarchy\UI.wwu" DateLow="1581350228" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Actor-Mixer Hierarchy\Vocal.wwu" DateLow="1581437741" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Actor-Mixer Hierarchy\Vocal.wwu" DateLow="1581582991" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1581349896" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1580914389" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1580914861" DateHigh="0"/>
@@ -16,13 +16,13 @@
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1580914389" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Effects\Factory Effects.wwu" DateLow="1581086107" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Events\Advisor.wwu" DateLow="1581349670" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Events\Default Work Unit.wwu" DateLow="1581437741" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Events\Default Work Unit.wwu" DateLow="1581582991" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Events\Element.wwu" DateLow="1581350011" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Events\Environment.wwu" DateLow="1581350011" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Events\Footstep.wwu" DateLow="1581350011" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Events\UI.wwu" DateLow="1581350212" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Events\Vocal.wwu" DateLow="1581350215" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\FarewellPrometheus_WwiseProject.aterrien.wsettings" DateLow="1581437741" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\FarewellPrometheus_WwiseProject.aterrien.wsettings" DateLow="1581585220" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\FarewellPrometheus_WwiseProject.wproj" DateLow="1580914464" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1580914389" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1581340112" DateHigh="0"/>
@@ -35,8 +35,8 @@
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Queries\Factory Queries.wwu" DateLow="1580815477" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1581437741" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1580914389" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\States\Default Work Unit.wwu" DateLow="1581437687" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1581351788" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\States\Default Work Unit.wwu" DateLow="1581500707" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1581582991" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1580914389" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Farewell_Prometheus\Farewell_Prometheus\FarewellPrometheus\FarewellPrometheus_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1580914389" DateHigh="0"/>
 </ValidationCache>
