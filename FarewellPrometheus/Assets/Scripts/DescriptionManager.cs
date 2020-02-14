@@ -8,10 +8,12 @@ public class DescriptionManager : MonoBehaviour
     public Text descriptionText;
     private Queue<string> descriptions;
     public DescriptionTrigger destrig;
-    public GameObject loginrobot, clairiere, jungle;
-    public Text orderfield;
-    private string[] orders = new string[] {"nord","sud","scan" };
+    public GameObject loginrobot, clairiere, jungle, riviere,camp;
+    public InputField orderfield;
+    private string[] orders = new string[] {"nord","sud","est","ouest","scan" };
+   // private string[] zoneName = new string[] { "clairiere", "jungle", "riviere", "camp" };
     private string getorder;
+    public string descName;
     private int i = 0;
 
 
@@ -24,6 +26,8 @@ public class DescriptionManager : MonoBehaviour
 
     public void StartDescription(Description description)
     {
+        descName = description.name;
+
         descriptions.Clear();
 
         foreach (string descline in description.descriptions)
@@ -70,21 +74,111 @@ public class DescriptionManager : MonoBehaviour
         Debug.Log("End of description");
     }
 
+
+    //order 0 nord   1 sud    2 est   3 ouest   4 scan
     public void CheckOrder()
     {
-        getorder = orderfield.GetComponent<Text>().text;
-        
-       // if (loginrobot)
-       // {
-            if (getorder == orders[2] )
+        getorder = orderfield.GetComponent<InputField>().text.ToLower();
+
+        if (descName == "loginrobot")
+        {
+            
+            if (getorder == orders[4])//order 4 c'est scan
             {
-               // loginrobot.SetActive(false);
+                
                 destrig = clairiere.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
+                CleanSelectInput();
+                
+            }else
+            {
+                CleanSelectInput();
+                descriptionText.text = "\n commande invalide";
             }
-        //}
+        }else if (descName == "cl")
+        {
+            if (getorder == orders[0])
+            {
+                destrig = jungle.GetComponent<DescriptionTrigger>();
+                StartDescription(destrig.description);
+                CleanSelectInput();
+
+            }
+
+           /* if (getorder == orders[2])
+            {
+               
+                destrig = loginrobot.GetComponent<DescriptionTrigger>();
+                StartDescription(destrig.description);
+                CleanSelectInput();
+
+            }*/
+        }else if (descName == "jg")
+        {
+            if (getorder == orders[3])//ouest
+            {
+                destrig = riviere.GetComponent<DescriptionTrigger>();
+                StartDescription(destrig.description);
+                CleanSelectInput();
+
+            }
+
+            if (getorder == orders[1])
+            {
+           
+                destrig = clairiere.GetComponent<DescriptionTrigger>();
+                StartDescription(destrig.description);
+                CleanSelectInput();
+
+            }
+        }else if (descName == "rv")
+        {
+            if (getorder == orders[0])//nord
+            {
+                destrig = camp.GetComponent<DescriptionTrigger>();
+                StartDescription(destrig.description);
+                CleanSelectInput();
+
+            }
+
+            if (getorder == orders[2])
+            {
+
+                destrig = jungle.GetComponent<DescriptionTrigger>();
+                StartDescription(destrig.description);
+                CleanSelectInput();
+
+            }
+        }
+        else if (descName == "cp")
+        {
+            if (getorder == orders[1])//sud
+            {
+                destrig = riviere.GetComponent<DescriptionTrigger>();
+                StartDescription(destrig.description);
+                CleanSelectInput();
+
+            }
+
+            if (getorder == orders[4])
+            {
+
+                destrig = jungle.GetComponent<DescriptionTrigger>();
+                StartDescription(destrig.description);
+                CleanSelectInput();
+
+            }
+        }
     }
 
 
+
+    public void CleanSelectInput()
+    {
+        orderfield.Select();
+        orderfield.text = "";
+        getorder = "";
+        orderfield.ActivateInputField();
+    }
 
 }
