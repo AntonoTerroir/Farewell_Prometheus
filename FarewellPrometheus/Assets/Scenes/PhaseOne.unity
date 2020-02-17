@@ -1128,7 +1128,9 @@ MonoBehaviour:
   description:
     name: cl
     descriptions:
-    - C'est la clairiere tu peux aller au nord et scan
+    - "Le vaisseau s'est crash\xE9 dans ce qu'il semble \xEAtre une clairi\xE8re.
+      Il y a un passage au nord entre les arbres de la for\xEAt environnante. L'antenne
+      du camp semble se dresser au del\xE0 de cette for\xEAt.\n"
 --- !u!224 &227767419
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2306,8 +2308,9 @@ MonoBehaviour:
   description:
     name: cp
     descriptions:
-    - "C'est le camp braval t'es l\xE0 tu peux aller au sud et scanner et la bete
-      va te manger."
+    - "Le camp semble en piteux \xE9tat. De nombreuses traces inconnues sont pr\xE9sentes,
+      un scan approfondi pourrait nous en apprendre plus. (et l\xE0 quand on lance
+      le scan boom le roboto dead)\nLa rivi\xE8re se situe au sud."
 --- !u!224 &514470766
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6329,7 +6332,10 @@ MonoBehaviour:
   description:
     name: loginrobot
     descriptions:
-    - C'est le tuto je t'apprends les touches.
+    - "Bienvenue dans le panneau de contr\xF4le du module d'exploration.\nPour diriger
+      le module veuillez entrer une direction correspondant aux points cardinaux
+      : nord, sud, est et ouest.\nUne fonction de scan est \xE9galement disponible
+      en entrant : scan.\nVeuillez effectuer un scan pour d\xE9marrer le module."
 --- !u!114 &1431047951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7694,7 +7700,8 @@ MonoBehaviour:
   description:
     name: rv
     descriptions:
-    - C'est la riviere tu peux aller au sud et au nord et scan
+    - "Une rivi\xE8re traverse le paysage.\nA l'est se situe la jungle.\nLe camp
+      peut \xEAtre aper\xE7u un peu au del\xE0 de la rivi\xE8re vers le nord. "
 --- !u!224 &1698284456
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7746,7 +7753,11 @@ MonoBehaviour:
   description:
     name: jg
     descriptions:
-    - C'est la jungle tu peux aller au sud au nord et scan
+    - "La for\xEAt s'apparente plus \xE0 une jungle dense. Les arbres cachent l'horizon
+      et seuls le vent et des cris de petits animaux trouble le calme ambiant.\nLa
+      navette se trouve au sud.\nUn l\xE9ger bruit de rivi\xE8re venant du bout d'un
+      sentier \xE0 l'ouest est port\xE9 par le vent. Le reste de la jungle semble
+      impraticable pour le module."
 --- !u!224 &1718678985
 RectTransform:
   m_ObjectHideFlags: 0
