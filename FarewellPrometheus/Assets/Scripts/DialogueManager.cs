@@ -14,6 +14,7 @@ public class DialogueManager : MonoBehaviour
     public DialogueTrigger dialtrig;
     private string password, getpassword;
     public InputField inputfieldpassword;
+    public Animator camera;
     
     // Start is called before the first frame update
     void Start()
@@ -147,11 +148,13 @@ public class DialogueManager : MonoBehaviour
             if (errorpass >= 0)
             {
                 dialogueText.text = "Mot de passe non reconnu \n Indice : anniversaire maman";
+                inputfieldpassword.ActivateInputField();
             }
             else
             {
                 dialogueText.text = "Mot de passe non reconnu";
                 errorpass += 1;
+                inputfieldpassword.ActivateInputField();
             }
             Debug.Log("Mot de passe pas ok");
         }
@@ -209,5 +212,10 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    public void PanCam()
+    {
+        camera.SetBool("pan", true);
+       
+    }
 
 }

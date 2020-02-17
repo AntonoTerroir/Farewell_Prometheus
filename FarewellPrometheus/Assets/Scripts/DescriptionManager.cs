@@ -15,6 +15,7 @@ public class DescriptionManager : MonoBehaviour
     private string getorder;
     public string descName;
     private int i = 0;
+    public GameObject[] scan;
 
 
    
@@ -95,12 +96,20 @@ public class DescriptionManager : MonoBehaviour
                 CleanSelectInput();
                 DisplayErrorOrder();
             }
+
         }else if (descName == "cl") //ecran clairiere
         {
+            i = 0;
             if (getorder == orders[0])
             {
                 destrig = jungle.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
+                CleanSelectInput();
+
+            }else if (getorder == orders[4]) // scan
+            {
+
+                LaunchScan();
                 CleanSelectInput();
 
             }else
@@ -109,17 +118,10 @@ public class DescriptionManager : MonoBehaviour
                 DisplayErrorOrder();
             }
 
-            /* if (getorder == orders[2])
-             {
-
-                 destrig = loginrobot.GetComponent<DescriptionTrigger>();
-                 StartDescription(destrig.description);
-                 CleanSelectInput();
-
-             }*/
-        }
-        else if (descName == "jg")//ecran jungle
+             
+        }else if (descName == "jg")//ecran jungle
         {
+            i = 1;
             if (getorder == orders[3])//ouest
             {
                 destrig = riviere.GetComponent<DescriptionTrigger>();
@@ -133,13 +135,19 @@ public class DescriptionManager : MonoBehaviour
                 StartDescription(destrig.description);
                 CleanSelectInput();
 
+            }else if (getorder == orders[4]) // scan
+            {
+
+                LaunchScan();
+                CleanSelectInput();
+
             }else
             {
                 CleanSelectInput();
                 DisplayErrorOrder();
             }
-        }
-        else if (descName == "rv")//ecran riviere
+
+        }else if (descName == "rv")//ecran riviere
         {
             if (getorder == orders[0])//nord
             {
@@ -159,8 +167,8 @@ public class DescriptionManager : MonoBehaviour
                 CleanSelectInput();
                 DisplayErrorOrder();
             }
-        }
-        else if (descName == "cp")//ecran camp
+
+        }else if (descName == "cp")//ecran camp
         {
             if (getorder == orders[1])//sud
             {
@@ -193,6 +201,13 @@ public class DescriptionManager : MonoBehaviour
         orderfield.text = "";
         getorder = "";
         orderfield.ActivateInputField();
+    }
+
+    public void LaunchScan()
+    {
+        destrig = scan[i].GetComponent<DescriptionTrigger>();
+        StartDescription(destrig.description);
+        
     }
 
     public void DisplayErrorOrder()
