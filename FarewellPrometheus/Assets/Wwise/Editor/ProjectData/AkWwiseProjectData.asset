@@ -24,14 +24,14 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 8d5399d732092a44aaa65525c92eaf70
     GuidInternal: 
-    m_lastTime: -8586206924958494228
+    m_lastTime: -8586202550966761856
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 3d131c57e597ee47b4d167c503625a09
     GuidInternal: 
-    m_lastTime: -8586202638809816637
+    m_lastTime: -8586199108817680658
     List:
     - name: Main
       guid: b5750d12ebf75c4b8067bf551228f3d7
@@ -43,11 +43,17 @@ MonoBehaviour:
         ObjectType: 7
       Path: Default Work Unit\Main
   EventWwu:
+  - PhysicalPath: Events\Advisor.wwu
+    ParentPhysicalPath: 
+    guid: 8446d2d808fdf04dad9a786fabcbda5f
+    GuidInternal: 
+    m_lastTime: -8586199108818345299
+    List: []
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: f61e957778496c41aa343188a981dcd3
     GuidInternal: 
-    m_lastTime: -8586202641107260601
+    m_lastTime: -8586199108817695536
     List:
     - name: Ambiance_Bed
       guid: fee167d51461094cbb240055a9247d0b
@@ -98,6 +104,70 @@ MonoBehaviour:
       - ElementName: Button_Hover
         ObjectType: 3
       Path: Default Work Unit\Ship\Computer\Button\Button_Hover
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Calendar_Handle
+      guid: 051fdc46202b8146973ae3d27230aaa8
+      id: 2242625264
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Objects
+        ObjectType: 4
+      - ElementName: Calendar_Handle
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Objects\Calendar_Handle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Computer_Scan
+      guid: 5673d42a8931ba4e9d056e32a370d785
+      id: 1307820710
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Computer
+        ObjectType: 4
+      - ElementName: Computer_Scan
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Computer\Computer_Scan
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Computer_Start
+      guid: f0d1b32c44866f4080f0b66cb5883201
+      id: 2806985083
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Computer
+        ObjectType: 4
+      - ElementName: Computer_Start
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Computer\Computer_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: DIAL_Switch_Volga
+      guid: 55602a832976db4e9718cde419e7c3ff
+      id: 1685611120
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Dialog
+        ObjectType: 4
+      - ElementName: DIAL_Switch_Volga
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Dialog\DIAL_Switch_Volga
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -153,6 +223,102 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Robot_Invalid_Command
+      guid: 0210d634c418bb49b6b5856b4762a972
+      id: 2487570637
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Robot
+        ObjectType: 4
+      - ElementName: Robot_Invalid_Command
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Robot\Robot_Invalid_Command
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Robot_Moving
+      guid: ead0f957cd3d8d44809a470e0796f684
+      id: 1281846564
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Robot
+        ObjectType: 4
+      - ElementName: Robot_Moving
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Robot\Robot_Moving
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Robot_Operational
+      guid: e1f8c20efef9e64192991b971607bdff
+      id: 2118619802
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Robot
+        ObjectType: 4
+      - ElementName: Robot_Operational
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Robot\Robot_Operational
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Robot_Scanning
+      guid: 8c507eb170b07c4f821a5446d5c9814f
+      id: 1184261795
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Robot
+        ObjectType: 4
+      - ElementName: Robot_Scanning
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Robot\Robot_Scanning
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Robot_Shutdown
+      guid: e8f1440e338665478c4a6fb8c80659fd
+      id: 926426176
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Robot
+        ObjectType: 4
+      - ElementName: Robot_Shutdown
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Robot\Robot_Shutdown
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Robot_Valid_Command
+      guid: dc90c90536b4084f94190ad7a1f613ef
+      id: 3910889982
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Robot
+        ObjectType: 4
+      - ElementName: Robot_Valid_Command
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Robot\Robot_Valid_Command
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Ship_Music
       guid: cae74f557cb6e84ebdc3b01c23aa0ca6
       id: 53190359
@@ -169,18 +335,196 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Test
-      guid: b0d35a5bcc038846a0b4d424ce22dda9
-      id: 3157003241
+    - name: Volga_Dial_P1
+      guid: 72c145f285afb249a86bf6716aa22253
+      id: 1059721737
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Test
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Dialog
+        ObjectType: 4
+      - ElementName: Volga_Dial_P1
         ObjectType: 3
-      Path: Default Work Unit\Test
+      Path: Default Work Unit\Ship\Dialog\Volga_Dial_P1
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Volga_Dial_P1_01
+      guid: 69eeab21600f084d9e59a072d133dbaa
+      id: 884643061
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Dialog
+        ObjectType: 4
+      - ElementName: Volga_Dial_P1_01
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Dialog\Volga_Dial_P1_01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Volga_Dial_P1_02
+      guid: b45d13495f04304c916dea0a50a28356
+      id: 884643062
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Dialog
+        ObjectType: 4
+      - ElementName: Volga_Dial_P1_02
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Dialog\Volga_Dial_P1_02
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Volga_Dial_P1_03
+      guid: 662ce9265552aa4e801e19a5faacef12
+      id: 884643063
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Dialog
+        ObjectType: 4
+      - ElementName: Volga_Dial_P1_03
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Dialog\Volga_Dial_P1_03
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Volga_Dial_P1_04
+      guid: 125ad259d9ee8b49ae2dafe4358ac6ec
+      id: 884643056
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Dialog
+        ObjectType: 4
+      - ElementName: Volga_Dial_P1_04
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Dialog\Volga_Dial_P1_04
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Volga_Dial_P1_05
+      guid: 71ef10935bc9284aabc7ef00adfa8b8a
+      id: 884643057
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Dialog
+        ObjectType: 4
+      - ElementName: Volga_Dial_P1_05
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Dialog\Volga_Dial_P1_05
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Volga_Dial_P1_06
+      guid: 3fa733877151b14e915b423b85377fa2
+      id: 884643058
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Dialog
+        ObjectType: 4
+      - ElementName: Volga_Dial_P1_06
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Dialog\Volga_Dial_P1_06
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Volga_Dial_P1_07
+      guid: af3b504449e33a408a99d4dc936edd84
+      id: 884643059
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Dialog
+        ObjectType: 4
+      - ElementName: Volga_Dial_P1_07
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Dialog\Volga_Dial_P1_07
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Volga_Dial_P1_08
+      guid: 22bbd23d3e39044e9e0afdb4df1b417e
+      id: 884643068
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Dialog
+        ObjectType: 4
+      - ElementName: Volga_Dial_P1_08
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Dialog\Volga_Dial_P1_08
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Volga_Dial_Stop_All
+      guid: e7a75a5015111448a218a6769614bde7
+      id: 110909812
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Dialog
+        ObjectType: 4
+      - ElementName: Volga_Dial_Stop_All
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Dialog\Volga_Dial_Stop_All
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Element.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    guid: db96ef1d26f1be4f952f7de39489ad6e
+    GuidInternal: 
+    m_lastTime: -8586199108818340339
+    List: []
+  - PhysicalPath: Events\Environment.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    guid: b0fd5d71784ec347bd3cfbfe54bdc937
+    GuidInternal: 
+    m_lastTime: -8586199108818345299
+    List: []
+  - PhysicalPath: Events\Footstep.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    guid: 5b4ca243f8f088449677f6568898c8b5
+    GuidInternal: 
+    m_lastTime: -8586202568741635272
+    List: []
+  - PhysicalPath: Events\UI.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    guid: 73cbf3d83a12cc4c899c0e4c0f14c176
+    GuidInternal: 
+    m_lastTime: -8586202566734419984
+    List: []
+  - PhysicalPath: Events\Vocal.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    guid: e65bbcbaef492645bb5ded39cdcd21b0
+    GuidInternal: 
+    m_lastTime: -8586199108817690580
+    List: []
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -193,7 +537,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: efcde604402b9248b1ce603a3a26d722
     GuidInternal: 
-    m_lastTime: -8586202651487308908
+    m_lastTime: -8586201061777256642
     List:
     - name: Stasis_or_Awake
       guid: 917451b815b7a94b9d202e7db8611b7f
@@ -231,8 +575,268 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 31d60fbe569f794192ac7403801023d9
     GuidInternal: 
-    m_lastTime: -8586206924958544087
-    List: []
+    m_lastTime: -8586200238941544043
+    List:
+    - name: DIAL_Switch_Volga
+      guid: 8e0f90836f4c634eaf416ca95bb69990
+      id: 1685611120
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DIAL_Switch_Volga
+        ObjectType: 11
+      Path: Default Work Unit\DIAL_Switch_Volga
+      values:
+      - name: a
+        guid: 9e83bb4077fec345bbdd322b46bdf8b3
+        id: 84696446
+        PathAndIcons:
+        - ElementName: a
+          ObjectType: 10
+      - name: an
+        guid: b4b8cf8041644e4aa211c191564ff2c1
+        id: 1886858548
+        PathAndIcons:
+        - ElementName: an
+          ObjectType: 10
+      - name: b
+        guid: f85618d558fffe44bfeeebbb30029c6b
+        id: 84696445
+        PathAndIcons:
+        - ElementName: b
+          ObjectType: 10
+      - name: ch
+        guid: 664563a6fde63f46a79c2bdfde7b3798
+        id: 1853303388
+        PathAndIcons:
+        - ElementName: ch
+          ObjectType: 10
+      - name: d
+        guid: 8682b40bcaf96746ab4451ffd61e6f0e
+        id: 84696443
+        PathAndIcons:
+        - ElementName: d
+          ObjectType: 10
+      - name: e
+        guid: 682f3bcca63a4244b57e1cb9043fc7a9
+        id: 84696442
+        PathAndIcons:
+        - ElementName: e
+          ObjectType: 10
+      - name: e_a
+        guid: a1bfa99677346646ab24f6fc26869544
+        id: 278062306
+        PathAndIcons:
+        - ElementName: e_a
+          ObjectType: 10
+      - name: e_g
+        guid: c1de0cfbe91a3c4786ff210d5b723d6a
+        id: 278062308
+        PathAndIcons:
+        - ElementName: e_g
+          ObjectType: 10
+      - name: f
+        guid: 380f82e05501dc4a813039525ca6c19a
+        id: 84696441
+        PathAndIcons:
+        - ElementName: f
+          ObjectType: 10
+      - name: g
+        guid: 78ec39a2e0dfa8418686dc8fc870a98d
+        id: 84696440
+        PathAndIcons:
+        - ElementName: g
+          ObjectType: 10
+      - name: gn
+        guid: f571c749a276cd4c93ba67e22a73e24c
+        id: 1786192774
+        PathAndIcons:
+        - ElementName: gn
+          ObjectType: 10
+      - name: i
+        guid: e21ccfb710f0934baf2e30df5402c20f
+        id: 84696438
+        PathAndIcons:
+        - ElementName: i
+          ObjectType: 10
+      - name: ill
+        guid: 5988b80bf77f444fb9953a01ce5dc0f4
+        id: 562590086
+        PathAndIcons:
+        - ElementName: ill
+          ObjectType: 10
+      - name: in
+        guid: da5dd4c0c763fb4e919b6aa7394b3ab9
+        id: 1752637612
+        PathAndIcons:
+        - ElementName: in
+          ObjectType: 10
+      - name: j
+        guid: 317bdb804481324881b13cbc3364f4b2
+        id: 84696437
+        PathAndIcons:
+        - ElementName: j
+          ObjectType: 10
+      - name: k
+        guid: 432bf7705e30d7478260941e7998c1c9
+        id: 84696436
+        PathAndIcons:
+        - ElementName: k
+          ObjectType: 10
+      - name: l
+        guid: 3566f6a8923d904da6df52eab7e15532
+        id: 84696435
+        PathAndIcons:
+        - ElementName: l
+          ObjectType: 10
+      - name: m
+        guid: af87a63812ce544487ed64d543904f0f
+        id: 84696434
+        PathAndIcons:
+        - ElementName: m
+          ObjectType: 10
+      - name: n
+        guid: cca3d287189b3f45a0f2e7cbd3a36ce4
+        id: 84696433
+        PathAndIcons:
+        - ElementName: n
+          ObjectType: 10
+      - name: o
+        guid: db45e10882becd449cd7d1c138f262fc
+        id: 84696432
+        PathAndIcons:
+        - ElementName: o
+          ObjectType: 10
+      - name: oi
+        guid: 922adc597a951840a527cf54eb6c4357
+        id: 1651971897
+        PathAndIcons:
+        - ElementName: oi
+          ObjectType: 10
+      - name: oin
+        guid: c097b780bb1fb942af329eeeede8e7e4
+        id: 981044949
+        PathAndIcons:
+        - ElementName: oin
+          ObjectType: 10
+      - name: on
+        guid: aef297a1cc83bb40a5d7de8bd982adb7
+        id: 1651971902
+        PathAndIcons:
+        - ElementName: on
+          ObjectType: 10
+      - name: ou
+        guid: 4bec2ef59e1b134a8c003d71c45215a6
+        id: 1651971877
+        PathAndIcons:
+        - ElementName: ou
+          ObjectType: 10
+      - name: p
+        guid: 3c6014776422214fb7db6e3ddadf301c
+        id: 84696431
+        PathAndIcons:
+        - ElementName: p
+          ObjectType: 10
+      - name: r
+        guid: 3bcde443f3c3c145b1da0770e2657863
+        id: 84696429
+        PathAndIcons:
+        - ElementName: r
+          ObjectType: 10
+      - name: s
+        guid: 1b50ea791f8bcb4d84dd5c0c05ce13bd
+        id: 84696428
+        PathAndIcons:
+        - ElementName: s
+          ObjectType: 10
+      - name: t
+        guid: 4475c9f54e587e44b587f2595e0e19fa
+        id: 84696427
+        PathAndIcons:
+        - ElementName: t
+          ObjectType: 10
+      - name: u
+        guid: 790e5090b4e40d4fae47ee8b9b38468d
+        id: 84696426
+        PathAndIcons:
+        - ElementName: u
+          ObjectType: 10
+      - name: v
+        guid: 16b57a7ef1ff1a47b28e8d2e412c0cfa
+        id: 84696425
+        PathAndIcons:
+        - ElementName: v
+          ObjectType: 10
+      - name: z
+        guid: e5bc40acfef98a4abd55b17e8587f5ee
+        id: 84696421
+        PathAndIcons:
+        - ElementName: z
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Volga_Dial_P1
+      guid: bc2067e7722d83448a0fd8cf417d5090
+      id: 1059721737
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Volga_Dial_P1
+        ObjectType: 11
+      Path: Default Work Unit\Volga_Dial_P1
+      values:
+      - name: P1_01
+        guid: 603f485da5e4e647854a93f795a64a77
+        id: 4015423538
+        PathAndIcons:
+        - ElementName: P1_01
+          ObjectType: 10
+      - name: P1_02
+        guid: a0afa1fc28077b41ac3cb4bf43b025b1
+        id: 4015423537
+        PathAndIcons:
+        - ElementName: P1_02
+          ObjectType: 10
+      - name: P1_03
+        guid: 91ccfdf04ba28c46a18a46bd6e43e2ec
+        id: 4015423536
+        PathAndIcons:
+        - ElementName: P1_03
+          ObjectType: 10
+      - name: P1_04
+        guid: e37904d710befc4ab6e3253ab494c86b
+        id: 4015423543
+        PathAndIcons:
+        - ElementName: P1_04
+          ObjectType: 10
+      - name: P1_05
+        guid: e9f1d9d91304894f8cf44306c826af29
+        id: 4015423542
+        PathAndIcons:
+        - ElementName: P1_05
+          ObjectType: 10
+      - name: P1_06
+        guid: 8107cb5cd03fa142a7bd1ee6c6b2ca64
+        id: 4015423541
+        PathAndIcons:
+        - ElementName: P1_06
+          ObjectType: 10
+      - name: P1_07
+        guid: b5fe17f303a009498ff20f3fe0d8de8d
+        id: 4015423540
+        PathAndIcons:
+        - ElementName: P1_07
+          ObjectType: 10
+      - name: P1_08
+        guid: 9c14f4ecd220454ca7c4cea3e75fa328
+        id: 4015423547
+        PathAndIcons:
+        - ElementName: P1_08
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -242,5 +846,8 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /FarewellPrometheus_WwiseProject
+  - /FarewellPrometheus_WwiseProject/Events
+  - /FarewellPrometheus_WwiseProject/Events/Default Work Unit
+  - /FarewellPrometheus_WwiseProject/States
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

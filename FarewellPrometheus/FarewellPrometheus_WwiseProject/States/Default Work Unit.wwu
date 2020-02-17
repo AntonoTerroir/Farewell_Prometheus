@@ -10,6 +10,24 @@
 						<State Name="Awake" ID="{093108E1-95FD-4F58-AE8B-B19AFBA38D28}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Suit_On_Off" ID="{BF2F218D-F478-47B4-AD4E-F2D1D22E25C2}">
+					<ChildrenList>
+						<State Name="None" ID="{669F5F64-6343-4589-B9C6-32BC5FAABE3D}"/>
+						<State Name="Suit_On" ID="{688D560B-8A38-44E1-91B2-C006E72D3FB9}"/>
+						<State Name="Suit_Off" ID="{F6E391E3-8CB6-4FB2-A857-2B12E8C28F92}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Location" ID="{47C32BA3-B6FB-49FF-9718-5E40B104619D}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{1BEDF10A-E57C-4C3A-A02D-8662B360CB44}"/>
+						<State Name="VS1" ID="{915C022C-5E20-4234-893D-200581D9EED3}"/>
+						<State Name="CL1" ID="{A52FD4E8-5952-44BC-AD78-377F05751CF6}"/>
+						<State Name="JG1" ID="{27C4737B-4C59-4DFE-9438-C9A1F5A7CACA}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

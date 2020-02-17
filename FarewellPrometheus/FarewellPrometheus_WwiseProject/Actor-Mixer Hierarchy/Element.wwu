@@ -7,13 +7,13 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Folder Name="Ship" ID="{FCE376C3-D441-4F11-BD31-807A60058EE3}" ShortID="776694332">
+				<Folder Name="VS1" ID="{FCE376C3-D441-4F11-BD31-807A60058EE3}" ShortID="776694332">
 					<ChildrenList>
 						<Folder Name="Computer" ID="{CB579E6B-632B-4D08-A4C3-1CE0F8639AEA}" ShortID="503321703">
 							<ChildrenList>
 								<Folder Name="Button" ID="{63165A48-9788-4617-8F3B-A6DA76AB8D36}" ShortID="932065160">
 									<ChildrenList>
-										<RandomSequenceContainer Name="Button_Hover" ID="{78EB92B5-179B-4BDA-80C3-5670BFC2FEB9}" ShortID="869094391">
+										<RandomSequenceContainer Name="VS1_Button_Hover_SFX" ID="{78EB92B5-179B-4BDA-80C3-5670BFC2FEB9}" ShortID="869094391">
 											<PropertyList>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
@@ -116,7 +116,7 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Button_Click" ID="{CB73D4C0-1DE1-478F-BE51-B5ACF0274D03}" ShortID="406579528">
+										<RandomSequenceContainer Name="VS1_Button_Click_SFX" ID="{CB73D4C0-1DE1-478F-BE51-B5ACF0274D03}" ShortID="406579528">
 											<PropertyList>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
@@ -277,7 +277,7 @@
 										</Sound>
 									</ChildrenList>
 								</Folder>
-								<Sound Name="Computer_fan_SFX" ID="{EA1E7257-3B41-4A12-B8FC-CF66BE72BF53}" ShortID="327431962">
+								<Sound Name="VS1_Computer_fan_SFX" ID="{EA1E7257-3B41-4A12-B8FC-CF66BE72BF53}" ShortID="327431962">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -303,7 +303,7 @@
 										<ActiveSource Name="Computer_fan_SFX" ID="{A0700BE2-7574-4E8C-8ED2-5BD1195667F5}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Computer_On_SFX" ID="{7BAAC27E-FC24-4D37-AAE4-F284B96ECCA6}" ShortID="604264071">
+								<Sound Name="VS1_Computer_On_SFX" ID="{7BAAC27E-FC24-4D37-AAE4-F284B96ECCA6}" ShortID="604264071">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -329,7 +329,7 @@
 										<ActiveSource Name="Computer_On_SFX" ID="{D59DD620-D1F4-4E5F-A9EA-0187013E83E9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Computer_processing_SFX" ID="{3B2ED0C9-8816-4C52-8B26-2057D3C0199B}" ShortID="640369598">
+								<Sound Name="VS1_Computer_processing_SFX" ID="{3B2ED0C9-8816-4C52-8B26-2057D3C0199B}" ShortID="640369598">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -352,7 +352,7 @@
 						</Folder>
 						<Folder Name="Objects" ID="{A11A8A0D-A286-42CE-8C9F-40CCB34B6ED5}" ShortID="1060564795">
 							<ChildrenList>
-								<RandomSequenceContainer Name="Post-it_Handle" ID="{E33088EF-1289-442B-8618-0114926741CB}" ShortID="532163143">
+								<RandomSequenceContainer Name="VS1_Post-it_Handle_SFX" ID="{E33088EF-1289-442B-8618-0114926741CB}" ShortID="532163143">
 									<PropertyList>
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
@@ -526,7 +526,7 @@
 										<ItemRef Name="Post-It_Put_Back" ID="{0721C333-B878-4B28-8326-8A81EFB769DB}"/>
 									</Playlist>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Calendar_Handle" ID="{133AD5BF-D225-462E-AFE0-141A2E61FDC7}" ShortID="744811175">
+								<RandomSequenceContainer Name="VS1_Calendar_Handle_SFX" ID="{133AD5BF-D225-462E-AFE0-141A2E61FDC7}" ShortID="744811175">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -644,139 +644,139 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Robot" ID="{DAB4A314-4818-480D-9194-D4C0F08F80A9}" ShortID="211728175">
+					</ChildrenList>
+				</Folder>
+				<Folder Name="VS2" ID="{DAB4A314-4818-480D-9194-D4C0F08F80A9}" ShortID="211728175">
+					<ChildrenList>
+						<Sound Name="VS2_Robot_Invalid_Command_SFX" ID="{025E53D2-5843-46E8-8B83-F0FF7DB43172}" ShortID="790949723">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F72EC3D6-7FF8-49C1-84A2-36FBF65550F2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+								</Reference>
+							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Robot_Command_Not_Valid_SFX" ID="{025E53D2-5843-46E8-8B83-F0FF7DB43172}" ShortID="790949723">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{F72EC3D6-7FF8-49C1-84A2-36FBF65550F2}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="20"/>
-															<Property Name="Min" Type="Real64" Value="-100"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Robot_Command_Not_Valid_SFX" ID="{7F815D1F-4EB7-416C-ACBB-52CE1E808DDF}" ShortID="762012689">
-											<Language>SFX</Language>
-											<AudioFile>Robot_Command_Not_Valid_SFX.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Robot_Command_Not_Valid_SFX" ID="{7F815D1F-4EB7-416C-ACBB-52CE1E808DDF}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Robot_Command_Received_SFX" ID="{19185EB8-5DFD-47F0-B5D0-8FA7BFB10A22}" ShortID="708110282">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Robot_Command_Received_SFX" ID="{65725D53-3297-4FE3-BDE8-8A5831128F6C}" ShortID="322691907">
-											<Language>SFX</Language>
-											<AudioFile>Robot_Command_Received_SFX.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Robot_Command_Received_SFX" ID="{65725D53-3297-4FE3-BDE8-8A5831128F6C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Robot_Moving_SFX" ID="{2EDF669D-F869-4C62-A305-C7CDE83DD9F9}" ShortID="326698891">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Robot_Moving_SFX" ID="{076A0093-79C7-492A-ABE3-60BE0A544D5C}" ShortID="672258755">
-											<Language>SFX</Language>
-											<AudioFile>Robot_Moving_SFX.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Robot_Moving_SFX" ID="{076A0093-79C7-492A-ABE3-60BE0A544D5C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Robot_Operational_SFX" ID="{25DA1398-04EB-4388-942B-7A787071BD9D}" ShortID="140618443">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Robot_Operational_SFX" ID="{DC9883C1-8236-4291-8E45-583E19246D37}" ShortID="671115657">
-											<Language>SFX</Language>
-											<AudioFile>Robot_Operational_SFX.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Robot_Operational_SFX" ID="{DC9883C1-8236-4291-8E45-583E19246D37}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Robot_Scan_SFX" ID="{B50649F5-9A0D-43E3-B82E-1F649D7A9F4B}" ShortID="999405982">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Robot_Scan_SFX" ID="{84347653-44E5-46D3-B2CF-C47E6A21B68E}" ShortID="551593222">
-											<Language>SFX</Language>
-											<AudioFile>Robot_Scan_SFX.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Robot_Scan_SFX" ID="{84347653-44E5-46D3-B2CF-C47E6A21B68E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Robot_Shutdown_SFX" ID="{197B56C3-D021-4439-89E8-2F9E0082CB69}" ShortID="152235164">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Robot_Shutdown_SFX" ID="{83BBDFA9-5C12-4CC0-A964-C762B655451A}" ShortID="877932791">
-											<Language>SFX</Language>
-											<AudioFile>Robot_Shutdown_SFX.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Robot_Shutdown_SFX" ID="{83BBDFA9-5C12-4CC0-A964-C762B655451A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								<AudioFileSource Name="Robot_Command_Not_Valid_SFX" ID="{7F815D1F-4EB7-416C-ACBB-52CE1E808DDF}" ShortID="762012689">
+									<Language>SFX</Language>
+									<AudioFile>Robot_Command_Not_Valid_SFX.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
-						</Folder>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_Command_Not_Valid_SFX" ID="{7F815D1F-4EB7-416C-ACBB-52CE1E808DDF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="VS2_Robot_Valid_Command_SFX" ID="{19185EB8-5DFD-47F0-B5D0-8FA7BFB10A22}" ShortID="708110282">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_Command_Received_SFX" ID="{65725D53-3297-4FE3-BDE8-8A5831128F6C}" ShortID="322691907">
+									<Language>SFX</Language>
+									<AudioFile>Robot_Command_Received_SFX.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_Command_Received_SFX" ID="{65725D53-3297-4FE3-BDE8-8A5831128F6C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="VS2_Robot_Moving_SFX" ID="{2EDF669D-F869-4C62-A305-C7CDE83DD9F9}" ShortID="326698891">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_Moving_SFX" ID="{076A0093-79C7-492A-ABE3-60BE0A544D5C}" ShortID="672258755">
+									<Language>SFX</Language>
+									<AudioFile>Robot_Moving_SFX.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_Moving_SFX" ID="{076A0093-79C7-492A-ABE3-60BE0A544D5C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="VS2_Robot_Operational_SFX" ID="{25DA1398-04EB-4388-942B-7A787071BD9D}" ShortID="140618443">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_Operational_SFX" ID="{DC9883C1-8236-4291-8E45-583E19246D37}" ShortID="671115657">
+									<Language>SFX</Language>
+									<AudioFile>Robot_Operational_SFX.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_Operational_SFX" ID="{DC9883C1-8236-4291-8E45-583E19246D37}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="VS2_Robot_Scan_SFX" ID="{B50649F5-9A0D-43E3-B82E-1F649D7A9F4B}" ShortID="999405982">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_Scan_SFX" ID="{84347653-44E5-46D3-B2CF-C47E6A21B68E}" ShortID="551593222">
+									<Language>SFX</Language>
+									<AudioFile>Robot_Scan_SFX.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_Scan_SFX" ID="{84347653-44E5-46D3-B2CF-C47E6A21B68E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="VS2_Robot_Shutdown_SFX" ID="{197B56C3-D021-4439-89E8-2F9E0082CB69}" ShortID="152235164">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_Shutdown_SFX" ID="{83BBDFA9-5C12-4CC0-A964-C762B655451A}" ShortID="877932791">
+									<Language>SFX</Language>
+									<AudioFile>Robot_Shutdown_SFX.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_Shutdown_SFX" ID="{83BBDFA9-5C12-4CC0-A964-C762B655451A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

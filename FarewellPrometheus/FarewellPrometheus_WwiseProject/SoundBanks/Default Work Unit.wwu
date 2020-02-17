@@ -20,6 +20,7 @@
 						<ObjectRef Name="Volga_Dial_Stop_All" ID="{505AA7E7-1115-4814-A218-A6769614BDE7}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Volga_Dial_P1" ID="{F245C172-AF85-49B2-A86B-F6716AA22253}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Invalid_Command" ID="{34D61002-18C4-49BB-B6B5-856B4762A972}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ambience_Event" ID="{388E70D7-6083-4A0C-82D3-08C6E906F4B4}" WorkUnitID="{715DFDB0-4E78-47C3-BD3C-FBFE54BDC937}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Password_Wrong" ID="{70062BE2-420A-4A0E-9AB7-E45A1F537C7C}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ambiance_Bed" ID="{D567E1FE-6114-4C09-BB24-0055A9247D0B}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Password_Right" ID="{B4D7F35F-50E3-4E19-B803-BFCF7E440196}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>

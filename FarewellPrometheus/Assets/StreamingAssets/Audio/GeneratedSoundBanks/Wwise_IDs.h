@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMBIANCE_BED = 3429733933U;
+        static const AkUniqueID AMBIENCE_EVENT = 2466005164U;
         static const AkUniqueID BUTTON_CLICK = 814543256U;
         static const AkUniqueID BUTTON_HOVER = 1701177942U;
         static const AkUniqueID CALENDAR_HANDLE = 2242625264U;
@@ -35,6 +36,18 @@ namespace AK
 
     namespace STATES
     {
+        namespace LOCATION
+        {
+            static const AkUniqueID GROUP = 1176052424U;
+
+            namespace STATE
+            {
+                static const AkUniqueID CL1 = 1033349305U;
+                static const AkUniqueID JG1 = 679886441U;
+                static const AkUniqueID VS1 = 879246361U;
+            } // namespace STATE
+        } // namespace LOCATION
+
         namespace STASIS_OR_AWAKE
         {
             static const AkUniqueID GROUP = 851633200U;
@@ -45,6 +58,17 @@ namespace AK
                 static const AkUniqueID STASIS = 1274150312U;
             } // namespace STATE
         } // namespace STASIS_OR_AWAKE
+
+        namespace SUIT_ON_OFF
+        {
+            static const AkUniqueID GROUP = 486208800U;
+
+            namespace STATE
+            {
+                static const AkUniqueID SUIT_OFF = 2507003792U;
+                static const AkUniqueID SUIT_ON = 784800250U;
+            } // namespace STATE
+        } // namespace SUIT_ON_OFF
 
     } // namespace STATES
 

@@ -14,7 +14,7 @@
 												<Action Name="" ID="{8072577C-7052-45A6-9D11-320350F4B861}" ShortID="282619431">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Button_Click" ID="{CB73D4C0-1DE1-478F-BE51-B5ACF0274D03}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+															<ObjectRef Name="VS1_Button_Click_SFX" ID="{CB73D4C0-1DE1-478F-BE51-B5ACF0274D03}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -25,7 +25,7 @@
 												<Action Name="" ID="{5563E341-DA6F-4C74-A813-2AAE63C0CA87}" ShortID="29603127">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Button_Hover" ID="{78EB92B5-179B-4BDA-80C3-5670BFC2FEB9}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+															<ObjectRef Name="VS1_Button_Hover_SFX" ID="{78EB92B5-179B-4BDA-80C3-5670BFC2FEB9}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -64,7 +64,7 @@
 										<Action Name="" ID="{62270735-72F0-47EE-B0FF-89A833BC03A0}" ShortID="687523565">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Computer_On_SFX" ID="{7BAAC27E-FC24-4D37-AAE4-F284B96ECCA6}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+													<ObjectRef Name="VS1_Computer_On_SFX" ID="{7BAAC27E-FC24-4D37-AAE4-F284B96ECCA6}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -75,7 +75,7 @@
 										<Action Name="" ID="{41A906B4-7FA8-4DF6-A8A9-32A0F9C72125}" ShortID="931248248">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Computer_processing_SFX" ID="{3B2ED0C9-8816-4C52-8B26-2057D3C0199B}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+													<ObjectRef Name="VS1_Computer_processing_SFX" ID="{3B2ED0C9-8816-4C52-8B26-2057D3C0199B}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -90,7 +90,7 @@
 										<Action Name="" ID="{EC7F0525-629C-4503-9C11-786BBF46F4ED}" ShortID="455903868">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Post-it_Handle" ID="{E33088EF-1289-442B-8618-0114926741CB}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+													<ObjectRef Name="VS1_Post-it_Handle_SFX" ID="{E33088EF-1289-442B-8618-0114926741CB}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -101,7 +101,7 @@
 										<Action Name="" ID="{9A090F6D-F419-4403-A12C-1C5E4D23E359}" ShortID="266852576">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Calendar_Handle" ID="{133AD5BF-D225-462E-AFE0-141A2E61FDC7}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+													<ObjectRef Name="VS1_Calendar_Handle_SFX" ID="{133AD5BF-D225-462E-AFE0-141A2E61FDC7}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -123,7 +123,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Birds" ID="{8556281E-87FA-4B74-A606-9A9F99890237}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+													<ObjectRef Name="CL1_Birds_SFX" ID="{8556281E-87FA-4B74-A606-9A9F99890237}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -137,7 +137,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Ship_Rain_AMB_SFX" ID="{BC55DB97-6B78-4AC5-9421-A08CB8769243}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+													<ObjectRef Name="VS1_Ship_Rain_AMB_SFX" ID="{BC55DB97-6B78-4AC5-9421-A08CB8769243}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -151,49 +151,49 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Ship_Wind_AMB_SFX" ID="{9B99FB73-C70A-4C6B-8F66-890A59B3A5A5}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+													<ObjectRef Name="CL1_Wind_AMB_SFX" ID="{9B99FB73-C70A-4C6B-8F66-890A59B3A5A5}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 										<Action Name="" ID="{C136F067-635B-45A3-AA6D-142654F4BC6E}" ShortID="498766703">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Ship_Drone_AMB_SFX" ID="{9F6E6F7B-F3AC-425A-B540-0939029706A5}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+													<ObjectRef Name="VS1_Ship_Drone_AMB_SFX" ID="{9F6E6F7B-F3AC-425A-B540-0939029706A5}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 										<Action Name="" ID="{C08A4582-3FEF-4779-BD10-F60A8F5EDD32}" ShortID="536315969">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Beeps" ID="{022BD303-1D00-44A2-A972-1BEA8592ABAE}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+													<ObjectRef Name="VS1_Beeps_SFX" ID="{022BD303-1D00-44A2-A972-1BEA8592ABAE}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 										<Action Name="" ID="{BBB879EB-AA14-46E8-803F-8AB4A180592C}" ShortID="298268674">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Ship_Drone_AMB_03_SFX" ID="{7F95E436-21EA-4C8A-A0BB-63C54020ACB5}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+													<ObjectRef Name="VS1_Ship_Drone_AMB_03_SFX" ID="{7F95E436-21EA-4C8A-A0BB-63C54020ACB5}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 										<Action Name="" ID="{5BE51EDB-452C-447F-9BD5-E81A26D2E0D3}" ShortID="800263071">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Ship_Drone_AMB_02_SFX" ID="{6BFAF4A9-738D-46B3-B6FA-1913FB2A2DF9}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+													<ObjectRef Name="VS1_Ship_Drone_AMB_02_SFX" ID="{6BFAF4A9-738D-46B3-B6FA-1913FB2A2DF9}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 										<Action Name="" ID="{5826BBFB-50F3-4E85-9739-B07CDB5C58CC}" ShortID="127583634">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Electric_Zaps" ID="{7D8431C1-9FA5-44B7-9292-4C565EF80168}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+													<ObjectRef Name="VS1_Electric_Zaps_SFX" ID="{7D8431C1-9FA5-44B7-9292-4C565EF80168}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 										<Action Name="" ID="{FCCCBB1F-3B20-42A8-AB61-20C3169B42AE}" ShortID="630857496">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Metallic_Rakes" ID="{F23091F7-5387-420E-B861-71EBD9125D00}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+													<ObjectRef Name="VS1_Metallic_Rakes_SFX" ID="{F23091F7-5387-420E-B861-71EBD9125D00}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -421,7 +421,7 @@
 										<Action Name="" ID="{40EE3EE8-64D5-4A60-87BA-2F5EAAAB111A}" ShortID="367169952">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Robot_Operational_SFX" ID="{25DA1398-04EB-4388-942B-7A787071BD9D}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+													<ObjectRef Name="VS2_Robot_Operational_SFX" ID="{25DA1398-04EB-4388-942B-7A787071BD9D}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -432,7 +432,7 @@
 										<Action Name="" ID="{13CBC522-5009-4DE8-B1F0-1084A674A9EB}" ShortID="557226027">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Robot_Moving_SFX" ID="{2EDF669D-F869-4C62-A305-C7CDE83DD9F9}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+													<ObjectRef Name="VS2_Robot_Moving_SFX" ID="{2EDF669D-F869-4C62-A305-C7CDE83DD9F9}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -443,7 +443,7 @@
 										<Action Name="" ID="{DB99CCE3-B0EA-4A93-9839-18CFDEC1D462}" ShortID="613944077">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Robot_Command_Not_Valid_SFX" ID="{025E53D2-5843-46E8-8B83-F0FF7DB43172}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+													<ObjectRef Name="VS2_Robot_Invalid_Command_SFX" ID="{025E53D2-5843-46E8-8B83-F0FF7DB43172}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -454,7 +454,7 @@
 										<Action Name="" ID="{83BD25F5-B31B-406E-BC23-05809FAC7537}" ShortID="727779492">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Robot_Command_Received_SFX" ID="{19185EB8-5DFD-47F0-B5D0-8FA7BFB10A22}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+													<ObjectRef Name="VS2_Robot_Valid_Command_SFX" ID="{19185EB8-5DFD-47F0-B5D0-8FA7BFB10A22}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -465,7 +465,7 @@
 										<Action Name="" ID="{5A1F6704-D938-4E91-B140-0120E85E29B0}" ShortID="573758860">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Robot_Scan_SFX" ID="{B50649F5-9A0D-43E3-B82E-1F649D7A9F4B}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+													<ObjectRef Name="VS2_Robot_Scan_SFX" ID="{B50649F5-9A0D-43E3-B82E-1F649D7A9F4B}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -476,7 +476,7 @@
 										<Action Name="" ID="{81EF2A79-F7F2-4B23-B4CA-404A31417754}" ShortID="1042096538">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Robot_Shutdown_SFX" ID="{197B56C3-D021-4439-89E8-2F9E0082CB69}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+													<ObjectRef Name="VS2_Robot_Shutdown_SFX" ID="{197B56C3-D021-4439-89E8-2F9E0082CB69}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

@@ -22,6 +22,7 @@
 			<Path>English(US)\Main.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3429733933" Name="Ambiance_Bed" ObjectPath="\Events\Default Work Unit\Ship\Ambience\Ambiance_Bed" DurationType="Infinite"/>
+				<Event Id="2466005164" Name="Ambience_Event" ObjectPath="\Events\Default Work Unit\Environment\Ambience_Event" DurationType="Infinite"/>
 				<Event Id="814543256" Name="Button_Click" ObjectPath="\Events\Default Work Unit\Ship\Computer\Button\Button_Click" DurationType="OneShot" DurationMin="0.480354" DurationMax="0.553000"/>
 				<Event Id="1701177942" Name="Button_Hover" ObjectPath="\Events\Default Work Unit\Ship\Computer\Button\Button_Hover" DurationType="OneShot" DurationMin="0.483136" DurationMax="0.549815"/>
 				<Event Id="2242625264" Name="Calendar_Handle" ObjectPath="\Events\Default Work Unit\Ship\Objects\Calendar_Handle" DurationType="OneShot" DurationMin="1.500000" DurationMax="2.500000"/>
@@ -30,7 +31,7 @@
 				<Event Id="2063851173" Name="Password_Right" ObjectPath="\Events\Default Work Unit\Ship\Computer\Password\Password_Right" DurationType="OneShot" DurationMin="3.029375" DurationMax="3.029375"/>
 				<Event Id="368709004" Name="Password_Wrong" ObjectPath="\Events\Default Work Unit\Ship\Computer\Password\Password_Wrong" DurationType="OneShot" DurationMin="0.598750" DurationMax="0.598750"/>
 				<Event Id="3878117114" Name="Post_it_Handle" ObjectPath="\Events\Default Work Unit\Ship\Objects\Post_it_Handle" DurationType="OneShot" DurationMin="0.445509" DurationMax="0.698667"/>
-				<Event Id="2487570637" Name="Robot_Invalid_Command" ObjectPath="\Events\Default Work Unit\Ship\Robot\Robot_Invalid_Command" DurationType="OneShot" DurationMin="1.187535" DurationMax="1.272768"/>
+				<Event Id="2487570637" Name="Robot_Invalid_Command" ObjectPath="\Events\Default Work Unit\Ship\Robot\Robot_Invalid_Command" DurationType="OneShot" DurationMin="1.070266" DurationMax="1.348451"/>
 				<Event Id="1281846564" Name="Robot_Moving" ObjectPath="\Events\Default Work Unit\Ship\Robot\Robot_Moving" DurationType="OneShot" DurationMin="3.344000" DurationMax="3.344000"/>
 				<Event Id="2118619802" Name="Robot_Operational" ObjectPath="\Events\Default Work Unit\Ship\Robot\Robot_Operational" DurationType="OneShot" DurationMin="1.370667" DurationMax="1.370667"/>
 				<Event Id="1184261795" Name="Robot_Scanning" ObjectPath="\Events\Default Work Unit\Ship\Robot\Robot_Scanning" DurationType="OneShot" DurationMin="4.448000" DurationMax="4.448000"/>
@@ -41,6 +42,22 @@
 				<Event Id="110909812" Name="Volga_Dial_Stop_All" ObjectPath="\Events\Default Work Unit\Ship\Dialog\Volga_Dial_Stop_All" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="12419280" Language="SFX">
+					<ShortName>CL1_Wind_Gust_05_AMB_SFX.wav</ShortName>
+					<Path>SFX\CL1_Wind_Gust_05_AMB_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="24977705" Language="SFX">
+					<ShortName>CL1_Lemur_02_AMB_SFX.wav</ShortName>
+					<Path>SFX\CL1_Lemur_02_AMB_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="62054156" Language="SFX">
+					<ShortName>Jungle_Birds_AMB_SFX_13.wav</ShortName>
+					<Path>SFX\Jungle_Birds_AMB_SFX_13_10C4C929.wem</Path>
+				</File>
+				<File Id="78920991" Language="SFX">
+					<ShortName>Jungle_Birds_AMB_SFX_04.wav</ShortName>
+					<Path>SFX\Jungle_Birds_AMB_SFX_04_10C4C929.wem</Path>
+				</File>
 				<File Id="95564716" Language="SFX">
 					<ShortName>Ship_Drone_AMB_03_SFX.wav</ShortName>
 					<Path>SFX\Ship_Drone_AMB_03_SFX_D79FB2B7.wem</Path>
@@ -57,9 +74,21 @@
 					<ShortName>Computer_button_click_8kHz_01_SFX.wav</ShortName>
 					<Path>SFX\Computer_button_click_8kHz_01_SFX_10C4C929.wem</Path>
 				</File>
+				<File Id="125064382" Language="SFX">
+					<ShortName>Jungle_Birds_AMB_SFX_14.wav</ShortName>
+					<Path>SFX\Jungle_Birds_AMB_SFX_14_10C4C929.wem</Path>
+				</File>
+				<File Id="132184454" Language="SFX">
+					<ShortName>Jungle_Birds_AMB_SFX_12.wav</ShortName>
+					<Path>SFX\Jungle_Birds_AMB_SFX_12_10C4C929.wem</Path>
+				</File>
 				<File Id="140245505" Language="English(US)">
 					<ShortName>Volga_P1_Dial_06-03.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_06-03_10C4C929.wem</Path>
+				</File>
+				<File Id="148088509" Language="SFX">
+					<ShortName>Jungle_Birds_AMB_SFX_05.wav</ShortName>
+					<Path>SFX\Jungle_Birds_AMB_SFX_05_10C4C929.wem</Path>
 				</File>
 				<File Id="168695386" Language="SFX">
 					<ShortName>Computer_Wrong_Password_SFX.wav</ShortName>
@@ -81,9 +110,33 @@
 					<ShortName>Volga_P1_Dial_05-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_05-01_10C4C929.wem</Path>
 				</File>
+				<File Id="247411559" Language="SFX">
+					<ShortName>CL1_Wind_Gust_02_AMB_SFX.wav</ShortName>
+					<Path>SFX\CL1_Wind_Gust_02_AMB_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="255357415" Language="SFX">
+					<ShortName>CL1_Lemur_01_AMB_SFX.wav</ShortName>
+					<Path>SFX\CL1_Lemur_01_AMB_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="302976512" Language="SFX">
+					<ShortName>Jungle_Birds_AMB_SFX_07.wav</ShortName>
+					<Path>SFX\Jungle_Birds_AMB_SFX_07_10C4C929.wem</Path>
+				</File>
+				<File Id="311442277" Language="SFX">
+					<ShortName>Jungle_Birds_AMB_SFX_02.wav</ShortName>
+					<Path>SFX\Jungle_Birds_AMB_SFX_02_10C4C929.wem</Path>
+				</File>
+				<File Id="318763863" Language="SFX">
+					<ShortName>JG1_Chimes_02_AMB_SFX.wav</ShortName>
+					<Path>SFX\JG1_Chimes_02_AMB_SFX_D79FB2B7.wem</Path>
+				</File>
 				<File Id="322691907" Language="SFX">
 					<ShortName>Robot_Command_Received_SFX.wav</ShortName>
 					<Path>SFX\Robot_Command_Received_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="323038935" Language="SFX">
+					<ShortName>Jungle_Birds_AMB_SFX_03.wav</ShortName>
+					<Path>SFX\Jungle_Birds_AMB_SFX_03_10C4C929.wem</Path>
 				</File>
 				<File Id="367872868" Language="SFX">
 					<ShortName>Calendar_Handle_02_SFX.wav</ShortName>
@@ -97,6 +150,22 @@
 					<ShortName>Electric_Zap_01_SFX.wav</ShortName>
 					<Path>SFX\Electric_Zap_01_SFX_10C4C929.wem</Path>
 				</File>
+				<File Id="395800440" Language="SFX">
+					<ShortName>CL1_Lemur_03_AMB_SFX.wav</ShortName>
+					<Path>SFX\CL1_Lemur_03_AMB_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="413517149" Language="SFX">
+					<ShortName>CL1_Insects_03_AMB_SFX.wav</ShortName>
+					<Path>SFX\CL1_Insects_03_AMB_SFX_D79FB2B7.wem</Path>
+				</File>
+				<File Id="423986631" Language="SFX">
+					<ShortName>Jungle_Birds_AMB_SFX_11.wav</ShortName>
+					<Path>SFX\Jungle_Birds_AMB_SFX_11_10C4C929.wem</Path>
+				</File>
+				<File Id="427999732" Language="SFX">
+					<ShortName>Jungle_Birds_AMB_SFX_08.wav</ShortName>
+					<Path>SFX\Jungle_Birds_AMB_SFX_08_10C4C929.wem</Path>
+				</File>
 				<File Id="438410619" Language="SFX">
 					<ShortName>Ship_Metal_Raking_SFX_04.wav</ShortName>
 					<Path>SFX\Ship_Metal_Raking_SFX_04_10C4C929.wem</Path>
@@ -105,6 +174,10 @@
 					<ShortName>Calendar_Handle_03_SFX.wav</ShortName>
 					<Path>SFX\Calendar_Handle_03_SFX_10C4C929.wem</Path>
 				</File>
+				<File Id="493050855" Language="SFX">
+					<ShortName>Jungle_Birds_AMB_SFX_09.wav</ShortName>
+					<Path>SFX\Jungle_Birds_AMB_SFX_09_10C4C929.wem</Path>
+				</File>
 				<File Id="498944890" Language="SFX">
 					<ShortName>Computer_button_hover_8kHz_03_SFX.wav</ShortName>
 					<Path>SFX\Computer_button_hover_8kHz_03_SFX_10C4C929.wem</Path>
@@ -112,6 +185,10 @@
 				<File Id="499212742" Language="English(US)">
 					<ShortName>Volga_P1_Dial_08-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_08-01_10C4C929.wem</Path>
+				</File>
+				<File Id="499475101" Language="SFX">
+					<ShortName>CL1_Wind_Gust_04_AMB_SFX.wav</ShortName>
+					<Path>SFX\CL1_Wind_Gust_04_AMB_SFX_10C4C929.wem</Path>
 				</File>
 				<File Id="509023897" Language="English(US)">
 					<ShortName>Volga_P1_Dial_05-03.wav</ShortName>
@@ -149,6 +226,10 @@
 					<ShortName>Volga_P1_Dial_03-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_03-01_10C4C929.wem</Path>
 				</File>
+				<File Id="598820659" Language="SFX">
+					<ShortName>JG1_Bush_Rustle_03_AMB_SFX.wav</ShortName>
+					<Path>SFX\JG1_Bush_Rustle_03_AMB_SFX_10C4C929.wem</Path>
+				</File>
 				<File Id="607439749" Language="English(US)">
 					<ShortName>Volga_P1_Dial_02-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_02-01_10C4C929.wem</Path>
@@ -169,6 +250,10 @@
 					<ShortName>Stasis.wav</ShortName>
 					<Path>SFX\Stasis_D79FB2B7.wem</Path>
 				</File>
+				<File Id="657688530" Language="SFX">
+					<ShortName>Jungle_Birds_AMB_SFX_01.wav</ShortName>
+					<Path>SFX\Jungle_Birds_AMB_SFX_01_10C4C929.wem</Path>
+				</File>
 				<File Id="671115657" Language="SFX">
 					<ShortName>Robot_Operational_SFX.wav</ShortName>
 					<Path>SFX\Robot_Operational_SFX_10C4C929.wem</Path>
@@ -181,6 +266,10 @@
 					<ShortName>Volga_P1_Dial_07-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_07-01_10C4C929.wem</Path>
 				</File>
+				<File Id="688158455" Language="SFX">
+					<ShortName>CL1_Wind_Gust_03_AMB_SFX.wav</ShortName>
+					<Path>SFX\CL1_Wind_Gust_03_AMB_SFX_10C4C929.wem</Path>
+				</File>
 				<File Id="694977143" Language="SFX">
 					<ShortName>Ship_Drone_AMB_SFX.wav</ShortName>
 					<Path>SFX\Ship_Drone_AMB_SFX_D79FB2B7.wem</Path>
@@ -188,6 +277,10 @@
 				<File Id="703675330" Language="SFX">
 					<ShortName>Paper_Handle_03_SFX.wav</ShortName>
 					<Path>SFX\Paper_Handle_03_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="706870103" Language="SFX">
+					<ShortName>JG1_Chimes_01_AMB_SFX.wav</ShortName>
+					<Path>SFX\JG1_Chimes_01_AMB_SFX_D79FB2B7.wem</Path>
 				</File>
 				<File Id="713839033" Language="SFX">
 					<ShortName>Paper_Handle_ 01_SFX.wav</ShortName>
@@ -204,6 +297,14 @@
 				<File Id="729253935" Language="English(US)">
 					<ShortName>Volga_P1_Dial_04-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_04-01_10C4C929.wem</Path>
+				</File>
+				<File Id="742518365" Language="SFX">
+					<ShortName>CL1_Insects_01_AMB_SFX.wav</ShortName>
+					<Path>SFX\CL1_Insects_01_AMB_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="743703861" Language="SFX">
+					<ShortName>Jungle_Birds_AMB_SFX_10.wav</ShortName>
+					<Path>SFX\Jungle_Birds_AMB_SFX_10_10C4C929.wem</Path>
 				</File>
 				<File Id="747958361" Language="SFX">
 					<ShortName>Ship_Drone_AMB_02_SFX.wav</ShortName>
@@ -233,6 +334,10 @@
 					<ShortName>Volga_P1_Dial_04-04.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_04-04_10C4C929.wem</Path>
 				</File>
+				<File Id="836031310" Language="SFX">
+					<ShortName>CL1_Insects_02_AMB_SFX.wav</ShortName>
+					<Path>SFX\CL1_Insects_02_AMB_SFX_10C4C929.wem</Path>
+				</File>
 				<File Id="844426173" Language="SFX">
 					<ShortName>Awake.wav</ShortName>
 					<Path>SFX\Awake_D79FB2B7.wem</Path>
@@ -240,6 +345,14 @@
 				<File Id="844903138" Language="English(US)">
 					<ShortName>Volga_P1_Dial_04-02.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_04-02_10C4C929.wem</Path>
+				</File>
+				<File Id="852074441" Language="SFX">
+					<ShortName>JG1_Bush_Rustle_02_AMB_SFX.wav</ShortName>
+					<Path>SFX\JG1_Bush_Rustle_02_AMB_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="852947000" Language="SFX">
+					<ShortName>JG1_Wind_01_AMB_SFX.wav</ShortName>
+					<Path>SFX\JG1_Wind_01_AMB_SFX_D79FB2B7.wem</Path>
 				</File>
 				<File Id="861117954" Language="SFX">
 					<ShortName>Computer_button_hover_8kHz_02_SFX.wav</ShortName>
@@ -249,6 +362,10 @@
 					<ShortName>Robot_Shutdown_SFX.wav</ShortName>
 					<Path>SFX\Robot_Shutdown_SFX_10C4C929.wem</Path>
 				</File>
+				<File Id="880751671" Language="SFX">
+					<ShortName>JG1_Bush_Rustle_01_AMB_SFX.wav</ShortName>
+					<Path>SFX\JG1_Bush_Rustle_01_AMB_SFX_10C4C929.wem</Path>
+				</File>
 				<File Id="894220143" Language="SFX">
 					<ShortName>Paper_Handle_02_SFX.wav</ShortName>
 					<Path>SFX\Paper_Handle_02_SFX_10C4C929.wem</Path>
@@ -256,6 +373,10 @@
 				<File Id="912199970" Language="English(US)">
 					<ShortName>Volga_P1_Dial_04-03.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_04-03_10C4C929.wem</Path>
+				</File>
+				<File Id="937155187" Language="SFX">
+					<ShortName>Ship_Wind_AMB_SFX.wav</ShortName>
+					<Path>SFX\Ship_Wind_AMB_SFX_D79FB2B7.wem</Path>
 				</File>
 				<File Id="937404006" Language="SFX">
 					<ShortName>Computer_button_click_8kHz_03_SFX.wav</ShortName>
@@ -272,6 +393,14 @@
 				<File Id="1032451729" Language="English(US)">
 					<ShortName>Volga_P1_Dial_06-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_06-01_10C4C929.wem</Path>
+				</File>
+				<File Id="1037346985" Language="SFX">
+					<ShortName>CL1_Wind_Gust_01_AMB_SFX.wav</ShortName>
+					<Path>SFX\CL1_Wind_Gust_01_AMB_SFX_10C4C929.wem</Path>
+				</File>
+				<File Id="1044156567" Language="SFX">
+					<ShortName>Jungle_Birds_AMB_SFX_06.wav</ShortName>
+					<Path>SFX\Jungle_Birds_AMB_SFX_06_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

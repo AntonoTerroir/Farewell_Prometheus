@@ -1,10 +1,19 @@
 State Group	ID	Name			Wwise Object Path	Notes
+	486208800	Suit_On_Off			\Default Work Unit\Suit_On_Off	
 	851633200	Stasis_or_Awake			\Default Work Unit\Stasis_or_Awake	
+	1176052424	Location			\Default Work Unit\Location	
 
 State	ID	Name	State Group			Notes
+	0	None	Suit_On_Off			
+	784800250	Suit_On	Suit_On_Off			
+	2507003792	Suit_Off	Suit_On_Off			
 	0	None	Stasis_or_Awake			
 	1151176110	Awake	Stasis_or_Awake			
 	1274150312	Stasis	Stasis_or_Awake			
+	0	None	Location			
+	679886441	JG1	Location			
+	879246361	VS1	Location			
+	1033349305	CL1	Location			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
