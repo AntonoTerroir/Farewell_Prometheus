@@ -80,7 +80,7 @@ public class DescriptionManager : MonoBehaviour
     {
         getorder = orderfield.GetComponent<InputField>().text.ToLower();
 
-        if (descName == "loginrobot")
+        if (descName == "loginrobot")//ecran tuto commande robot
         {
             
             if (getorder == orders[4])//order 4 c'est scan
@@ -93,9 +93,9 @@ public class DescriptionManager : MonoBehaviour
             }else
             {
                 CleanSelectInput();
-                descriptionText.text = "\n commande invalide";
+                DisplayErrorOrder();
             }
-        }else if (descName == "cl")
+        }else if (descName == "cl") //ecran clairiere
         {
             if (getorder == orders[0])
             {
@@ -103,17 +103,22 @@ public class DescriptionManager : MonoBehaviour
                 StartDescription(destrig.description);
                 CleanSelectInput();
 
+            }else
+            {
+                CleanSelectInput();
+                DisplayErrorOrder();
             }
 
-           /* if (getorder == orders[2])
-            {
-               
-                destrig = loginrobot.GetComponent<DescriptionTrigger>();
-                StartDescription(destrig.description);
-                CleanSelectInput();
+            /* if (getorder == orders[2])
+             {
 
-            }*/
-        }else if (descName == "jg")
+                 destrig = loginrobot.GetComponent<DescriptionTrigger>();
+                 StartDescription(destrig.description);
+                 CleanSelectInput();
+
+             }*/
+        }
+        else if (descName == "jg")//ecran jungle
         {
             if (getorder == orders[3])//ouest
             {
@@ -121,17 +126,20 @@ public class DescriptionManager : MonoBehaviour
                 StartDescription(destrig.description);
                 CleanSelectInput();
 
-            }
-
-            if (getorder == orders[1])
+            }else if (getorder == orders[1])
             {
            
                 destrig = clairiere.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
                 CleanSelectInput();
 
+            }else
+            {
+                CleanSelectInput();
+                DisplayErrorOrder();
             }
-        }else if (descName == "rv")
+        }
+        else if (descName == "rv")//ecran riviere
         {
             if (getorder == orders[0])//nord
             {
@@ -139,18 +147,20 @@ public class DescriptionManager : MonoBehaviour
                 StartDescription(destrig.description);
                 CleanSelectInput();
 
-            }
-
-            if (getorder == orders[2])
+            }else if (getorder == orders[2])
             {
 
                 destrig = jungle.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
                 CleanSelectInput();
 
+            } else
+            {
+                CleanSelectInput();
+                DisplayErrorOrder();
             }
         }
-        else if (descName == "cp")
+        else if (descName == "cp")//ecran camp
         {
             if (getorder == orders[1])//sud
             {
@@ -159,14 +169,18 @@ public class DescriptionManager : MonoBehaviour
                 CleanSelectInput();
 
             }
-
-            if (getorder == orders[4])
+            else if (getorder == orders[4])
             {
 
                 destrig = jungle.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
                 CleanSelectInput();
 
+            }
+            else
+            {
+                CleanSelectInput();
+                DisplayErrorOrder();
             }
         }
     }
@@ -179,6 +193,12 @@ public class DescriptionManager : MonoBehaviour
         orderfield.text = "";
         getorder = "";
         orderfield.ActivateInputField();
+    }
+
+    public void DisplayErrorOrder()
+    {
+        CleanSelectInput();
+        descriptionText.text = descriptionText.text + "\n commande invalide";
     }
 
 }
