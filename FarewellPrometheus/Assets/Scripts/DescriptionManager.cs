@@ -8,7 +8,8 @@ public class DescriptionManager : MonoBehaviour
     public Text descriptionText;
     private Queue<string> descriptions;
     public DescriptionTrigger destrig;
-    public GameObject loginrobot, clairiere, jungle, riviere,camp;
+    public ScanTrigger scantrig;
+    public GameObject dialman, loginrobot, clairiere, jungle, riviere,camp,goout;
     public InputField orderfield;
     private string[] orders = new string[] {"nord","sud","est","ouest","scan" };
    // private string[] zoneName = new string[] { "clairiere", "jungle", "riviere", "camp" };
@@ -16,6 +17,7 @@ public class DescriptionManager : MonoBehaviour
     public string descName;
     private int i = 0;
     public GameObject[] scan;
+    public Animator cam;
 
 
    
@@ -80,24 +82,37 @@ public class DescriptionManager : MonoBehaviour
     public void CheckOrder()
     {
         getorder = orderfield.GetComponent<InputField>().text.ToLower();
-
-        if (descName == "loginrobot")//ecran tuto commande robot
+        if (getorder == "exit" && i !=3)
         {
+            ExitScan();
+
+        }else if (getorder == "logout" && i ==3)
+        {
+            CleanSelectInput();
+            orderfield.DeactivateInputField();
+            descriptionText.text = "";
+            cam.SetBool("pan", false);
+            goout.SetActive(true);
+            dialman.GetComponent<DialogueManager>().StartDialogue(goout.GetComponent<DialogueTrigger>().dialogue);
+
             
+        }
+        else if (descName == "loginrobot")//ecran tuto commande robot
+        {
+
             if (getorder == orders[4])//order 4 c'est scan
             {
-                
+
                 destrig = clairiere.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
                 CleanSelectInput();
-                
-            }else
-            {
-                CleanSelectInput();
-                DisplayErrorOrder();
-            }
 
-        }else if (descName == "cl") //ecran clairiere
+            }
+            else DisplayErrorOrder();
+
+
+        }
+        else if (descName == "cl") //ecran clairiere
         {
             i = 0;
             if (getorder == orders[0])
@@ -106,20 +121,20 @@ public class DescriptionManager : MonoBehaviour
                 StartDescription(destrig.description);
                 CleanSelectInput();
 
-            }else if (getorder == orders[4]) // scan
+            }
+            else if (getorder == orders[4]) // scan
             {
 
                 LaunchScan();
                 CleanSelectInput();
 
-            }else
-            {
-                CleanSelectInput();
-                DisplayErrorOrder();
             }
+            else DisplayErrorOrder();
 
-             
-        }else if (descName == "jg")//ecran jungle
+
+
+        }
+        else if (descName == "jg")//ecran jungle
         {
             i = 1;
             if (getorder == orders[3])//ouest
@@ -128,48 +143,58 @@ public class DescriptionManager : MonoBehaviour
                 StartDescription(destrig.description);
                 CleanSelectInput();
 
-            }else if (getorder == orders[1])
+            }
+            else if (getorder == orders[1])
             {
-           
+
                 destrig = clairiere.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
                 CleanSelectInput();
 
-            }else if (getorder == orders[4]) // scan
+            }
+            else if (getorder == orders[4]) // scan
             {
 
                 LaunchScan();
                 CleanSelectInput();
 
-            }else
-            {
-                CleanSelectInput();
-                DisplayErrorOrder();
             }
+            else DisplayErrorOrder();
 
-        }else if (descName == "rv")//ecran riviere
+
+        }
+        else if (descName == "rv")//ecran riviere
         {
+            i = 2;
             if (getorder == orders[0])//nord
             {
                 destrig = camp.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
                 CleanSelectInput();
 
-            }else if (getorder == orders[2])
+            }
+            else if (getorder == orders[2])
             {
 
                 destrig = jungle.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
                 CleanSelectInput();
 
-            } else
-            {
-                CleanSelectInput();
-                DisplayErrorOrder();
             }
+            else if (getorder == orders[4]) // scan
+            {
 
-        }else if (descName == "cp")//ecran camp
+                LaunchScan();
+                CleanSelectInput();
+
+            }
+            else DisplayErrorOrder();
+
+
+        }
+        else if (descName == "cp")//ecran camp
         {
+            i = 3;
             if (getorder == orders[1])//sud
             {
                 destrig = riviere.GetComponent<DescriptionTrigger>();
@@ -180,17 +205,13 @@ public class DescriptionManager : MonoBehaviour
             else if (getorder == orders[4])
             {
 
-                destrig = jungle.GetComponent<DescriptionTrigger>();
-                StartDescription(destrig.description);
+                LaunchScan();
                 CleanSelectInput();
 
             }
-            else
-            {
-                CleanSelectInput();
-                DisplayErrorOrder();
-            }
+            else DisplayErrorOrder();
         }
+        else DisplayErrorOrder();
     }
 
 
@@ -205,9 +226,19 @@ public class DescriptionManager : MonoBehaviour
 
     public void LaunchScan()
     {
-        destrig = scan[i].GetComponent<DescriptionTrigger>();
-        StartDescription(destrig.description);
+        scantrig = scan[i].GetComponent<ScanTrigger>();
+        StartDescription(scantrig.scan);
         
+    }
+
+    public void ExitScan()
+    {
+
+
+        destrig = scan[i].GetComponentInParent<DescriptionTrigger>();
+        StartDescription(destrig.description);
+        CleanSelectInput();
+
     }
 
     public void DisplayErrorOrder()

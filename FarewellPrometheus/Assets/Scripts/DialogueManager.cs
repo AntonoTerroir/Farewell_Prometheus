@@ -218,4 +218,9 @@ public class DialogueManager : MonoBehaviour
        
     }
 
+    public void ButtonRobotDisappear()
+    {
+        animator.SetBool("IsOpen4", false);
+    }
+
 }
