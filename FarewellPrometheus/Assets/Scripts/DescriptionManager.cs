@@ -49,9 +49,7 @@ public class DescriptionManager : MonoBehaviour
             EndDescription();
             
             return;
-        }else
-        {
-           // GameObject.Find("SoundDialogueButton").GetComponent<SoundDialogueManager>().DialogueContinue();
+        
         }
 
         string descline = descriptions.Dequeue();
@@ -106,6 +104,7 @@ public class DescriptionManager : MonoBehaviour
                 destrig = clairiere.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
                 CleanSelectInput();
+                AkSoundEngine.PostEvent("Robot_Operational", gameObject);
 
             }
             else DisplayErrorOrder();
@@ -228,6 +227,14 @@ public class DescriptionManager : MonoBehaviour
     {
         scantrig = scan[i].GetComponent<ScanTrigger>();
         StartDescription(scantrig.scan);
+        if (i == 3)
+        {
+            AkSoundEngine.PostEvent("Robot_Shutdown", gameObject);
+        }
+        else
+        {
+            AkSoundEngine.PostEvent("Robot_Scanning", gameObject);
+        }
         
     }
 
@@ -245,6 +252,7 @@ public class DescriptionManager : MonoBehaviour
     {
         CleanSelectInput();
         descriptionText.text = descriptionText.text + "\n commande invalide";
+        AkSoundEngine.PostEvent("Robot_Invalid_Command", gameObject);
     }
 
 }

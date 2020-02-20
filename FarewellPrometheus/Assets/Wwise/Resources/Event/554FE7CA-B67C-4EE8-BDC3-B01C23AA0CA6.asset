@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb524ebb95719794da94f73c87e57fad, type: 3}
   m_Name: 554FE7CA-B67C-4EE8-BDC3-B01C23AA0CA6
   m_EditorClassIdentifier: 
-  objectName: Ship_Music
-  id: 53190359
+  objectName: Music_Event
+  id: 55565095
   guid: 554FE7CA-B67C-4EE8-BDC3-B01C23AA0CA6

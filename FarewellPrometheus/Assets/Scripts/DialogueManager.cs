@@ -8,8 +8,8 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
     private Queue<string> sentences; //queue c'est comme list mais ça charge différement, contient les dialogues
-    public Animator animator;
-    public int choicenumber = 0, a = 0, b = 0, c = 0, d = 0, errorpass = 0; // en public pour debug
+    public Animator animator,volgaAnim;
+    public int choicenumber = 0, a = 0, b = 0, c = 0, d = 0, errorpass = 0, volga; // en public pour debug
     public GameObject continuebutton, inputpassword, login;
     public DialogueTrigger dialtrig;
     private string password, getpassword;
@@ -29,6 +29,8 @@ public class DialogueManager : MonoBehaviour
         animator.SetBool("IsOpen2", false);
 
         nameText.text = dialogue.name;
+        volga = dialogue.volgaFace;
+        volgaAnim.SetInteger("volgaface", volga);
 
         sentences.Clear(); //clear les phrases deja presentes
 
@@ -102,6 +104,7 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
+        volgaAnim.SetInteger("volgaface", 0);
         if (choicenumber <= 3)
         {
             animator.SetBool("IsOpen", true);

@@ -6,20 +6,25 @@ public class SoundManager : MonoBehaviour
 {
     void Start()
     {
-        AkSoundEngine.SetState("Stasis_or_Awake", "Stasis");
-        AkSoundEngine.SetState("Location", "VS1");
-        AkSoundEngine.PostEvent("Ship_Music", gameObject);
+        AkSoundEngine.SetState("Music", "Title");
+        AkSoundEngine.SetState("Location", "None");
         AkSoundEngine.PostEvent("Ambience_Event", gameObject);
     }
 
-    void Update()
+    public void MusicStart()
     {
-        
+        AkSoundEngine.PostEvent("Music_Event", gameObject);
+    }
+
+    public void AmbienceStart()
+    {
+        AkSoundEngine.SetState("Location", "VS1");
+        AkSoundEngine.SetState("Music", "Stasis");
     }
 
     public void StartButtonSound()
     {
-        AkSoundEngine.SetState("Stasis_or_Awake", "Awake");
+        AkSoundEngine.SetState("Music", "Awake");
         AkSoundEngine.PostEvent("Computer_Start", gameObject);
     }
 
